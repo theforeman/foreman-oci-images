@@ -1,3 +1,4 @@
+PROJECT=foreman
 IMAGE_NAME=quay.io/foreman/${PROJECT}
 
 FOREMAN_XY_TAG=nightly
