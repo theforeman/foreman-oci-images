@@ -2,7 +2,7 @@ FROM quay.io/centos/centos:stream9
 
 ARG FOREMAN_VERSION=nightly
 ARG KATELLO_VERSION=nightly
-ARG FOREMAN_PROXY_PLUGINS="pulp"
+ARG FOREMAN_PROXY_PLUGINS=""
 
 RUN dnf upgrade -y && dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el9/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el9/x86_64/katello-repos-latest.rpm && dnf install --nodocs foreman-proxy -y && dnf clean all
 
