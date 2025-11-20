@@ -24,6 +24,6 @@ jobs:
           - foreman
           - foreman-proxy
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - name: Build ${{ matrix.container }} container
         run: make build PROJECT=${{ matrix.container }}
