@@ -27,3 +27,96 @@ jobs:
       - uses: actions/checkout@v6
       - name: Build ${{ matrix.container }} container
         run: make build PROJECT=${{ matrix.container }}
+      - name: Save container image
+        run: |
+          podman save quay.io/foreman/${{ matrix.container }}:nightly -o ${{ matrix.container }}-image.tar
+      - name: Upload container image artifact
+        uses: actions/upload-artifact@v5
+        with:
+          name: ${{ matrix.container }}-image
+          path: ${{ matrix.container }}-image.tar
+          retention-days: 1
+  foremanctl:
+    name: Test foremanctl
+    needs: container
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Setup libvirt for Vagrant
+        uses: voxpupuli/setup-vagrant@v0
+      - name: Install Ansible
+        run: pip install --upgrade ansible-core
+      - name: Setup environment
+        run: ./setup-environment
+      - name: Start VMs
+        run: |
+          ./forge vms start
+      - name: Configure repositories
+        run: |
+          ./forge setup-repositories
+      - name: Download container images
+        uses: actions/download-artifact@v5
+        with:
+          pattern: '*-image'
+          merge-multiple: false
+      - name: Copy images to VMs and load them
+        run: |
+          # Copy foreman image to VM and load it
+          if [ -f foreman-image/foreman-image.tar ]; then
+            cp foreman-image/foreman-image.tar foreman-image.tar
+            vagrant ssh quadlet -- sudo podman load -i /vagrant/foreman-image.tar
+            vagrant ssh quadlet -- sudo podman tag quay.io/foreman/foreman:nightly quay.io/foreman/foreman:nightly
+          fi
+          # Copy foreman-proxy image to VM and load it
+          if [ -f foreman-proxy-image/foreman-proxy-image.tar ]; then
+            cp foreman-proxy-image/foreman-proxy-image.tar foreman-proxy-image.tar
+            vagrant ssh quadlet -- sudo podman load -i /vagrant/foreman-proxy-image.tar
+            vagrant ssh quadlet -- sudo podman tag quay.io/foreman/foreman-proxy:nightly quay.io/foreman/foreman-proxy:nightly
+          fi
+      - name: Run image pull
+        run: |
+          ./foremanctl pull-images
+      - name: Run deployment
+        run: |
+          ./foremanctl deploy --certificate-source=default --foreman-initial-admin-password=changeme
+      - name: Add optional feature - hammer
+        run: |
+          ./foremanctl deploy --add-feature hammer
+      - name: Add optional feature - foreman-proxy
+        run: |
+          ./foremanctl deploy --add-feature foreman-proxy
+      - name: Run tests
+        run: |
+          ./forge test --pytest-args="--certificate-source=default"
+      - name: Run smoker
+        run: |
+          ./forge smoker
+      - name: Archive smoker report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v5
+        with:
+          name: smoker-default
+          path: "/home/runner/smoker/report/"
+      - name: Generate sos reports
+        if: ${{ always() }}
+        run: ./forge sos
+      - name: Archive sos reports
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v5
+        with:
+          name: sosreport-default
+          path: sos/
+      - name: Setup upterm session
+        if: ${{ failure() }}
+        uses: owenthereal/action-upterm@v1
+        with:
+          ## limits ssh access and adds the ssh public key for the user which triggered the workflow
+          limit-access-to-actor: true
+          ## If no one connects after 5 minutes, shut down server.
+          wait-timeout-minutes: 5
