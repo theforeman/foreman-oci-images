@@ -27,3 +27,76 @@ jobs:
       - uses: actions/checkout@v6
       - name: Build ${{ matrix.container }} container
         run: make build PROJECT=${{ matrix.container }}
+      - name: Save container image
+        run: |
+          podman save quay.io/foreman/${{ matrix.container }}:nightly -o ${{ matrix.container }}-image.tar
+      - name: Upload container image artifact
+        uses: actions/upload-artifact@v5
+        with:
+          name: ${{ matrix.container }}-image
+          path: ${{ matrix.container }}-image.tar
+          retention-days: 1
+  foremanctl:
+    name: Test foremanctl
+    needs: container
+    strategy:
+      fail-fast: false
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          repository: theforeman/foremanctl
+          ref: master
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Setup libvirt for Vagrant
+        uses: voxpupuli/setup-vagrant@v0
+      - name: Install Ansible
+        run: pip install --upgrade ansible-core
+      - name: Setup environment
+        run: ./setup-environment
+      - name: Start VMs
+        run: |
+          ./forge vms start
+      - name: Configure repositories
+        run: |
+          ./forge setup-repositories
+      - name: Download container images
+        uses: actions/download-artifact@v5
+        with:
+          pattern: '*-image'
+          merge-multiple: false
+      - name: Display structure of downloaded files
+        run: ls -al -R .
+      - name: Install podman in VM
+        run: |
+          vagrant ssh quadlet -- sudo dnf install -y podman
+      - name: Copy images to VMs and load them
+        run: |
+            vagrant upload foreman-image quadlet
+            vagrant ssh quadlet -- sudo podman load -i /home/vagrant/foreman-image
+            vagrant ssh quadlet -- sudo podman tag quay.io/foreman/foreman:nightly quay.io/foreman/foreman:nightly
+
+            vagrant upload foreman-proxy-image quadlet
+            vagrant ssh quadlet -- sudo podman load -i /home/vagrant/foreman-proxy-image
+            vagrant ssh quadlet -- sudo podman tag quay.io/foreman/foreman-proxy:nightly quay.io/foreman/foreman-proxy:nightly
+
+      - name: Run deployment
+        run: |
+          ./foremanctl deploy --certificate-source=default --foreman-initial-admin-password=changeme
+      - name: Add optional feature - hammer
+        run: |
+          ./foremanctl deploy --add-feature hammer
+      - name: Add optional feature - foreman-proxy
+        run: |
+          ./foremanctl deploy --add-feature foreman-proxy
+      - name: Run tests
+        run: |
+          ./forge test --pytest-args="--certificate-source=default"
+      - name: Run smoker
+        run: |
+          ./forge smoker
+      - name: Generate sos reports
+        run: ./forge sos
