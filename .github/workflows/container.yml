@@ -68,6 +68,8 @@ jobs:
         with:
           pattern: '*-image'
           merge-multiple: false
+      - name: Display structure of downloaded files
+        run: ls -R .
       - name: Install podman in VM
         run: |
           vagrant ssh quadlet -- sudo dnf install -y podman
