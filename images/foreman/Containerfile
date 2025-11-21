@@ -16,7 +16,7 @@ ENV RAILS_LOG_TO_STDOUT=true
 CMD /usr/share/foreman/bin/rails db:migrate && /usr/share/foreman/bin/rails db:seed && /usr/share/foreman/bin/rails server --environment production
 EXPOSE 3000/tcp
 
-ARG FOREMAN_PLUGINS="foreman-tasks foreman_remote_execution katello foreman_google foreman_azure_rm foreman_ovirt foreman_kubevirt"
+ARG FOREMAN_PLUGINS="foreman-tasks foreman_remote_execution katello foreman_google foreman_azure_rm foreman_kubevirt"
 
 RUN set -eu; for PLUGIN in ${FOREMAN_PLUGINS}; do \
     echo $PLUGIN; \
