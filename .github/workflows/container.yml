@@ -44,6 +44,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
+        with:
+          repository: theforeman/foremanctl
+          ref: master
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
@@ -98,25 +101,14 @@ jobs:
         run: |
           ./forge smoker
       - name: Archive smoker report
-        if: ${{ always() }}
         uses: actions/upload-artifact@v5
         with:
           name: smoker-default
           path: "/home/runner/smoker/report/"
       - name: Generate sos reports
-        if: ${{ always() }}
         run: ./forge sos
       - name: Archive sos reports
-        if: ${{ always() }}
         uses: actions/upload-artifact@v5
         with:
           name: sosreport-default
           path: sos/
-      - name: Setup upterm session
-        if: ${{ failure() }}
-        uses: owenthereal/action-upterm@v1
-        with:
-          ## limits ssh access and adds the ssh public key for the user which triggered the workflow
-          limit-access-to-actor: true
-          ## If no one connects after 5 minutes, shut down server.
-          wait-timeout-minutes: 5
