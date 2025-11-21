@@ -68,6 +68,9 @@ jobs:
         with:
           pattern: '*-image'
           merge-multiple: false
+      - name: Install podman in VM
+        run: |
+          vagrant ssh quadlet -- sudo dnf install -y podman
       - name: Copy images to VMs and load them
         run: |
           # Copy foreman image to VM and load it
@@ -100,15 +103,5 @@ jobs:
       - name: Run smoker
         run: |
           ./forge smoker
-      - name: Archive smoker report
-        uses: actions/upload-artifact@v5
-        with:
-          name: smoker-default
-          path: "/home/runner/smoker/report/"
       - name: Generate sos reports
         run: ./forge sos
-      - name: Archive sos reports
-        uses: actions/upload-artifact@v5
-        with:
-          name: sosreport-default
-          path: sos/
