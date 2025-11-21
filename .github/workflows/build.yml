@@ -1,0 +1,30 @@
+---
+name: Container build
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.ref_name }}-${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  container:
+    name: ${{ matrix.container }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        container:
+          - foreman
+          - foreman-proxy
+    steps:
+      - uses: actions/checkout@v6
+      - name: Build ${{ matrix.container }}
+        run: make build PROJECT=${{ matrix.container }}
