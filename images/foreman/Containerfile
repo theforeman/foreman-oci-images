@@ -1,11 +1,11 @@
-FROM quay.io/centos/centos:stream9
+FROM quay.io/centos/centos:stream10
 
 ARG FOREMAN_VERSION=nightly
 ARG KATELLO_VERSION=nightly
 
-RUN dnf upgrade -y && dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el9/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el9/x86_64/katello-repos-latest.rpm && \
+RUN dnf upgrade -y && dnf copr enable ekohl/foreman-nightly-staging rhel-10-x86_64 -y && \
     dnf install foreman foreman-postgresql foreman-service foreman-redis foreman-dynflow-sidekiq \
-        foreman-libvirt foreman-vmware foreman-openstack foreman-ec2 --nodocs -y && \
+        foreman-vmware foreman-openstack foreman-ec2 --nodocs -y && \
     dnf clean all
 WORKDIR /usr/share/foreman
 ENV MALLOC_ARENA_MAX=2
@@ -16,7 +16,7 @@ ENV RAILS_LOG_TO_STDOUT=true
 CMD /usr/share/foreman/bin/rails db:migrate && /usr/share/foreman/bin/rails db:seed && /usr/share/foreman/bin/rails server --environment production
 EXPOSE 3000/tcp
 
-ARG FOREMAN_PLUGINS="foreman-tasks foreman_remote_execution katello foreman_google foreman_azure_rm foreman_kubevirt"
+ARG FOREMAN_PLUGINS=""
 
 RUN set -eu; for PLUGIN in ${FOREMAN_PLUGINS}; do \
     echo $PLUGIN; \
