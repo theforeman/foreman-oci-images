@@ -37,7 +37,5 @@ jobs:
           podman run --rm --detach --security-opt label=disable --volume ./settings.yml:/etc/foreman-proxy/settings.yml --publish 8080:8080 --health-cmd 'curl --fail http://localhost:8080/version' --health-interval=10s --name foreman-proxy quay.io/foreman/foreman-proxy:nightly
           timeout 30 podman wait --condition healthy foreman-proxy
           curl --fail http://127.0.0.1:8080/version
-          curl --fail http://127.0.0.1:8080/features
-
-          ! podman exec foreman-proxy grep -r ":enabled:" /etc/foreman-proxy/settings.d/ | grep -v ":enabled: false"
+          curl --fail http://127.0.0.1:8080/features | grep -q '^\[\]$'
           podman stop foreman-proxy
