@@ -1,10 +1,11 @@
-FROM quay.io/centos/centos:stream9
+FROM quay.io/centos/centos:stream10
 
 ARG FOREMAN_VERSION=nightly
 ARG KATELLO_VERSION=nightly
-ARG FOREMAN_PROXY_PLUGINS="remote_execution_ssh"
+ARG FOREMAN_PROXY_PLUGINS=""
 
-RUN dnf upgrade -y && dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el9/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el9/x86_64/katello-repos-latest.rpm && dnf install --nodocs foreman-proxy openssh-clients openssh -y && dnf clean all
+RUN dnf upgrade -y && dnf copr enable ekohl/foreman-nightly-staging rhel-10-x86_64 -y && \
+	dnf install --nodocs foreman-proxy openssh-clients openssh -y && dnf clean all
 
 RUN set -eu; for PLUGIN in ${FOREMAN_PROXY_PLUGINS}; do \
     echo $PLUGIN; \
