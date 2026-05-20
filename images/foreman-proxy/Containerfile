@@ -1,6 +1,6 @@
 FROM quay.io/centos/centos:stream9
 
-ARG FOREMAN_VERSION=nightly
+ARG FOREMAN_VERSION=3.19
 ARG KATELLO_VERSION=nightly
 ARG FOREMAN_PROXY_PLUGINS="remote_execution_ssh ansible"
 
