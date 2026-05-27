@@ -1,7 +1,7 @@
 # Foreman Container Images
 
 The [foreman-oci-images](https://github.com/theforeman/foreman-oci-images) repository is used to provide a Foreman container image configured for the Foreman project's use case.
-It follows [foremanctl's container builds structure]https://github.com/theforeman/foremanctl/blob/master/docs/developer/container-image-builds.md).
+It follows [foremanctl's container builds structure](https://github.com/theforeman/foremanctl/blob/master/docs/developer/container-image-builds.md).
 
 Note that OCI stands for "Open Container Initiative", see [here](https://opencontainers.org/).
 
