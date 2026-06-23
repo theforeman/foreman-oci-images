@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchManagers": ["tekton"],
+      "schedule": ["at any time"]
+    }
+  ]
+}
