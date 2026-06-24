@@ -2,7 +2,7 @@ FROM quay.io/centos/centos:stream10
 
 ARG FOREMAN_VERSION=nightly
 ARG KATELLO_VERSION=nightly
-ARG FOREMAN_PROXY_PLUGINS="remote_execution_ssh ansible"
+ARG FOREMAN_PROXY_PLUGINS="remote_execution_ssh ansible container_gateway"
 ARG FOREMAN_PROXY_UID=991
 ARG FOREMAN_PROXY_GID=991
 
