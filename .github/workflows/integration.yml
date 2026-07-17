@@ -96,12 +96,17 @@ jobs:
       - name: Run deployment
         working-directory: foremanctl
         run: |
-          ./foremanctl deploy --initial-admin-password=changeme --tuning development --add-feature hammer --add-feature foreman-proxy --add-feature remote-execution
+          ./foremanctl deploy \
+            --initial-admin-password=changeme \
+            --tuning development \
+            --add-feature hammer \
+            --add-feature foreman-proxy \
+            --add-feature remote-execution
 
       - name: Run tests
         working-directory: foremanctl
         run: |
-          ./forge test --pytest-args="-k 'not candlepin_events' tests/foreman_target_test.py tests/foreman_test.py tests/foreman_proxy_test.py tests/redis_test.py tests/postgresql_test.py tests/httpd_test.py tests/hammer_test.py"
+          ./forge test --pytest-args="tests/foreman_target_test.py tests/feature/foreman/base_test.py tests/feature/foreman-proxy/base_test.py tests/valkey_test.py tests/postgresql_test.py tests/httpd_test.py tests/feature/hammer/base_test.py"
 
       - name: Generate sos reports
         if: ${{ always() }}
