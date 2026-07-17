@@ -3,6 +3,9 @@ FROM quay.io/centos/centos:stream9
 ARG FOREMAN_VERSION=nightly
 ARG KATELLO_VERSION=nightly
 
+ENV RAILS_ENV=production
+ENV RAILS_LOG_TO_STDOUT=true
+
 RUN dnf upgrade -y && dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el9/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el9/x86_64/katello-repos-latest.rpm && \
     dnf install foreman foreman-postgresql foreman-service foreman-redis foreman-dynflow-sidekiq \
         foreman-libvirt foreman-vmware foreman-openstack foreman-ec2 --nodocs -y && \
@@ -11,8 +14,6 @@ WORKDIR /usr/share/foreman
 ENV MALLOC_ARENA_MAX=2
 ENV FOREMAN_BIND=0.0.0.0
 ENV RAILS_SERVE_STATIC_FILES=true
-ENV RAILS_ENV=production
-ENV RAILS_LOG_TO_STDOUT=true
 CMD /usr/share/foreman/bin/rails db:migrate && /usr/share/foreman/bin/rails db:seed && /usr/share/foreman/bin/rails server --environment production --pid /tmp/rails.pid
 EXPOSE 3000/tcp
 
