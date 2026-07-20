@@ -101,7 +101,7 @@ jobs:
       - name: Run tests
         working-directory: foremanctl
         run: |
-          ./forge test --pytest-args="-k 'not candlepin_events' tests/foreman_target_test.py tests/foreman_test.py tests/foreman_proxy_test.py tests/redis_test.py tests/postgresql_test.py tests/httpd_test.py tests/hammer_test.py"
+          ./forge test --pytest-args="-k 'not candlepin_events' tests/foreman_target_test.py tests/feature/foreman/ tests/feature/foreman-proxy/ tests/valkey_test.py tests/postgresql_test.py tests/httpd_test.py tests/hammer_test.py"
 
       - name: Generate sos reports
         if: ${{ always() }}
