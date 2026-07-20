@@ -27,6 +27,19 @@ jobs:
       - uses: actions/checkout@v7
       - name: Build ${{ matrix.container }} container
         run: make build PROJECT=${{ matrix.container }}
+      - name: Verify static UID/GID
+        run: |
+          if [ "${{ matrix.container }}" = "foreman" ]; then
+            uid=$(podman run --rm quay.io/foreman/${{ matrix.container }}:nightly id -u foreman)
+            gid=$(podman run --rm quay.io/foreman/${{ matrix.container }}:nightly id -g foreman)
+            echo "foreman uid=$uid gid=$gid"
+            [ "$uid" = "994" ] && [ "$gid" = "994" ]
+          elif [ "${{ matrix.container }}" = "foreman-proxy" ]; then
+            uid=$(podman run --rm quay.io/foreman/${{ matrix.container }}:nightly id -u foreman-proxy)
+            gid=$(podman run --rm quay.io/foreman/${{ matrix.container }}:nightly id -g foreman-proxy)
+            echo "foreman-proxy uid=$uid gid=$gid"
+            [ "$uid" = "991" ] && [ "$gid" = "991" ]
+          fi
       - name: Test ${{ matrix.container }} container
         if: matrix.container == 'foreman-proxy'
         run: |
