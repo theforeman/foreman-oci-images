@@ -463,6 +463,8 @@ spec:
         value: $(tasks.build-image-index.results.IMAGE_URL)
       - name: IMAGE_DIGEST
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
+      - name: ALLOWED_USER
+        value: "991"
       runAfter:
       - build-image-index
       taskRef:
