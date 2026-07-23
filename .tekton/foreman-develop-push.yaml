@@ -456,7 +456,9 @@ spec:
     - name: check-non-root-user
       params:
       - name: IMAGE_URL
-        value: $(tasks.build-image-index.results.IMAGE_URL)@$(tasks.build-image-index.results.IMAGE_DIGEST)
+        value: $(tasks.build-image-index.results.IMAGE_URL)
+      - name: IMAGE_DIGEST
+        value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       runAfter:
       - build-image-index
       taskRef:
@@ -464,7 +466,7 @@ spec:
         - name: name
           value: check-non-root-user
         - name: bundle
-          value: quay.io/foreman/tekton-catalog/task-check-non-root-user@sha256:92767a9910e4714bfda417cc018ea7c3a567299da212fab582156a33a4eb3c36
+          value: quay.io/foreman/tekton-catalog/task-check-non-root-user@sha256:5d3b463691ade8dbb5fb25dc98b7dde3a97aea6e8f8b5e58c045ad34ed5ba08c
         - name: kind
           value: task
         resolver: bundles
