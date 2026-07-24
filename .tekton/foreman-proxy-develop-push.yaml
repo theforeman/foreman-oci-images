@@ -460,7 +460,7 @@ spec:
       - name: IMAGE_DIGEST
         value: $(tasks.build-image-index.results.IMAGE_DIGEST)
       - name: ALLOWED_USER
-        value: "991"
+        value: "foreman-proxy"
       runAfter:
       - build-image-index
       taskRef:
