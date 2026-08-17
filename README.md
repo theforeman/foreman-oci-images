@@ -19,6 +19,17 @@ and `images/foreman/rpms.lock.yaml`, plus the corresponding files under
 `make build` runs Podman directly and does not run Hermeto. It is useful for a local
 image build, but does not validate Konflux's hermetic prefetch step.
 
+## Shared base image
+
+Konflux builds the shared base from `images/base/Containerfile` as the `base-image`
+component in the `base-image` application and publishes it to
+`quay.io/foreman/stage/base`. The production image is
+`quay.io/foreman/base`. Register this as a standalone Konflux application and
+component so other repositories can consume it.
+
+The base Containerfile removes the unowned CentOS `postfix.key`. It currently adds
+no RPM packages, so the RPM input and generated lockfile have an empty package set.
+
 ### Refresh the RPM lockfiles
 
 The refresh target is available on `foreman-5.0`. The same Makefile

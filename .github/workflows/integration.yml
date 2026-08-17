@@ -9,6 +9,9 @@ on:
         required: false
         default: 'master'
   pull_request:
+    paths-ignore:
+      - 'images/base/**'
+      - '.tekton/**'
 
 permissions:
   contents: read
