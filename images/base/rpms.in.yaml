@@ -1,0 +1,8 @@
+context:
+  containerfile: Containerfile
+contentOrigin:
+  repofiles:
+    - "./cs10.repo"
+arches:
+  - x86_64
+packages: []
