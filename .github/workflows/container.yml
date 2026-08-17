@@ -5,6 +5,9 @@ on:
     branches:
       - master
   pull_request:
+    paths-ignore:
+      - 'images/base/**'
+      - '.tekton/**'
 
 permissions:
   contents: read
