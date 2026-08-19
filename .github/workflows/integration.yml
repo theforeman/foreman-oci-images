@@ -14,7 +14,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: integration-${{ github.ref_name }}
+  group: ${{ github.ref_name }}-${{ github.workflow }}
   cancel-in-progress: true
 
 env:
@@ -22,9 +22,20 @@ env:
 
 jobs:
   integration:
+    strategy:
+      fail-fast: false
+      matrix:
+        box:
+          - centos/stream9
+          - centos/stream10
     runs-on: ubuntu-24.04
-    name: foremanctl integration
+    env:
+      FOREMANCTL_BASE_BOX: ${{ matrix.box }}
+    name: ${{ matrix.box }}
     steps:
+      - name: generate artifact suffix
+        run: echo "ARTIFACT_SUFFIX=$(echo '${{ matrix.box }}' | tr -cd '[:alnum:]-')" >> "${GITHUB_ENV}"
+
       - name: Checkout foreman-oci-images
         uses: actions/checkout@v7
 
@@ -33,6 +44,18 @@ jobs:
 
       - name: Build foreman-proxy image
         run: make build PROJECT=foreman-proxy FOREMAN_XY_TAG=${{ env.IMAGE_TAG }}
+
+      - name: Verify static UID/GID
+        run: |
+          verify() {
+            local image=$1 user=$2 expected=$3
+            uid=$(podman run --rm "$image" id -u "$user")
+            gid=$(podman run --rm "$image" id -g "$user")
+            echo "$user uid=$uid gid=$gid"
+            [ "$uid" = "$expected" ] && [ "$gid" = "$expected" ]
+          }
+          verify quay.io/foreman/foreman:nightly foreman 994
+          verify quay.io/foreman/foreman-proxy:nightly foreman-proxy 991
 
       - name: Export images as tarballs
         run: |
@@ -62,6 +85,8 @@ jobs:
 
       - name: Setup libvirt for Vagrant
         uses: voxpupuli/setup-vagrant@v0
+        with:
+          configure_dns: true
 
       - name: Install Ansible
         run: pip install --upgrade ansible-core
@@ -72,11 +97,15 @@ jobs:
 
       - name: Start VM
         working-directory: foremanctl
-        run: ./forge vms start --vms "quadlet"
+        run: ./forge vms start --vms "quadlet client"
 
       - name: Install podman in VM
         working-directory: foremanctl
         run: vagrant ssh quadlet -- sudo dnf install -y podman
+
+      - name: Pull images
+        working-directory: foremanctl
+        run: ./foremanctl pull-images
 
       - name: Load images into VM
         working-directory: foremanctl
@@ -98,6 +127,8 @@ jobs:
         run: |
           ./foremanctl deploy \
             --initial-admin-password=changeme \
+            --initial-organization "Foreman CI" \
+            --initial-location "Internet" \
             --tuning development \
             --add-feature hammer \
             --add-feature foreman-proxy \
@@ -106,7 +137,7 @@ jobs:
       - name: Run tests
         working-directory: foremanctl
         run: |
-          ./forge test --pytest-args="tests/foreman_target_test.py tests/feature/foreman/base_test.py tests/feature/foreman-proxy/base_test.py tests/feature/valkey/base_test.py tests/postgresql_test.py tests/feature/httpd/base_test.py tests/feature/hammer/base_test.py"
+          ./forge test --pytest-args="tests/foreman_target_test.py tests/feature/foreman/base_test.py tests/feature/foreman-proxy/base_test.py tests/feature/katello tests/feature/valkey/base_test.py tests/postgresql_test.py tests/feature/httpd/base_test.py tests/feature/hammer/base_test.py"
 
       - name: Generate sos reports
         if: ${{ always() }}
@@ -117,5 +148,5 @@ jobs:
         if: ${{ always() }}
         uses: actions/upload-artifact@v7
         with:
-          name: sosreport-integration
+          name: sosreport-${{ env.ARTIFACT_SUFFIX }}
           path: foremanctl/sos/
