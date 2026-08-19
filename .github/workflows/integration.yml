@@ -42,8 +42,8 @@ jobs:
       - name: Checkout foremanctl
         uses: actions/checkout@v7
         with:
-          repository: theforeman/foremanctl
-          ref: ${{ github.event.inputs.foremanctl_ref || 'master' }}
+          repository: Odilhao/foreman-quadlet
+          ref: fix/systemd-lasttrigger-cs10
           path: foremanctl
 
       - name: Prepare images for VM transfer
