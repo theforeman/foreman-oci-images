@@ -72,7 +72,7 @@ jobs:
 
       - name: Start VM
         working-directory: foremanctl
-        run: ./forge vms start --vms "quadlet"
+        run: ./forge vms start --vms "quadlet client"
 
       - name: Install podman in VM
         working-directory: foremanctl
