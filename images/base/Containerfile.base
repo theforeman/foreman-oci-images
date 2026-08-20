@@ -1,0 +1,10 @@
+FROM quay.io/centos/centos:stream10@sha256:b7f85bb8be4c471bc62842156a51bbf224b15243943733bd54e86ba5fd79b1fc
+
+LABEL org.opencontainers.image.title="Foreman Base Image" \
+    org.opencontainers.image.description="Foreman is a free open source project that gives you the power to easily automate repetitive tasks \ 
+quickly deploy applications, and proactively manage your servers life cycle, on-premises or in the cloud." \
+    org.opencontainers.image.documentation="https://theforeman.org/introduction.html" \
+    org.opencontainers.image.licenses="GNU GPL v3.0" \
+    org.opencontainers.image.version=${VERSION} \
+    org.opencontainers.image.source="https://github.com/theforeman/foreman" \
+    org.opencontainers.image.created=${BUILD_DATE}
