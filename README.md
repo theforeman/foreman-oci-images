@@ -20,3 +20,8 @@ To push a new version of the container:
 ```
 make push
 ```
+
+## Usage
+
+These container images are expected to be used additional tooling that manages orchestrating relevant actions like database migration.
+The primary tool targeting the use of these images is [foremanctl](https://github.com/theforeman/foremanctl).
