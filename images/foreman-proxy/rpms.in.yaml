@@ -10,6 +10,7 @@ packages:
   - openssh
   - freeipmi
   - bind-utils
+  - rhel-system-roles
   - foreman-proxy-plugin-remote_execution_ssh
   - foreman-proxy-plugin-ansible
   - foreman-proxy-plugin-container_gateway
