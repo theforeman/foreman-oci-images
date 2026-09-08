@@ -19,7 +19,7 @@ RUN rpmkeys --import \
     if [ "${USE_HERMETO_REPOS}" != "true" ]; then \
         dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el10/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el10/x86_64/katello-repos-latest.rpm; \
     fi && \
-    dnf install --nodocs foreman-proxy openssh-clients openssh freeipmi bind-utils -y && dnf clean all
+    dnf install --nodocs foreman-proxy openssh-clients openssh freeipmi bind-utils rhel-system-roles -y && dnf clean all
 
 RUN set -eu; for PLUGIN in ${FOREMAN_PROXY_PLUGINS}; do \
     echo $PLUGIN; \
