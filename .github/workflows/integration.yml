@@ -54,8 +54,8 @@ jobs:
             echo "$user uid=$uid gid=$gid"
             [ "$uid" = "$expected" ] && [ "$gid" = "$expected" ]
           }
-          verify quay.io/foreman/foreman:nightly foreman 994
-          verify quay.io/foreman/foreman-proxy:nightly foreman-proxy 991
+          verify quay.io/foreman/foreman:${{ env.IMAGE_TAG }} foreman 994
+          verify quay.io/foreman/foreman-proxy:${{ env.IMAGE_TAG }} foreman-proxy 991
 
       - name: Export images as tarballs
         run: |
