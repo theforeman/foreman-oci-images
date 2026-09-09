@@ -32,4 +32,10 @@ RUN set -eu; for PLUGIN in ${FOREMAN_PLUGINS}; do \
 
 RUN rm /usr/share/foreman/config/initializers/encryption_key.rb /etc/foreman/encryption_key.rb
 
+# Remove the private TLS key shipped in the CentOS Stream 10 container
+# image this build was based on (a leftover from the base image's own build
+# tooling, not owned by any RPM). postfix is not used in this container, and
+# publishing a private key in a public image is a secret leak.
+RUN rm -f /etc/pki/tls/private/postfix.key
+
 USER foreman
