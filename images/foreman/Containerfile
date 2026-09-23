@@ -13,7 +13,7 @@ RUN groupadd -r -g ${FOREMAN_GID} foreman && \
 
 RUN dnf upgrade -y && dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el10/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el10/x86_64/katello-repos-latest.rpm && \
     dnf install foreman foreman-postgresql foreman-service foreman-redis foreman-dynflow-sidekiq \
-        foreman-libvirt foreman-vmware foreman-openstack foreman-ec2 --nodocs -y && \
+        foreman-libvirt foreman-vmware foreman-openstack foreman-ec2 xz --nodocs -y && \
     dnf clean all
 WORKDIR /usr/share/foreman
 ENV MALLOC_ARENA_MAX=2
