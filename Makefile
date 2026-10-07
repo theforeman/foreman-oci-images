@@ -9,7 +9,7 @@ FOREMAN_XYZ_TAG=5.0.1
 IMAGE_TAGS=${IMAGE_NAME}:${FOREMAN_XY_TAG} ${IMAGE_NAME}:${FOREMAN_XYZ_TAG}
 
 build:
-	podman build --file images/${PROJECT}/Containerfile --build-arg FOREMAN_VERSION=${FOREMAN_XY_TAG} --build-arg KATELLO_VERSION=${KATELLO_VERSION} --tag ${IMAGE_NAME}:${FOREMAN_XYZ_TAG}	.
+	cd images/${PROJECT} && podman build --file Containerfile --build-arg FOREMAN_VERSION=${FOREMAN_XY_TAG} --build-arg KATELLO_VERSION=${KATELLO_VERSION} --tag ${IMAGE_NAME}:${FOREMAN_XYZ_TAG}	.
 	$(foreach tag,$(IMAGE_TAGS),\
 		podman tag ${IMAGE_NAME}:${FOREMAN_XYZ_TAG} $(tag); \
 	)

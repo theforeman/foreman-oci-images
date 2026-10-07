@@ -1,0 +1,3625 @@
+---
+lockfileVersion: 1
+lockfileVendor: redhat
+arches:
+- arch: x86_64
+  packages:
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libburn-1.5.6-6.el10.x86_64.rpm
+    repoid: appstream
+    size: 177535
+    checksum: sha256:83ba66223a60bf93d13710b632ecc8c057c294a17f36ba31a18e16e7d4b97819
+    name: libburn
+    evr: 1.5.6-6.el10
+    sourcerpm: libburn-1.5.6-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libisoburn-1.5.6-6.el10.x86_64.rpm
+    repoid: appstream
+    size: 440258
+    checksum: sha256:6f41c5e8e0d9dedf3c0b07f2ddc0748870cb18ed15a23dc22038a022c1d38e74
+    name: libisoburn
+    evr: 1.5.6-6.el10
+    sourcerpm: libisoburn-1.5.6-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libisofs-1.5.6-6.el10.x86_64.rpm
+    repoid: appstream
+    size: 241075
+    checksum: sha256:a61eda57352e86657ca99fc774d0d74c0fbd67dad5bcd02139ff6de466a038ac
+    name: libisofs
+    evr: 1.5.6-6.el10
+    sourcerpm: libisofs-1.5.6-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libvirt-libs-12.8.0-1.el10.x86_64.rpm
+    repoid: appstream
+    size: 6367854
+    checksum: sha256:6f24d7be96fe3c6b47831fe112f0d0303518d6a409fe576e798267623da2f00f
+    name: libvirt-libs
+    evr: 12.8.0-1.el10
+    sourcerpm: libvirt-12.8.0-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libwsman1-2.8.1-3.el10.x86_64.rpm
+    repoid: appstream
+    size: 141321
+    checksum: sha256:e4464a739999e998c4a42dc5782b786c0cdeac455546deb50cae0a0916eb89bb
+    name: libwsman1
+    evr: 2.8.1-3.el10
+    sourcerpm: openwsman-2.8.1-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libxkbcommon-1.7.0-4.el10.x86_64.rpm
+    repoid: appstream
+    size: 148718
+    checksum: sha256:74d65a6b09b639e600cb3344c5fc4118b81e1eca5c4a928c74cfe8858639140d
+    name: libxkbcommon
+    evr: 1.7.0-4.el10
+    sourcerpm: libxkbcommon-1.7.0-4.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libxslt-1.1.39-10.el10.x86_64.rpm
+    repoid: appstream
+    size: 194059
+    checksum: sha256:46f179e253d2f4e04340c120e1d00f8e4b5fa3095a1e96f1ecd61cb5b3e3d4a8
+    name: libxslt
+    evr: 1.1.39-10.el10
+    sourcerpm: libxslt-1.1.39-10.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/postfix-3.8.5-11.el10.x86_64.rpm
+    repoid: appstream
+    size: 1601599
+    checksum: sha256:680baa8184904c7434d8c60ba003f3d1dfb6e93ebc3450e8da61aa912877a06c
+    name: postfix
+    evr: 2:3.8.5-11.el10
+    sourcerpm: postfix-3.8.5-11.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/postfix-lmdb-3.8.5-11.el10.x86_64.rpm
+    repoid: appstream
+    size: 23617
+    checksum: sha256:3330237b77c0898723cfbbba7dd175934dca33eedb8194ab96c3c386a58d01bc
+    name: postfix-lmdb
+    evr: 2:3.8.5-11.el10
+    sourcerpm: postfix-3.8.5-11.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/ruby-3.3.12-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 38756
+    checksum: sha256:2c4d5e40e9476431497b6794d0b5b3fc8c6a06711618406ad98ec36ebb228597
+    name: ruby
+    evr: 3.3.12-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/ruby-bundled-gems-3.3.12-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 313191
+    checksum: sha256:6d11671c3ab5d67e123dfc6fdeaecf932f1ca741d835fb49c67c1e3944edc6ee
+    name: ruby-bundled-gems
+    evr: 3.3.12-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/ruby-default-gems-3.3.12-15.el10.noarch.rpm
+    repoid: appstream
+    size: 48215
+    checksum: sha256:7a9cc102fabae138a9a7ee423ef81672b0a06f4d75cae9ffdb0b3edb15af42d2
+    name: ruby-default-gems
+    evr: 3.3.12-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/ruby-libs-3.3.12-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 4321377
+    checksum: sha256:49c18fd83941dc72ef5525d7bc5c98c565e792ea92e2e1878c5d39d1d9218a5e
+    name: ruby-libs
+    evr: 3.3.12-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-bigdecimal-3.1.5-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 69509
+    checksum: sha256:4768d282542fd0af3a0751b45c5e95a735ad2105f9e1c13f370c6755c5843a69
+    name: rubygem-bigdecimal
+    evr: 3.1.5-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-bundler-2.5.22-15.el10.noarch.rpm
+    repoid: appstream
+    size: 500659
+    checksum: sha256:efd4d4b411c5ed122f359dbd622fc42a29e5c179c18bc2f445ea1dfb3f40b281
+    name: rubygem-bundler
+    evr: 2.5.22-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-io-console-0.7.1-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 23407
+    checksum: sha256:c5a22ae6152e48ff9ac322950d39ff09ee9e52ee88c0c607356e9cf9075656b9
+    name: rubygem-io-console
+    evr: 0.7.1-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-irb-1.13.1-15.el10.noarch.rpm
+    repoid: appstream
+    size: 133113
+    checksum: sha256:fe2dee8780eb5a131f3b408dcb628af1ec6465ae31015437f04cf636e233f399
+    name: rubygem-irb
+    evr: 1.13.1-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-json-2.7.2-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 58630
+    checksum: sha256:ddb60e3601fbc7d36715b3ab1ff8fe153db54c79eef33f46957138a92977b160
+    name: rubygem-json
+    evr: 2.7.2-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-minitest-5.20.0-15.el10.noarch.rpm
+    repoid: appstream
+    size: 94102
+    checksum: sha256:e15dd7bef564b5c74cbda7364192a422e23ca5170b2e5b165da5a3004a7e01de
+    name: rubygem-minitest
+    evr: 5.20.0-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-psych-5.1.2-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 58964
+    checksum: sha256:3e6dfab85df63fd8df17466fdae2188750c910e77db70191893bff8968166ff4
+    name: rubygem-psych
+    evr: 5.1.2-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-racc-1.7.3-15.el10.x86_64.rpm
+    repoid: appstream
+    size: 79835
+    checksum: sha256:fc3302fdee63da7da449415039a293743733c62d07c4a67cfb674fae3710d667
+    name: rubygem-racc
+    evr: 1.7.3-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-rake-13.1.0-15.el10.noarch.rpm
+    repoid: appstream
+    size: 100293
+    checksum: sha256:61a6064dbafbeee567d37a70c6cc8c978edb0137be72da60a52bd9697f65b5dc
+    name: rubygem-rake
+    evr: 13.1.0-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-rdoc-6.6.3.1-15.el10.noarch.rpm
+    repoid: appstream
+    size: 514144
+    checksum: sha256:6b6c6bfe013f9c7168dd65d4ef82fe61e13900ab4a7e4ed0fd5fda954c9d24e3
+    name: rubygem-rdoc
+    evr: 6.6.3.1-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-rexml-3.4.4-15.el10.noarch.rpm
+    repoid: appstream
+    size: 120230
+    checksum: sha256:3bab52b2913f81bb33f1cee72128a8dc8e0543aa1e658527bac909da590e2ffd
+    name: rubygem-rexml
+    evr: 3.4.4-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygem-rss-0.3.1-15.el10.noarch.rpm
+    repoid: appstream
+    size: 66563
+    checksum: sha256:b3cd9eba6daacfab42d476b752ac34f1d0ea8fae90cf9edc58f6c1d5c5c06157
+    name: rubygem-rss
+    evr: 0.3.1-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/rubygems-3.5.22-15.el10.noarch.rpm
+    repoid: appstream
+    size: 431871
+    checksum: sha256:ecf003268684db10fc9e7f6f6c099543de9a112b381553dd94784b53b0c5c8e2
+    name: rubygems
+    evr: 3.5.22-15.el10
+    sourcerpm: ruby-3.3.12-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/sshpass-1.09-9.el10.x86_64.rpm
+    repoid: appstream
+    size: 28157
+    checksum: sha256:02a611d1f1d700b0f853f30d875b5a2e8b599bcc0d2eb57a48e83979f80e03b5
+    name: sshpass
+    evr: 1.09-9.el10
+    sourcerpm: sshpass-1.09-9.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/wget-1.24.5-8.el10.x86_64.rpm
+    repoid: appstream
+    size: 827457
+    checksum: sha256:d836a5147da399015067014a2a2de15ca831c0348da61f91127852939b6b530d
+    name: wget
+    evr: 1.24.5-8.el10
+    sourcerpm: wget-1.24.5-8.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/xkeyboard-config-2.41-3.el10.noarch.rpm
+    repoid: appstream
+    size: 1023893
+    checksum: sha256:aaf6275b49909a8f24738d3cef239fd44a6dcb75655b5575c897653da8e6f1cf
+    name: xkeyboard-config
+    evr: 2.41-3.el10
+    sourcerpm: xkeyboard-config-2.41-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/xorriso-1.5.6-6.el10.x86_64.rpm
+    repoid: appstream
+    size: 330429
+    checksum: sha256:2077b91e476836bec242f0fbf4a83384bfc785e9531bedb81ee825936105b017
+    name: xorriso
+    evr: 1.5.6-6.el10
+    sourcerpm: libisoburn-1.5.6-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/cronie-1.7.0-15.el10.x86_64.rpm
+    repoid: baseos
+    size: 126555
+    checksum: sha256:261061df424a692df876f8c989e96c94bc1968c03808588e03cc293693785c52
+    name: cronie
+    evr: 1.7.0-15.el10
+    sourcerpm: cronie-1.7.0-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/cronie-anacron-1.7.0-15.el10.x86_64.rpm
+    repoid: baseos
+    size: 32767
+    checksum: sha256:f096ffef88b44abe90a69c9b7e59fe16c215667b2111291b0aefc5fda20b4af0
+    name: cronie-anacron
+    evr: 1.7.0-15.el10
+    sourcerpm: cronie-1.7.0-15.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/crontabs-1.11^20190603git9e74f2d-6.el10.noarch.rpm
+    repoid: baseos
+    size: 19796
+    checksum: sha256:badbcc5b09da5c9565b1fef61a2d819fcc25c8a429ead97630b237ae0fa4760b
+    name: crontabs
+    evr: 1.11^20190603git9e74f2d-6.el10
+    sourcerpm: crontabs-1.11^20190603git9e74f2d-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/cryptsetup-libs-2.8.6-2.el10.x86_64.rpm
+    repoid: baseos
+    size: 594665
+    checksum: sha256:a82c9f962cdb0cd7c054e405723a9f56b7e05c4bdeb777da130ec463f641461c
+    name: cryptsetup-libs
+    evr: 2.8.6-2.el10
+    sourcerpm: cryptsetup-2.8.6-2.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/cyrus-sasl-gssapi-2.1.28-27.el10.x86_64.rpm
+    repoid: baseos
+    size: 28052
+    checksum: sha256:f9ab02ca832fe4d5c1e1ee3abd7ff3db3815d164561350316032a82b44d68b6c
+    name: cyrus-sasl-gssapi
+    evr: 2.1.28-27.el10
+    sourcerpm: cyrus-sasl-2.1.28-27.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/cyrus-sasl-lib-2.1.28-27.el10.x86_64.rpm
+    repoid: baseos
+    size: 108494
+    checksum: sha256:ea78a83980b03f3709266f5e4c96b41699fe8d5f7003fb9503c3a7529c6ca46a
+    name: cyrus-sasl-lib
+    evr: 2.1.28-27.el10
+    sourcerpm: cyrus-sasl-2.1.28-27.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/dbus-1.14.10-6.el10.x86_64.rpm
+    repoid: baseos
+    size: 3201
+    checksum: sha256:019154fd71f6a8d9ad1f66de4e91e55ac02abdbe3553b6e3ec0ed42fc3dba557
+    name: dbus
+    evr: 1:1.14.10-6.el10
+    sourcerpm: dbus-1.14.10-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/dbus-broker-36-5.el10.x86_64.rpm
+    repoid: baseos
+    size: 177456
+    checksum: sha256:c60a8e71fe0ada8f9f69cf0d3ed80e484d71d21163836fdb82655be13544d91b
+    name: dbus-broker
+    evr: 36-5.el10
+    sourcerpm: dbus-broker-36-5.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/dbus-common-1.14.10-6.el10.noarch.rpm
+    repoid: baseos
+    size: 13775
+    checksum: sha256:46da64dfece403446ed8d674cfd0bccd979b2311069ac4facc3125847bf12bd9
+    name: dbus-common
+    evr: 1:1.14.10-6.el10
+    sourcerpm: dbus-1.14.10-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/device-mapper-1.02.215-3.el10.x86_64.rpm
+    repoid: baseos
+    size: 151428
+    checksum: sha256:835543fc199922f375f04679dc7ea45eb80eade8f939757db228e9cdf8e2dd3a
+    name: device-mapper
+    evr: 10:1.02.215-3.el10
+    sourcerpm: lvm2-2.03.41-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/device-mapper-libs-1.02.215-3.el10.x86_64.rpm
+    repoid: baseos
+    size: 198118
+    checksum: sha256:6dbae56deac7c5f365ec63b8f58b5d4db30216ea9782e77b4c1df302360873eb
+    name: device-mapper-libs
+    evr: 10:1.02.215-3.el10
+    sourcerpm: lvm2-2.03.41-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/diffutils-3.10-8.el10.x86_64.rpm
+    repoid: baseos
+    size: 418970
+    checksum: sha256:96882ec03cfc01ae557f0ec547fb8d346179eb705c899bec0533eafda7c1bd80
+    name: diffutils
+    evr: 3.10-8.el10
+    sourcerpm: diffutils-3.10-8.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/glibc-langpack-en-2.39-141.el10.x86_64.rpm
+    repoid: baseos
+    size: 679339
+    checksum: sha256:b740c11d2731cd337965f3519646d3542a54da54ff5081915ad000d14de42576
+    name: glibc-langpack-en
+    evr: 2.39-141.el10
+    sourcerpm: glibc-2.39-141.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/hostname-3.23-14.el10.x86_64.rpm
+    repoid: baseos
+    size: 29783
+    checksum: sha256:be62faf8954091f58f85184c3f78d516883d172f9711fe8fc0bd3f0209fea6e6
+    name: hostname
+    evr: 3.23-14.el10
+    sourcerpm: hostname-3.23-14.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/kmod-libs-31-13.el10.x86_64.rpm
+    repoid: baseos
+    size: 70726
+    checksum: sha256:bdf857119d993a27da5b7b4bdfa581dd92f1c1e0a7a29596c21080e1ac8b4fc8
+    name: kmod-libs
+    evr: 31-13.el10
+    sourcerpm: kmod-31-13.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libbpf-1.7.0-2.el10.x86_64.rpm
+    repoid: baseos
+    size: 200892
+    checksum: sha256:87fc5c3ef93bc357654cb68a67bce5fd6b64850134aefeb596e6e2a76338a314
+    name: libbpf
+    evr: 2:1.7.0-2.el10
+    sourcerpm: libbpf-1.7.0-2.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libcbor-0.11.0-3.el10.x86_64.rpm
+    repoid: baseos
+    size: 34953
+    checksum: sha256:49a800e8569ac3e22fbe1b3595683f9934cbeabc6fd03c1a224b97441af7d3ab
+    name: libcbor
+    evr: 0.11.0-3.el10
+    sourcerpm: libcbor-0.11.0-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libevent-2.1.13-1.el10.x86_64.rpm
+    repoid: baseos
+    size: 266836
+    checksum: sha256:7777403e2f41ede258477a99e35e972c7b9167bce334e2901981b15f4261da69
+    name: libevent
+    evr: 2.1.13-1.el10
+    sourcerpm: libevent-2.1.13-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libfido2-1.14.0-7.el10.x86_64.rpm
+    repoid: baseos
+    size: 100605
+    checksum: sha256:5652d77a1394ba80ece520e817832224a03b693d172b7b32587d0fc502419bdd
+    name: libfido2
+    evr: 1.14.0-7.el10
+    sourcerpm: libfido2-1.14.0-7.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libicu-74.2-5.el10.x86_64.rpm
+    repoid: baseos
+    size: 10964206
+    checksum: sha256:0eec0e7631d7c9d059d98922a116eb4ede27a2528a42aed4706299659398d5ae
+    name: libicu
+    evr: 74.2-5.el10
+    sourcerpm: icu-74.2-5.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libnl3-3.11.0-1.el10.x86_64.rpm
+    repoid: baseos
+    size: 370060
+    checksum: sha256:886324f9d4b8c95a46d5c77c0f5cd90051c83462e78ca752c70cc709f5a01d90
+    name: libnl3
+    evr: 3.11.0-1.el10
+    sourcerpm: libnl3-3.11.0-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libpq-16.11-3.el10.x86_64.rpm
+    repoid: baseos
+    size: 260305
+    checksum: sha256:f9df0863da9ef14d70aa558ed3e0a235577d434ab094dac01b60d853d6d7e0ee
+    name: libpq
+    evr: 16.11-3.el10
+    sourcerpm: libpq-16.11-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libpsl-0.21.5-6.el10.x86_64.rpm
+    repoid: baseos
+    size: 66746
+    checksum: sha256:1dca94a85aabd9730bc731fa8a6abb138fec28b75c6a39694d862135c2ade0f3
+    name: libpsl
+    evr: 0.21.5-6.el10
+    sourcerpm: libpsl-0.21.5-6.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libseccomp-2.5.6-1.el10.x86_64.rpm
+    repoid: baseos
+    size: 72894
+    checksum: sha256:654051862cc301ed43501ab36b687ed5adeb3ca57689f54a80bf760ad9686e54
+    name: libseccomp
+    evr: 2.5.6-1.el10
+    sourcerpm: libseccomp-2.5.6-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libselinux-utils-3.11-3.el10.x86_64.rpm
+    repoid: baseos
+    size: 130323
+    checksum: sha256:993256563745afe0106ec8e871209320db4d9911d78182fb6bc3d9674ad5ef93
+    name: libselinux-utils
+    evr: 3.11-3.el10
+    sourcerpm: libselinux-3.11-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libssh-0.12.2-2.el10.x86_64.rpm
+    repoid: baseos
+    size: 285472
+    checksum: sha256:0ff549cdd75c081619621a036a6afa6f9a007547afeecfe20930f08c94e708af
+    name: libssh
+    evr: 0.12.2-2.el10
+    sourcerpm: libssh-0.12.2-2.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libssh-config-0.12.2-2.el10.noarch.rpm
+    repoid: baseos
+    size: 8583
+    checksum: sha256:4b240716735f7d3a710646c650a14d988d426a8e8f2d36631bb35370fa864bec
+    name: libssh-config
+    evr: 0.12.2-2.el10
+    sourcerpm: libssh-0.12.2-2.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libtirpc-1.3.5-1.el10.x86_64.rpm
+    repoid: baseos
+    size: 97455
+    checksum: sha256:8692d388ed8b7fa6ffe56c9403576ea7b49d55c305e9a64dd44a59fb592fe295
+    name: libtirpc
+    evr: 1.3.5-1.el10
+    sourcerpm: libtirpc-1.3.5-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/lmdb-libs-0.9.32-4.el10.x86_64.rpm
+    repoid: baseos
+    size: 63362
+    checksum: sha256:987901a0818a25cbdfb043722af8685bfafd7d161389d744412602175d1d8ae1
+    name: lmdb-libs
+    evr: 0.9.32-4.el10
+    sourcerpm: lmdb-0.9.32-4.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/net-tools-2.0-0.73.20160912git.el10.x86_64.rpm
+    repoid: baseos
+    size: 313507
+    checksum: sha256:86a1c19e7c14925fbd3ed78f5a02f855c466fde1c1a4d55bd72b8518dc0f9375
+    name: net-tools
+    evr: 2.0-0.73.20160912git.el10
+    sourcerpm: net-tools-2.0-0.73.20160912git.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/numactl-libs-2.0.19-3.el10.x86_64.rpm
+    repoid: baseos
+    size: 31897
+    checksum: sha256:263ee2cba1d57996778f70045fbc4657067f73edafd6c6b04f4599c3eb12fbfd
+    name: numactl-libs
+    evr: 2.0.19-3.el10
+    sourcerpm: numactl-2.0.19-3.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/openldap-2.6.13-1.el10.x86_64.rpm
+    repoid: baseos
+    size: 246250
+    checksum: sha256:668bf98af411e595330006c5eb8834cfe0fd8b11e90525d0f72709b0c200e224
+    name: openldap
+    evr: 2.6.13-1.el10
+    sourcerpm: openldap-2.6.13-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/openssl-3.5.8-1.el10.x86_64.rpm
+    repoid: baseos
+    size: 1330252
+    checksum: sha256:5d13ccade568281beb12e4b1bf3caa74e00ce05cb819cee27faf9bcfd44f5b4c
+    name: openssl
+    evr: 1:3.5.8-1.el10
+    sourcerpm: openssl-3.5.8-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/policycoreutils-3.11-1.el10.x86_64.rpm
+    repoid: baseos
+    size: 276574
+    checksum: sha256:8ac2a357f19531ecfd47a2e98f03aec8a8354011e388539133538418f4010b8a
+    name: policycoreutils
+    evr: 3.11-1.el10
+    sourcerpm: policycoreutils-3.11-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/publicsuffix-list-dafsa-20240107-5.el10.noarch.rpm
+    repoid: baseos
+    size: 60580
+    checksum: sha256:440cb6e03187dfd68f62abf1dd751ace84ec8e2179d7de45dde348cf2e7dba11
+    name: publicsuffix-list-dafsa
+    evr: 20240107-5.el10
+    sourcerpm: publicsuffix-list-20240107-5.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/python3-setuptools-69.0.3-12.el10.noarch.rpm
+    repoid: baseos
+    size: 1658243
+    checksum: sha256:a89d8c55cbd8f833599ca853341b7bd698f70b966590c5dc2b2d160fc3d98f67
+    name: python3-setuptools
+    evr: 69.0.3-12.el10
+    sourcerpm: python-setuptools-69.0.3-12.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/rpm-plugin-syslog-4.19.1.1-25.el10.x86_64.rpm
+    repoid: baseos
+    size: 18232
+    checksum: sha256:b7245944d2d1c8e847f32dff0795d2d87c6c65fbb6904352dd091dace495bab3
+    name: rpm-plugin-syslog
+    evr: 4.19.1.1-25.el10
+    sourcerpm: rpm-4.19.1.1-25.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/systemd-257-34.el10.x86_64.rpm
+    repoid: baseos
+    size: 6082158
+    checksum: sha256:ad069e2548015564c8ceaaaada4cdab9e275d82cc2d0c0b4013500f04e883a17
+    name: systemd
+    evr: 257-34.el10
+    sourcerpm: systemd-257-34.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/systemd-pam-257-34.el10.x86_64.rpm
+    repoid: baseos
+    size: 343117
+    checksum: sha256:2171d91c183e89861556d70bc4fd120ec94123ca8b5e40fab6cb46bf594fdd47
+    name: systemd-pam
+    evr: 257-34.el10
+    sourcerpm: systemd-257-34.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-activerecord-import-2.2.0-2.el10.noarch.rpm
+    repoid: katello
+    size: 35580
+    checksum: sha256:2f512cdac2b0a9f4a978125c70f475abd2575901f59f39869629b4697829211d
+    name: rubygem-activerecord-import
+    evr: 2.2.0-2.el10
+    sourcerpm: rubygem-activerecord-import-2.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-foreman_rh_cloud-14.6.2-1.fm5_0.el10.noarch.rpm
+    repoid: katello
+    size: 1266364
+    checksum: sha256:c9ab54d0b6ac2cf87fe84de24d3e535a2a7b920d0612330484bac6664f850205
+    name: rubygem-foreman_rh_cloud
+    evr: 14.6.2-1.fm5_0.el10
+    sourcerpm: rubygem-foreman_rh_cloud-14.6.2-1.fm5_0.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-fx-0.9.0-2.el10.noarch.rpm
+    repoid: katello
+    size: 22144
+    checksum: sha256:bbc8f6c89ff97f011012646c98329e674f3661d7f5d602d01e4e3d98038885f8
+    name: rubygem-fx
+    evr: 0.9.0-2.el10
+    sourcerpm: rubygem-fx-0.9.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-katello-5.0.1-1.el10.noarch.rpm
+    repoid: katello
+    size: 13570852
+    checksum: sha256:81b06f935143dd31f9b347c970177c0e5ac53c6b36391a38e4303fada26baf6d
+    name: rubygem-katello
+    evr: 5.0.1-1.el10
+    sourcerpm: rubygem-katello-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_ansible_client-0.29.9-2.el10.noarch.rpm
+    repoid: katello
+    size: 91658
+    checksum: sha256:6f8be5a993b8fc192e891d4c6a2a135684581d084712385505db4de1d4779e18
+    name: rubygem-pulp_ansible_client
+    evr: 0.29.9-2.el10
+    sourcerpm: rubygem-pulp_ansible_client-0.29.9-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_certguard_client-3.105.15-2.el10.noarch.rpm
+    repoid: katello
+    size: 27889
+    checksum: sha256:479645e77aab1dc41953cd447588105fbe1cde9aa53b27e07f046f7d48b27948
+    name: rubygem-pulp_certguard_client
+    evr: 3.105.15-2.el10
+    sourcerpm: rubygem-pulp_certguard_client-3.105.15-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_container_client-2.27.11-1.el10.noarch.rpm
+    repoid: katello
+    size: 63199
+    checksum: sha256:13e570ce9fa0fd97a606c17db6820089b68101fcec091fa0e5102ab7cc2bbd9e
+    name: rubygem-pulp_container_client
+    evr: 1:2.27.11-1.el10
+    sourcerpm: rubygem-pulp_container_client-2.27.11-1.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_deb_client-3.8.2-2.el10.noarch.rpm
+    repoid: katello
+    size: 75623
+    checksum: sha256:7a6c5b38f871d22e632792a5cca9d8048373fdd0d6f5e7c4cae5d25209a1ddfa
+    name: rubygem-pulp_deb_client
+    evr: 3.8.2-2.el10
+    sourcerpm: rubygem-pulp_deb_client-3.8.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_file_client-3.105.15-2.el10.noarch.rpm
+    repoid: katello
+    size: 52944
+    checksum: sha256:66731442e5a05e433b6f756064a73ef0a15c54aaf6c25f5786ccc6652b25881e
+    name: rubygem-pulp_file_client
+    evr: 3.105.15-2.el10
+    sourcerpm: rubygem-pulp_file_client-3.105.15-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_ostree_client-2.6.1-2.el10.noarch.rpm
+    repoid: katello
+    size: 49177
+    checksum: sha256:df7873fbd8a3a8e6e3f7485a3f5f958dbaf531f4682aa63853c89f9dc5e34477
+    name: rubygem-pulp_ostree_client
+    evr: 1:2.6.1-2.el10
+    sourcerpm: rubygem-pulp_ostree_client-2.6.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_python_client-3.27.6-2.el10.noarch.rpm
+    repoid: katello
+    size: 56662
+    checksum: sha256:f8d4228a1ea08369a0e4a28f4d08958b8e233461f85ee952ed86453c16e6de84
+    name: rubygem-pulp_python_client
+    evr: 3.27.6-2.el10
+    sourcerpm: rubygem-pulp_python_client-3.27.6-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulp_rpm_client-3.35.3-2.el10.noarch.rpm
+    repoid: katello
+    size: 77920
+    checksum: sha256:659932211a3eda8da4d1454be8a8cbf5d41b28126d77f150e157e8bd459dfce4
+    name: rubygem-pulp_rpm_client
+    evr: 3.35.3-2.el10
+    sourcerpm: rubygem-pulp_rpm_client-3.35.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-pulpcore_client-3.105.15-2.el10.noarch.rpm
+    repoid: katello
+    size: 120886
+    checksum: sha256:e3ff74d615e06e66293bec94cf1c3726eea7114c48b19f47eceeb1b176c5a19c
+    name: rubygem-pulpcore_client
+    evr: 1:3.105.15-2.el10
+    sourcerpm: rubygem-pulpcore_client-3.105.15-2.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-spidr-0.7.2-2.el10.noarch.rpm
+    repoid: katello
+    size: 28438
+    checksum: sha256:97f24fe8e743e3f2d1faed671606d7e886c0b3429e4542d0ce2bf9541e0210ee
+    name: rubygem-spidr
+    evr: 0.7.2-2.el10
+    sourcerpm: rubygem-spidr-0.7.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-acts_as_list-1.2.4-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 18473
+    checksum: sha256:4044281943923800369ab59edc8cfa2b0c925c153c749f8062497394ee4ff2ee
+    name: rubygem-acts_as_list
+    evr: 1.2.4-2.el10
+    sourcerpm: rubygem-acts_as_list-1.2.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-angular-rails-templates-1.4.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 13480
+    checksum: sha256:ba240fb862626b8c702c76e70581bc64609baf348639d54f121a9e96f2837f47
+    name: rubygem-angular-rails-templates
+    evr: 1:1.4.0-2.el10
+    sourcerpm: rubygem-angular-rails-templates-1.4.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-azure_mgmt_compute-0.22.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 711261
+    checksum: sha256:9f01ad9203d457841d0db4b137e59fd06824be09a2f2fc1344cf4ebd273a7ae1
+    name: rubygem-azure_mgmt_compute
+    evr: 0.22.0-2.el10
+    sourcerpm: rubygem-azure_mgmt_compute-0.22.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-azure_mgmt_network-0.26.1-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 3033248
+    checksum: sha256:0113d9cda8a5614652b21166fb3b4dcb8bd6d792e7f2dd67cc6cb211608d9f89
+    name: rubygem-azure_mgmt_network
+    evr: 0.26.1-2.el10
+    sourcerpm: rubygem-azure_mgmt_network-0.26.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-azure_mgmt_resources-0.18.2-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 210779
+    checksum: sha256:ae601a109d0339e445bb770ce8a2673741551007f9e6a921a4ad0e22051feee4
+    name: rubygem-azure_mgmt_resources
+    evr: 0.18.2-2.el10
+    sourcerpm: rubygem-azure_mgmt_resources-0.18.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-azure_mgmt_storage-0.23.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 294948
+    checksum: sha256:2d72b1b7bc5a075368b83e673f3010b129c272b147d6eb587b15568498bda363
+    name: rubygem-azure_mgmt_storage
+    evr: 0.23.0-2.el10
+    sourcerpm: rubygem-azure_mgmt_storage-0.23.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-azure_mgmt_subscriptions-0.18.5-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 59715
+    checksum: sha256:bd20d666c61bb53c6f5e7e7a8f070fdbdd638a946cdfc0e0e563362cf1066f4b
+    name: rubygem-azure_mgmt_subscriptions
+    evr: 0.18.5-2.el10
+    sourcerpm: rubygem-azure_mgmt_subscriptions-0.18.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-deface-1.9.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 35077
+    checksum: sha256:ec015eb02ecf1a292c5b48b957723d128fd772c7ae372f8887d4d7ed1e337803
+    name: rubygem-deface
+    evr: 1.9.0-2.el10
+    sourcerpm: rubygem-deface-1.9.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-et-orbi-1.4.1-1.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 18898
+    checksum: sha256:5d18118a7ce229e7c9f8b3ef92bd72fddf74e8ad95de37b96076d0cdf09db9e3
+    name: rubygem-et-orbi
+    evr: 1.4.1-1.el10
+    sourcerpm: rubygem-et-orbi-1.4.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-faraday-cookie_jar-0.0.8-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 10109
+    checksum: sha256:cbcd4c896df1375b20a38531d9b0c129392447c1ad0d8276eccdedd6eaeeeb3a
+    name: rubygem-faraday-cookie_jar
+    evr: 0.0.8-2.el10
+    sourcerpm: rubygem-faraday-cookie_jar-0.0.8-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-fog-kubevirt-1.8.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 44568
+    checksum: sha256:9bd1274e33627a5c6f06c77cb05a17c1e27bcaac60ac1a0931e51b611adaa044
+    name: rubygem-fog-kubevirt
+    evr: 1.8.0-2.el10
+    sourcerpm: rubygem-fog-kubevirt-1.8.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman-tasks-13.2.0-1.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 1943985
+    checksum: sha256:3e438a6adafc57bea06d4670dbd6c77517d550cb1393916d5cd5b4fba5d0d005
+    name: rubygem-foreman-tasks
+    evr: 13.2.0-1.el10
+    sourcerpm: rubygem-foreman-tasks-13.2.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_ansible-18.0.1-1.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 1232312
+    checksum: sha256:b5cfb0d2d41d6166e206398f9719da5b8c55ad679f1a4df5d51eeb8917a45bce
+    name: rubygem-foreman_ansible
+    evr: 18.0.1-1.el10
+    sourcerpm: rubygem-foreman_ansible-18.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_azure_rm-3.0.4-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 151519
+    checksum: sha256:a8dcf33836e47e351ba6722b75266f6324e8274512a6e66c867b6d3071b456e9
+    name: rubygem-foreman_azure_rm
+    evr: 3.0.4-2.el10
+    sourcerpm: rubygem-foreman_azure_rm-3.0.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_google-3.0.8-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 123744
+    checksum: sha256:9c0407cd3e8123a9aeb35671cfda64ff0e76aa0306343123117047b8a9102c4f
+    name: rubygem-foreman_google
+    evr: 3.0.8-2.el10
+    sourcerpm: rubygem-foreman_google-3.0.8-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_kubevirt-0.6.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 146747
+    checksum: sha256:d6ded397ec6efddacb30311ea0cb9cd9c601a045b9ede2590c95dbdf13a1657e
+    name: rubygem-foreman_kubevirt
+    evr: 0.6.0-2.el10
+    sourcerpm: rubygem-foreman_kubevirt-0.6.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_remote_execution-17.2.2-1.fm5_0.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 1445122
+    checksum: sha256:e8fbab21ec230abd3d26715c99cc8601a23a574c832206e5a424f79c638be3f8
+    name: rubygem-foreman_remote_execution
+    evr: 17.2.2-1.fm5_0.el10
+    sourcerpm: rubygem-foreman_remote_execution-17.2.2-1.fm5_0.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_webhooks-6.0.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 210948
+    checksum: sha256:020999a899e406ea1e0f5c2b330e8b113d080597f8aac97c14f5fe750177fb4e
+    name: rubygem-foreman_webhooks
+    evr: 6.0.0-2.el10
+    sourcerpm: rubygem-foreman_webhooks-6.0.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-fugit-1.13.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 25581
+    checksum: sha256:d3af6375fdde9fdf5271642af14861c1c784d6cc1b1533caddf2c4ab057d00ab
+    name: rubygem-fugit
+    evr: 1.13.0-2.el10
+    sourcerpm: rubygem-fugit-1.13.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-gapic-common-0.12.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 36720
+    checksum: sha256:fc7f41bf985b99401f2c03193726b2bad1805f59b600575ddd8059d125398675
+    name: rubygem-gapic-common
+    evr: 0.12.0-2.el10
+    sourcerpm: rubygem-gapic-common-0.12.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-google-cloud-common-1.1.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 9988
+    checksum: sha256:ed64624d1a399927122bde66054b31d5bf334f9df4709909800193fb7027a1c4
+    name: rubygem-google-cloud-common
+    evr: 1.1.0-2.el10
+    sourcerpm: rubygem-google-cloud-common-1.1.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-google-cloud-compute-0.5.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 20109
+    checksum: sha256:da07b4915b4ab5b8b50868a8cbd08de2dce6351182437709c8cae7dc5de910c2
+    name: rubygem-google-cloud-compute
+    evr: 0.5.0-2.el10
+    sourcerpm: rubygem-google-cloud-compute-0.5.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-google-cloud-compute-v1-1.7.1-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 302282
+    checksum: sha256:6be4dd26ec1eb0bdac7e2b40133b789514ecd2cd28448d3d8157af7c0eafe61a
+    name: rubygem-google-cloud-compute-v1
+    evr: 1.7.1-2.el10
+    sourcerpm: rubygem-google-cloud-compute-v1-1.7.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-google-cloud-core-1.6.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 22489
+    checksum: sha256:14209a52b3c65ded391de2828879ef0393570a119d180c1896c27fc2902c6fdd
+    name: rubygem-google-cloud-core
+    evr: 1.6.0-2.el10
+    sourcerpm: rubygem-google-cloud-core-1.6.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-google-cloud-errors-1.3.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 16814
+    checksum: sha256:a443951153861f67e429d4fb7e58444786b4ede3ffda18545f6474bd00b613ae
+    name: rubygem-google-cloud-errors
+    evr: 1.3.0-2.el10
+    sourcerpm: rubygem-google-cloud-errors-1.3.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-google-protobuf-3.24.3-3.el10.x86_64.rpm
+    repoid: foreman-plugins
+    size: 134983
+    checksum: sha256:4ce7c17487f4a582e13bc926a6983cc2295c21fd5d319beca426b652f248a0d3
+    name: rubygem-google-protobuf
+    evr: 3.24.3-3.el10
+    sourcerpm: rubygem-google-protobuf-3.24.3-3.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-googleapis-common-protos-1.3.12-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 11267
+    checksum: sha256:09eb79ceff44592954918559c33280306ed6f8791959fa97cb2ccf7d9caadf7e
+    name: rubygem-googleapis-common-protos
+    evr: 1.3.12-2.el10
+    sourcerpm: rubygem-googleapis-common-protos-1.3.12-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-googleapis-common-protos-types-1.4.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 25675
+    checksum: sha256:e7e0c0673a57b3f953aa85f054c32b52acc5edfa49c242b079a9ee01cec3fa63
+    name: rubygem-googleapis-common-protos-types
+    evr: 1.4.0-2.el10
+    sourcerpm: rubygem-googleapis-common-protos-types-1.4.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-grpc-1.58.0-3.el10.x86_64.rpm
+    repoid: foreman-plugins
+    size: 10425976
+    checksum: sha256:b74966d5c025cabbc225b01df2f03c6e0125178521b78e6f329bbe0b926f46e8
+    name: rubygem-grpc
+    evr: 1.58.0-3.el10
+    sourcerpm: rubygem-grpc-1.58.0-3.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-http-5.2.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 55066
+    checksum: sha256:ee2d7d370f8b2599f279d2be08dc40b8e3eb47a8bd1539cf0378e69d25ee5341
+    name: rubygem-http
+    evr: 5.2.0-2.el10
+    sourcerpm: rubygem-http-5.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-http-form_data-2.3.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 15041
+    checksum: sha256:dc0351ae1d64d889debbc5cf352f9e9f74cb20bfc1cb8dffd31dfaa58c65070a
+    name: rubygem-http-form_data
+    evr: 2.3.0-2.el10
+    sourcerpm: rubygem-http-form_data-2.3.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-jsonpath-1.1.2-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 16376
+    checksum: sha256:7654ad9648a67d1231d5f77538e4a8f4aa93ddb3f769150abfaa4a14297a45f2
+    name: rubygem-jsonpath
+    evr: 1.1.2-2.el10
+    sourcerpm: rubygem-jsonpath-1.1.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-kubeclient-4.13.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 23599
+    checksum: sha256:d2a902134a7414cc0f7ba3e85d4f9d1e96069d444a641b04f70ae6e8bf59e2cc
+    name: rubygem-kubeclient
+    evr: 4.13.0-2.el10
+    sourcerpm: rubygem-kubeclient-4.13.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-llhttp-0.6.1-2.el10.x86_64.rpm
+    repoid: foreman-plugins
+    size: 39042
+    checksum: sha256:5d2de2e9f30005a8721b9ff7bff9c728bab67d787b334bac658e4b2f9e6d5a8e
+    name: rubygem-llhttp
+    evr: 0.6.1-2.el10
+    sourcerpm: rubygem-llhttp-0.6.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-ms_rest-0.7.6-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 154115
+    checksum: sha256:198df62e656e083f7830e6c07455e94e4912b516dacca605f21b4cbe80232171
+    name: rubygem-ms_rest
+    evr: 0.7.6-2.el10
+    sourcerpm: rubygem-ms_rest-0.7.6-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-ms_rest_azure-0.12.0-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 23957
+    checksum: sha256:70ef361a0ae3599085f1d6b891ea4e25c69e8a08e2619d2ed30be307e8f5cd0e
+    name: rubygem-ms_rest_azure
+    evr: 0.12.0-2.el10
+    sourcerpm: rubygem-ms_rest_azure-0.12.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-polyglot-0.3.5-4.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 10230
+    checksum: sha256:a24dc15414a5a2df2b8b5045d39995c2be8e40dd06acefb0d10d04bc7710a5b5
+    name: rubygem-polyglot
+    evr: 0.3.5-4.el10
+    sourcerpm: rubygem-polyglot-0.3.5-4.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-raabro-1.5.0-1.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 12841
+    checksum: sha256:d28856686af60cdff3dd308157f912dc985a6f7daecbccd9836852a1a634329f
+    name: rubygem-raabro
+    evr: 1.5.0-1.el10
+    sourcerpm: rubygem-raabro-1.5.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-rainbow-3.1.1-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 14754
+    checksum: sha256:f4db808d25f12f71cf71c8e67cbf8fe55c0c055db29e4b063102e39d53012f1f
+    name: rubygem-rainbow
+    evr: 3.1.1-2.el10
+    sourcerpm: rubygem-rainbow-3.1.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-recursive-open-struct-1.1.3-2.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 13155
+    checksum: sha256:6c35118e2a48dd6e056029993dccb6a1e8a569873e853167ddc2c91c98b970a3
+    name: rubygem-recursive-open-struct
+    evr: 1.1.3-2.el10
+    sourcerpm: rubygem-recursive-open-struct-1.1.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-timeliness-0.3.10-3.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 16959
+    checksum: sha256:075548b6ecb15969531ebc18f102d8c4b7fb28ed4a7447d4a90e1b9b7f6860ca
+    name: rubygem-timeliness
+    evr: 0.3.10-3.el10
+    sourcerpm: rubygem-timeliness-0.3.10-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/dynflow-utils-2.0.1-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 903407
+    checksum: sha256:e5a89e9344f4edb8edc89400ed70d9870ff24c19200dcbda465b7c7234995b58
+    name: dynflow-utils
+    evr: 2.0.1-2.el10
+    sourcerpm: dynflow-utils-2.0.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 52444480
+    checksum: sha256:fd0d15475d8d09c34fde141ee45695ca3450e7239ac6b1f8a5602fc1d20986df
+    name: foreman
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-dynflow-sidekiq-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 13628
+    checksum: sha256:3008c33b7f62f1eb287691609e2d573462b7d19144aafe8ade44eab576b38bd9
+    name: foreman-dynflow-sidekiq
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-ec2-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 11192
+    checksum: sha256:84fd1a21b5b0b1affac461bd7aebc0d40ed8484c2632546f287afd06d1144ddc
+    name: foreman-ec2
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-libvirt-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 11367
+    checksum: sha256:dc4c4ffb3f3cc2cd71f7cbe36023fed2b436d2089764d933419120a9c00528aa
+    name: foreman-libvirt
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-openstack-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 11208
+    checksum: sha256:5852b0ecadba4331d67bd3ecb89d906ac0f59e2a38c6d25bde7ba52cbe396a00
+    name: foreman-openstack
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-postgresql-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 11239
+    checksum: sha256:71e54121b86d5b31f05fe537e8ea7bb80e9aba0031f599b40c855b2e1fadbce4
+    name: foreman-postgresql
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-redis-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 11158
+    checksum: sha256:83d06afad8d189f8dd7f9c57230a50c743527f7226b2ebd65d58d149172e4374
+    name: foreman-redis
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-service-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 13253
+    checksum: sha256:54685c2340743a2a61016fce31dad37b7499682d79654bb8a41296d40d56daf1
+    name: foreman-service
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/foreman-vmware-5.0.1-1.el10.noarch.rpm
+    repoid: foreman
+    size: 11209
+    checksum: sha256:231448a93ca82475e382510c9c80a2ba0b7883961d65520d0628d77c49e1249e
+    name: foreman-vmware
+    evr: 5.0.1-1.el10
+    sourcerpm: foreman-5.0.1-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/python3-websockify-0.10.0-4.el10.noarch.rpm
+    repoid: foreman
+    size: 89482
+    checksum: sha256:d7b2a23e2ddd825c18215c1af3f93f272cfe272703c8e125083af826b80a656a
+    name: python3-websockify
+    evr: 0.10.0-4.el10
+    sourcerpm: python-websockify-0.10.0-4.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-actioncable-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 52670
+    checksum: sha256:a7beec3040c317530e725ae9bbc34176b29b722f49da34a67b91ce895f414e9c
+    name: rubygem-actioncable
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-actioncable-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-actionmailbox-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 38008
+    checksum: sha256:e78b279de8b5ce9f18a2bf44f3c6393b5351d07ab96a0c21851f6b3d8f378ad7
+    name: rubygem-actionmailbox
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-actionmailbox-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-actionmailer-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 34357
+    checksum: sha256:5d1ce998ea91853fb3fad041f2471de8037d0ab90c247d2944f9f28b31e00e41
+    name: rubygem-actionmailer
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-actionmailer-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-actionpack-7.0.10-3.el10.noarch.rpm
+    repoid: foreman
+    size: 216938
+    checksum: sha256:dc4f785f0201867167814e29d1fdd4a18766213887d70a42665295d0c97a79f0
+    name: rubygem-actionpack
+    evr: 7.0.10-3.el10
+    sourcerpm: rubygem-actionpack-7.0.10-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-actiontext-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 97200
+    checksum: sha256:35ea406aead0c72ff12b9f1425489361f8abf72dadb1fe1b808a7b1bdb75fcc9
+    name: rubygem-actiontext
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-actiontext-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-actionview-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 163428
+    checksum: sha256:1bf8c60dbe0163690562f426333697e9bd21db8c7ac8ae82f3edbea1686ec674
+    name: rubygem-actionview
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-actionview-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-activejob-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 39235
+    checksum: sha256:2b076041f54d3c41022810aa392eec0e521159244bdc1dadb87a5b9ad4eda6a9
+    name: rubygem-activejob
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-activejob-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-activemodel-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 64823
+    checksum: sha256:ead5e2af2259d734f8770726fa96b92a4271cdfc332fc308b5fe700958a6a4c9
+    name: rubygem-activemodel
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-activemodel-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-activerecord-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 414606
+    checksum: sha256:a58fdd040652dba8f5c90f0a84845ed508d0ef6716fce2e90d551a311b0a0c2d
+    name: rubygem-activerecord
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-activerecord-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-activerecord-session_store-2.2.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 17699
+    checksum: sha256:22010a9b8e212204ed08e8c4a2c3213d30a0e453f847fed39880bba905f7c622
+    name: rubygem-activerecord-session_store
+    evr: 2.2.0-2.el10
+    sourcerpm: rubygem-activerecord-session_store-2.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-activestorage-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 72215
+    checksum: sha256:30348f6beee1e4a00694a897d490adcad5304aaefa9a8a1305815cec02c3fc97
+    name: rubygem-activestorage
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-activestorage-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-activesupport-7.0.10-3.el10.noarch.rpm
+    repoid: foreman
+    size: 224582
+    checksum: sha256:c92bb6d95b77e529b5937acc7824e163a7628adbec7bccab92beaf4c8ae85328
+    name: rubygem-activesupport
+    evr: 7.0.10-3.el10
+    sourcerpm: rubygem-activesupport-7.0.10-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-addressable-2.9.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 61041
+    checksum: sha256:06086e37738d56eb0dca2ba7f5e26de3a2c2c14bb69fb3312cfa3bf798d5af6a
+    name: rubygem-addressable
+    evr: 2.9.0-2.el10
+    sourcerpm: rubygem-addressable-2.9.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-algebrick-0.7.5-2.el10.noarch.rpm
+    repoid: foreman
+    size: 24632
+    checksum: sha256:4cc79d83d7b81af7e88ffb124a30b2f936f1c936c9fb217e670dbaf3c391d0c4
+    name: rubygem-algebrick
+    evr: 0.7.5-2.el10
+    sourcerpm: rubygem-algebrick-0.7.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-ancestry-4.3.3-2.el10.noarch.rpm
+    repoid: foreman
+    size: 19263
+    checksum: sha256:0da8f89568a9a6632e7cb9523497cf23a33dd042bf2303872e51fe65a31f4181
+    name: rubygem-ancestry
+    evr: 4.3.3-2.el10
+    sourcerpm: rubygem-ancestry-4.3.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-anonymous_loader-0.1.3-2.el10.noarch.rpm
+    repoid: foreman
+    size: 15685
+    checksum: sha256:515e231a020ce3f5060b38e4e0da4ee186a3138135584178b30220277edd4daf
+    name: rubygem-anonymous_loader
+    evr: 0.1.3-2.el10
+    sourcerpm: rubygem-anonymous_loader-0.1.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-apipie-dsl-2.6.3-2.el10.noarch.rpm
+    repoid: foreman
+    size: 103990
+    checksum: sha256:ac7f8d0c21b3ca3fe9a057161342d0180814ae2d2183033004bf9893a35d0f1d
+    name: rubygem-apipie-dsl
+    evr: 2.6.3-2.el10
+    sourcerpm: rubygem-apipie-dsl-2.6.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-apipie-rails-1.5.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 151265
+    checksum: sha256:d4f56a02f5f0570037905716af92d808f8fb7919fe1d9bba5d6da6345167ca53
+    name: rubygem-apipie-rails
+    evr: 1.5.1-2.el10
+    sourcerpm: rubygem-apipie-rails-1.5.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-audited-5.8.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 22793
+    checksum: sha256:d049f4435e351a6f42891947b0903ecb5100a727d434b70ac73df6f96c5035c7
+    name: rubygem-audited
+    evr: 5.8.0-2.el10
+    sourcerpm: rubygem-audited-5.8.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-auth-sanitizer-0.2.3-2.el10.noarch.rpm
+    repoid: foreman
+    size: 17649
+    checksum: sha256:d8361ec0452dec85ea84838a1dfcbcc63cf1c0448d89b4c33887f405aef96ca5
+    name: rubygem-auth-sanitizer
+    evr: 0.2.3-2.el10
+    sourcerpm: rubygem-auth-sanitizer-0.2.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-bcrypt-3.1.22-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 27666
+    checksum: sha256:f862bf0a42f78cc88f634af13d50b91c53f2a598db6f5d6dbc7fe2f865689203
+    name: rubygem-bcrypt
+    evr: 3.1.22-2.el10
+    sourcerpm: rubygem-bcrypt-3.1.22-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-builder-3.3.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 20631
+    checksum: sha256:27e9cafd1245b11e06e1088ede9fa301417234987dd5e98ab546e45f052b35b8
+    name: rubygem-builder
+    evr: 3.3.0-2.el10
+    sourcerpm: rubygem-builder-3.3.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-bundler_ext-0.4.1-8.el10.noarch.rpm
+    repoid: foreman
+    size: 12110
+    checksum: sha256:6a25fcc31bd7b933b1f1942a2856a006ac58d04eb794cb25e15f83baae28e622
+    name: rubygem-bundler_ext
+    evr: 0.4.1-8.el10
+    sourcerpm: rubygem-bundler_ext-0.4.1-8.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-colorize-0.8.1-4.el10.noarch.rpm
+    repoid: foreman
+    size: 17337
+    checksum: sha256:3c6f14e91803e882123215c053f06ddcc7d9a2ab6bbf5d31fcb4be397e01164e
+    name: rubygem-colorize
+    evr: 0.8.1-4.el10
+    sourcerpm: rubygem-colorize-0.8.1-4.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-concurrent-ruby-1.1.10-3.el10.noarch.rpm
+    repoid: foreman
+    size: 249923
+    checksum: sha256:256a65947799e3e7da3a7b3a6863cb04844a3430b1ef19071a564ed2418e9610
+    name: rubygem-concurrent-ruby
+    evr: 1:1.1.10-3.el10
+    sourcerpm: rubygem-concurrent-ruby-1.1.10-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-concurrent-ruby-edge-0.6.0-5.fm5_0.el10.noarch.rpm
+    repoid: foreman
+    size: 67513
+    checksum: sha256:9980ee64ab66df044a8016af6c2dc9cc40689705cbaf891c30356be981181ca0
+    name: rubygem-concurrent-ruby-edge
+    evr: 1:0.6.0-5.fm5_0.el10
+    sourcerpm: rubygem-concurrent-ruby-edge-0.6.0-5.fm5_0.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-connection_pool-2.5.5-2.el10.noarch.rpm
+    repoid: foreman
+    size: 15810
+    checksum: sha256:5c7061216efcaf517b8c8944a688393f8bde9290bdd998550bf91b7cd1acf86c
+    name: rubygem-connection_pool
+    evr: 2.5.5-2.el10
+    sourcerpm: rubygem-connection_pool-2.5.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-crass-1.0.7-2.el10.noarch.rpm
+    repoid: foreman
+    size: 20109
+    checksum: sha256:fad19973dc996f2575797c84557ff130158e3597352d106d9ec20401a62914e0
+    name: rubygem-crass
+    evr: 1.0.7-2.el10
+    sourcerpm: rubygem-crass-1.0.7-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-css_parser-1.22.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 25143
+    checksum: sha256:cfadfc5707a3860dd0bdf5360e600529c6236be0d2aaa1de4466f7904976d2fe
+    name: rubygem-css_parser
+    evr: 1.22.0-2.el10
+    sourcerpm: rubygem-css_parser-1.22.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-daemons-1.4.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 26930
+    checksum: sha256:b16154926a03faef306e3128bd63c66dfda67adceb4cb359b4678cb8be9aac07
+    name: rubygem-daemons
+    evr: 1.4.1-2.el10
+    sourcerpm: rubygem-daemons-1.4.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-deacon-1.0.0-6.el10.noarch.rpm
+    repoid: foreman
+    size: 277624
+    checksum: sha256:5a60ef2d0b7e7feac1a5d9c3803e0ac546ece4c438c22b992e6575d19f98dfd8
+    name: rubygem-deacon
+    evr: 1.0.0-6.el10
+    sourcerpm: rubygem-deacon-1.0.0-6.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-declarative-0.0.20-2.el10.noarch.rpm
+    repoid: foreman
+    size: 14141
+    checksum: sha256:41507aa80b4c99c6f0de3171bf8c5b830752bb8cebc93db1d6acf839ec69077b
+    name: rubygem-declarative
+    evr: 0.0.20-2.el10
+    sourcerpm: rubygem-declarative-0.0.20-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-deep_cloneable-3.2.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 12201
+    checksum: sha256:585d3e5bcabe2bbfaee04cd9aac577593306d231063e299b79596e7b9246284c
+    name: rubygem-deep_cloneable
+    evr: 3.2.2-2.el10
+    sourcerpm: rubygem-deep_cloneable-3.2.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-domain_name-0.6.20240107-2.el10.noarch.rpm
+    repoid: foreman
+    size: 52913
+    checksum: sha256:5b8de5a1e60c0200d926fff87ff6623a05c588b8db730770869050fcfdd4da40
+    name: rubygem-domain_name
+    evr: 0.6.20240107-2.el10
+    sourcerpm: rubygem-domain_name-0.6.20240107-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-dynflow-2.0.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 363449
+    checksum: sha256:7b38947dd80a862d0c6c9f87283c44e96c097403d5559760457c227a53fe9dc2
+    name: rubygem-dynflow
+    evr: 2.0.1-2.el10
+    sourcerpm: rubygem-dynflow-2.0.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-erubi-1.13.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 13944
+    checksum: sha256:3a2a6952f80f0e0b625ae1d40d80e7ec5f9ae918525ba2f8134f26b9af66d014
+    name: rubygem-erubi
+    evr: 1.13.1-2.el10
+    sourcerpm: rubygem-erubi-1.13.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-excon-1.2.5-2.el10.noarch.rpm
+    repoid: foreman
+    size: 38155
+    checksum: sha256:bc2400a0fbf4dd45e922b1cf4eb63b24c025b5a010495122313dae0b3e8cc5b1
+    name: rubygem-excon
+    evr: 1.2.5-2.el10
+    sourcerpm: rubygem-excon-1.2.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-facter-4.10.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 287206
+    checksum: sha256:333e8ed3f43ad6a312ad06e0821719fcdfa5fa7d4b5d4bbbf5953f4a7b78fa80
+    name: rubygem-facter
+    evr: 4.10.0-2.el10
+    sourcerpm: rubygem-facter-4.10.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-1.10.6-2.el10.noarch.rpm
+    repoid: foreman
+    size: 41716
+    checksum: sha256:4ba532e8fbb55dd4590369ab6ad46c58bdf3a51a60ccade6be0bad722b307c37
+    name: rubygem-faraday
+    evr: 1.10.6-2.el10
+    sourcerpm: rubygem-faraday-1.10.6-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-em_http-1.0.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 12654
+    checksum: sha256:bcc4440a26503b1398e715db4e8f2b296af05829eb8520ace7016287a5ebdd06
+    name: rubygem-faraday-em_http
+    evr: 1.0.0-2.el10
+    sourcerpm: rubygem-faraday-em_http-1.0.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-em_synchrony-1.0.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 12105
+    checksum: sha256:60387585566c9e0e98e8480e3506c1c00f2c76b4544b894c916c933789f83a34
+    name: rubygem-faraday-em_synchrony
+    evr: 1.0.1-2.el10
+    sourcerpm: rubygem-faraday-em_synchrony-1.0.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-excon-1.1.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 10829
+    checksum: sha256:bdcaf9fe48ed815f6d88d0c3c640763e692406d37efecb92433467885075f8ce
+    name: rubygem-faraday-excon
+    evr: 1.1.0-2.el10
+    sourcerpm: rubygem-faraday-excon-1.1.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-httpclient-1.0.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11407
+    checksum: sha256:b45b5f3090229b9bee02df3a16d87a613f204aea3381bf14d6827e6dad0ca98a
+    name: rubygem-faraday-httpclient
+    evr: 1.0.1-2.el10
+    sourcerpm: rubygem-faraday-httpclient-1.0.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-multipart-1.2.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 13155
+    checksum: sha256:4e9b8d60b09e0687d5fc998137ae4ba2ecb9b4bb9be04c52157abe83d4f0bc75
+    name: rubygem-faraday-multipart
+    evr: 1.2.0-2.el10
+    sourcerpm: rubygem-faraday-multipart-1.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-net_http-1.0.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11761
+    checksum: sha256:6ae4d8f608b6a4a1f84a232516ea9cf9e8ce88fa22c3d05bceb7b1c5946dcb6f
+    name: rubygem-faraday-net_http
+    evr: 1.0.2-2.el10
+    sourcerpm: rubygem-faraday-net_http-1.0.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-net_http_persistent-1.2.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11243
+    checksum: sha256:00f9ea058d9b45b723b0aa49c17eea5f6f729ca9954b84cc8debd93b167feb9e
+    name: rubygem-faraday-net_http_persistent
+    evr: 1.2.0-2.el10
+    sourcerpm: rubygem-faraday-net_http_persistent-1.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-patron-1.0.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11072
+    checksum: sha256:7bcea9848eacd80ff9a96ca50f8faa76b6c18d27bd87a2b9807e634862c64693
+    name: rubygem-faraday-patron
+    evr: 1.0.0-2.el10
+    sourcerpm: rubygem-faraday-patron-1.0.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-rack-1.0.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 10529
+    checksum: sha256:9fffdfbba7afef1162e34c62370e416b6d9a074858965ecb98f28484c70ebfdd
+    name: rubygem-faraday-rack
+    evr: 1.0.0-2.el10
+    sourcerpm: rubygem-faraday-rack-1.0.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-faraday-retry-1.0.4-2.el10.noarch.rpm
+    repoid: foreman
+    size: 12491
+    checksum: sha256:0e3683979c90b3c457d883d3edd4ca7ed173d49daa32fd432043bc454d081a33
+    name: rubygem-faraday-retry
+    evr: 1.0.4-2.el10
+    sourcerpm: rubygem-faraday-retry-1.0.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fast_gettext-2.4.0-3.el10.noarch.rpm
+    repoid: foreman
+    size: 30806
+    checksum: sha256:ae31260c98cac8cc722a96714b28a8e0cadb7ba7b804d5053f9ed63f8968edb1
+    name: rubygem-fast_gettext
+    evr: 2.4.0-3.el10
+    sourcerpm: rubygem-fast_gettext-2.4.0-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-ffi-1.17.4-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 122009
+    checksum: sha256:cf4799777b5508bbd156a8eade9892c53914c933286a451e045640bc221ab555
+    name: rubygem-ffi
+    evr: 1.17.4-2.el10
+    sourcerpm: rubygem-ffi-1.17.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fog-aws-3.33.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 517355
+    checksum: sha256:41d39ae9898a7292f38c25293ee775ccce1d3228b07da04fbbfa6069dd4cc2bb
+    name: rubygem-fog-aws
+    evr: 3.33.2-2.el10
+    sourcerpm: rubygem-fog-aws-3.33.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fog-core-2.6.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 48735
+    checksum: sha256:03734997c50e93b7623197554f133007cfde40cfae7a566132d6d466371fbc32
+    name: rubygem-fog-core
+    evr: 2.6.0-2.el10
+    sourcerpm: rubygem-fog-core-2.6.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fog-json-1.4.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 10201
+    checksum: sha256:63434edc691a9fabf610389779c2d965fbb860b15980ececbd11fe1b27befb89
+    name: rubygem-fog-json
+    evr: 1.4.0-2.el10
+    sourcerpm: rubygem-fog-json-1.4.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fog-libvirt-0.15.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 31061
+    checksum: sha256:95108b5a93e237e6ddf8b5a546025b388951f527211c06d9e3433e5a0e02ac86
+    name: rubygem-fog-libvirt
+    evr: 0.15.0-2.el10
+    sourcerpm: rubygem-fog-libvirt-0.15.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fog-openstack-1.1.5-2.el10.noarch.rpm
+    repoid: foreman
+    size: 315852
+    checksum: sha256:b0ab4e01b98aca9528af4c9295335f25a5cfe692b9289831a7af4b9c1229b39c
+    name: rubygem-fog-openstack
+    evr: 1.1.5-2.el10
+    sourcerpm: rubygem-fog-openstack-1.1.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fog-vsphere-3.7.3-2.el10.noarch.rpm
+    repoid: foreman
+    size: 75898
+    checksum: sha256:a8f25d69fb48b3943a5b7f2062004aa99b62886cb061837d5ab479bf806cda8c
+    name: rubygem-fog-vsphere
+    evr: 3.7.3-2.el10
+    sourcerpm: rubygem-fog-vsphere-3.7.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-fog-xml-0.1.5-2.el10.noarch.rpm
+    repoid: foreman
+    size: 12117
+    checksum: sha256:1b5301f8db880d822e44638dccb6325132efef7c9328a3acd0aba73501e40d32
+    name: rubygem-fog-xml
+    evr: 0.1.5-2.el10
+    sourcerpm: rubygem-fog-xml-0.1.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-formatador-1.2.3-2.el10.noarch.rpm
+    repoid: foreman
+    size: 12442
+    checksum: sha256:372bf281608a7c89c4fb2d31ac37c5d3cb56d136f840d265e01450baf73f9200
+    name: rubygem-formatador
+    evr: 1.2.3-2.el10
+    sourcerpm: rubygem-formatador-1.2.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-friendly_id-5.7.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 31631
+    checksum: sha256:ede2b428422366b10b6086d9b5f50ac2256502fe447fc6b1981707094ff1ff0c
+    name: rubygem-friendly_id
+    evr: 5.7.0-2.el10
+    sourcerpm: rubygem-friendly_id-5.7.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-get_process_mem-1.0.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 10493
+    checksum: sha256:5756f7df85b1c7f1113bfe859928dff9c07f445eb4945dd2694df41c1bba670e
+    name: rubygem-get_process_mem
+    evr: 1.0.0-2.el10
+    sourcerpm: rubygem-get_process_mem-1.0.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-gettext_i18n_rails-1.13.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 18669
+    checksum: sha256:fb4f5013234d2f717af57566b46899b7276934e20c6b96680892115810b14223
+    name: rubygem-gettext_i18n_rails
+    evr: 1.13.0-2.el10
+    sourcerpm: rubygem-gettext_i18n_rails-1.13.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-gitlab-sidekiq-fetcher-0.9.0-3.el10.noarch.rpm
+    repoid: foreman
+    size: 14942
+    checksum: sha256:29b269ae10e07540c73feba2b4a1acc5ac3b6befb46146a13252d7d47450f5f1
+    name: rubygem-gitlab-sidekiq-fetcher
+    evr: 0.9.0-3.el10
+    sourcerpm: rubygem-gitlab-sidekiq-fetcher-0.9.0-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-globalid-1.4.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 19125
+    checksum: sha256:3523752a84d75a91d3516f59d99328e2814ba09b426931e39c1bbb56cfd22d5a
+    name: rubygem-globalid
+    evr: 1.4.0-2.el10
+    sourcerpm: rubygem-globalid-1.4.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-google-apis-compute_v1-0.54.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 220535
+    checksum: sha256:051bc5ff0374d30fa81d1e0ac280380aa26ff7143d3dd1e5a3c1b859caaa2406
+    name: rubygem-google-apis-compute_v1
+    evr: 0.54.0-2.el10
+    sourcerpm: rubygem-google-apis-compute_v1-0.54.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-google-apis-core-0.9.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 38785
+    checksum: sha256:a10dc085c9ae84258389e184ed2b86f96c1e6ab48dc5b75b06d2aa3fdef9e301
+    name: rubygem-google-apis-core
+    evr: 0.9.1-2.el10
+    sourcerpm: rubygem-google-apis-core-0.9.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-google-cloud-env-1.6.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 16939
+    checksum: sha256:6094ed12be09d33c3b44380ce2f97bc44e57cc1b7cf74fa8acfd111f8ddb46a8
+    name: rubygem-google-cloud-env
+    evr: 1.6.0-2.el10
+    sourcerpm: rubygem-google-cloud-env-1.6.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-googleauth-1.3.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 37018
+    checksum: sha256:cafdc2a87ddbc27ec7746f2abe80b59f3cd03ff2e9fc39021cc11fe49bb1971b
+    name: rubygem-googleauth
+    evr: 1.3.0-2.el10
+    sourcerpm: rubygem-googleauth-1.3.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-graphql-1.13.25-2.el10.noarch.rpm
+    repoid: foreman
+    size: 333323
+    checksum: sha256:26e9c682b34faf9579599a41e593b5542088a2f3a1515ff48f761d6192b35fcf
+    name: rubygem-graphql
+    evr: 1.13.25-2.el10
+    sourcerpm: rubygem-graphql-1.13.25-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-graphql-batch-0.6.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 13290
+    checksum: sha256:eb6f7679bad599398bb7f92503748df7ad54854a69d06de7eae307e3ff116f36
+    name: rubygem-graphql-batch
+    evr: 0.6.1-2.el10
+    sourcerpm: rubygem-graphql-batch-0.6.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-hashie-5.1.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 39634
+    checksum: sha256:2c89f2623f6e642a27e5af5a08b91e2092c4709fc0d14a5ce9e1c5754d190d91
+    name: rubygem-hashie
+    evr: 5.1.0-2.el10
+    sourcerpm: rubygem-hashie-5.1.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-hocon-1.4.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 90845
+    checksum: sha256:c92a91155815339f9d4a7aa66a9c08919a445ca4f4f8610510215f95413b635c
+    name: rubygem-hocon
+    evr: 1.4.0-2.el10
+    sourcerpm: rubygem-hocon-1.4.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-http-accept-1.7.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 14373
+    checksum: sha256:0f57eb8a6e44e63c86009f84a9c5459ec4a5212252b3e82cef305b7eb49e1358
+    name: rubygem-http-accept
+    evr: 1.7.0-2.el10
+    sourcerpm: rubygem-http-accept-1.7.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-http-cookie-1.1.6-2.el10.noarch.rpm
+    repoid: foreman
+    size: 28660
+    checksum: sha256:f9a2945c88607919dbf61e0b76e461f63ab4d417d9b9e5fcd7bacd1892ee418c
+    name: rubygem-http-cookie
+    evr: 1.1.6-2.el10
+    sourcerpm: rubygem-http-cookie-1.1.6-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-httpclient-2.8.3-5.el10.noarch.rpm
+    repoid: foreman
+    size: 209931
+    checksum: sha256:cb1954056f6af5c3203d8552221a2347e138b47ef499bf10bbc8a55727b96e2c
+    name: rubygem-httpclient
+    evr: 2.8.3-5.el10
+    sourcerpm: rubygem-httpclient-2.8.3-5.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-i18n-1.14.8-2.el10.noarch.rpm
+    repoid: foreman
+    size: 51888
+    checksum: sha256:3a92d169b004136779cf488d30bce97ef587f8fbec1a396fe5208a1c893ac628
+    name: rubygem-i18n
+    evr: 1.14.8-2.el10
+    sourcerpm: rubygem-i18n-1.14.8-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-jquery-ui-rails-6.0.1-3.el10.noarch.rpm
+    repoid: foreman
+    size: 167103
+    checksum: sha256:fda22e4e3fb7a3f24c17200d06c97e0f0015c78b6f03091c66484c45848fa9ba
+    name: rubygem-jquery-ui-rails
+    evr: 6.0.1-3.el10
+    sourcerpm: rubygem-jquery-ui-rails-6.0.1-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-jwt-2.10.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 35776
+    checksum: sha256:9cf95d142fad6d3798979d39b86608c9da3e9f06a0dddd9bf00248d7bde335da
+    name: rubygem-jwt
+    evr: 2.10.1-2.el10
+    sourcerpm: rubygem-jwt-2.10.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-ldap_fluff-0.9.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 16857
+    checksum: sha256:c0a9025c048076c41806607073f8648d379a489cea23dbd98acf9d0e7b2ae157
+    name: rubygem-ldap_fluff
+    evr: 0.9.0-2.el10
+    sourcerpm: rubygem-ldap_fluff-0.9.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-little-plugger-1.1.4-4.el10.noarch.rpm
+    repoid: foreman
+    size: 12969
+    checksum: sha256:f08d1ff9d17a28df0377fd6be475ad006376fc239dcc26438f07a93e4237200c
+    name: rubygem-little-plugger
+    evr: 1.1.4-4.el10
+    sourcerpm: rubygem-little-plugger-1.1.4-4.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-logging-2.4.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 57400
+    checksum: sha256:7effee0db7621c700f282bf01c85a57c1d2f125ad10c2ccf805e224ba3f9a18b
+    name: rubygem-logging
+    evr: 2.4.0-2.el10
+    sourcerpm: rubygem-logging-2.4.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-loofah-2.25.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 30633
+    checksum: sha256:c03cc18b84fe33e8c47697927247e524829b9bab749f8a7a803823c03075c115
+    name: rubygem-loofah
+    evr: 2.25.2-2.el10
+    sourcerpm: rubygem-loofah-2.25.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-mail-2.9.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 302163
+    checksum: sha256:aa7658a50d9b0494b3b5690f00b29b78ad0b40e2b319b704981664fd7ed433bf
+    name: rubygem-mail
+    evr: 2.9.1-2.el10
+    sourcerpm: rubygem-mail-2.9.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-marcel-1.2.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 47960
+    checksum: sha256:bd27c8e48abf480a9f7e3b5a844b92a88c8e8d71cfcdffe0ee5f477f5eb0b1fa
+    name: rubygem-marcel
+    evr: 1.2.1-2.el10
+    sourcerpm: rubygem-marcel-1.2.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-memoist-0.16.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11433
+    checksum: sha256:55f9ce4cb8e22d86d9060a8df52a48ee278f994775fd75710a21cb25c05b7a7f
+    name: rubygem-memoist
+    evr: 0.16.2-2.el10
+    sourcerpm: rubygem-memoist-0.16.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-method_source-1.1.0-3.el10.noarch.rpm
+    repoid: foreman
+    size: 13531
+    checksum: sha256:d335edc082a2f5e746116605a36880e82c87242d31983a0630082334ed27c6f2
+    name: rubygem-method_source
+    evr: 1.1.0-3.el10
+    sourcerpm: rubygem-method_source-1.1.0-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-mime-types-3.7.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 28877
+    checksum: sha256:43f9459520273b93f237c816ff5c56805c7c75079903a94c87b616e34c99ba33
+    name: rubygem-mime-types
+    evr: 3.7.0-2.el10
+    sourcerpm: rubygem-mime-types-3.7.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-mime-types-data-3.2026.0701-2.el10.noarch.rpm
+    repoid: foreman
+    size: 133617
+    checksum: sha256:2cb000cf4001f99f244c6cc4444b5ca31ebe7f28736217021665ade02b4288fb
+    name: rubygem-mime-types-data
+    evr: 3.2026.0701-2.el10
+    sourcerpm: rubygem-mime-types-data-3.2026.0701-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-mini_mime-1.1.5-2.el10.noarch.rpm
+    repoid: foreman
+    size: 27082
+    checksum: sha256:991c1143747f68bb50105bdda6e38f98d71c49baa16a1c265ebfc408299cd7e6
+    name: rubygem-mini_mime
+    evr: 1.1.5-2.el10
+    sourcerpm: rubygem-mini_mime-1.1.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-msgpack-1.8.4-1.el10.x86_64.rpm
+    repoid: foreman
+    size: 51656
+    checksum: sha256:519e645b20671d6fc26fba5384f1dd1f3838b5bd43d31f830103f72c6ea8b152
+    name: rubygem-msgpack
+    evr: 1.8.4-1.el10
+    sourcerpm: rubygem-msgpack-1.8.4-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-multi_json-1.19.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 23462
+    checksum: sha256:7a61990fc6a6cd47741a6f4717b90ecc0d75f9fbd6e050b105c7b2353a89b155
+    name: rubygem-multi_json
+    evr: 1.19.1-2.el10
+    sourcerpm: rubygem-multi_json-1.19.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-multipart-post-2.4.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 18628
+    checksum: sha256:b36f5a1ce914bd5365a38facadf494fc370aefa819bf5fff8a2daf2a853cd8f1
+    name: rubygem-multipart-post
+    evr: 2.4.1-2.el10
+    sourcerpm: rubygem-multipart-post-2.4.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-mustermann-2.0.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 38100
+    checksum: sha256:614be04f443af83dbadd5bb63ab3102bac144f6ed7d2c93b66b424f0f8811c2b
+    name: rubygem-mustermann
+    evr: 2.0.2-2.el10
+    sourcerpm: rubygem-mustermann-2.0.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-net-ldap-0.20.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 61210
+    checksum: sha256:17dc5b12c72f7f0367f301b5b7382b66a7c2e075d989c7a826e8ca078e0680b8
+    name: rubygem-net-ldap
+    evr: 0.20.0-2.el10
+    sourcerpm: rubygem-net-ldap-0.20.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-net-ping-2.1.0-1.el10.noarch.rpm
+    repoid: foreman
+    size: 17719
+    checksum: sha256:dc5763a85ee1a60c6fbcc02cc85f5b5846619d1125fe17a43ed5e865c5466416
+    name: rubygem-net-ping
+    evr: 2.1.0-1.el10
+    sourcerpm: rubygem-net-ping-2.1.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-net-scp-4.1.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 20867
+    checksum: sha256:ea4ca313a82866a2587be9ff9ad3a5678e4a917fdf7c2c690bda4b2a231d9c38
+    name: rubygem-net-scp
+    evr: 4.1.0-2.el10
+    sourcerpm: rubygem-net-scp-4.1.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-net-ssh-7.3.3-2.el10.noarch.rpm
+    repoid: foreman
+    size: 122810
+    checksum: sha256:b8f163603349e8ae5b1669cb3ccfcc375e22fac0ff193982dd85eac363a1f34c
+    name: rubygem-net-ssh
+    evr: 7.3.3-2.el10
+    sourcerpm: rubygem-net-ssh-7.3.3-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-net_http_unix-0.2.2-3.el10.noarch.rpm
+    repoid: foreman
+    size: 13961
+    checksum: sha256:cfdcaa90817b3fae125f20c8a5f9021d93f4506fa2a31335f3b702c6712892bf
+    name: rubygem-net_http_unix
+    evr: 0.2.2-3.el10
+    sourcerpm: rubygem-net_http_unix-0.2.2-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-netrc-0.11.0-8.el10.noarch.rpm
+    repoid: foreman
+    size: 11747
+    checksum: sha256:c43604b50dad261eaba4aa3cc936c07be570a53382013c1873547068676e8cc9
+    name: rubygem-netrc
+    evr: 0.11.0-8.el10
+    sourcerpm: rubygem-netrc-0.11.0-8.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-nio4r-2.7.5-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 55634
+    checksum: sha256:3c373a3dda8d87a7df21ff9df637b67feb9a9bf71ba6eba2619622c1c5c6a1b8
+    name: rubygem-nio4r
+    evr: 2.7.5-2.el10
+    sourcerpm: rubygem-nio4r-2.7.5-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-nokogiri-1.17.2-4.el10.x86_64.rpm
+    repoid: foreman
+    size: 285650
+    checksum: sha256:a3dcfbed2ddc04ce4cb40ef3849db33e202e2e672898bb5db4dc676e809137e0
+    name: rubygem-nokogiri
+    evr: 1.17.2-4.el10
+    sourcerpm: rubygem-nokogiri-1.17.2-4.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-oauth-1.1.8-2.el10.noarch.rpm
+    repoid: foreman
+    size: 38879
+    checksum: sha256:0966598b5814c3f093292e3dbd6803e2ee0ce4356b68bf396b26dabb8eaf9dbf
+    name: rubygem-oauth
+    evr: 1.1.8-2.el10
+    sourcerpm: rubygem-oauth-1.1.8-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-oauth-tty-1.0.13-2.el10.noarch.rpm
+    repoid: foreman
+    size: 22104
+    checksum: sha256:56ca0b656821ade669cc135ac548bfb55729d61460e21b445d37994c37a63550
+    name: rubygem-oauth-tty
+    evr: 1.0.13-2.el10
+    sourcerpm: rubygem-oauth-tty-1.0.13-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-optimist-3.2.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 23841
+    checksum: sha256:864592e5e1e974b9bd11f95f9e0ef8631fc8d58a2d832d92991bfbbec55149f5
+    name: rubygem-optimist
+    evr: 3.2.1-2.el10
+    sourcerpm: rubygem-optimist-3.2.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-os-1.1.4-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11743
+    checksum: sha256:6023195196f79a153806e743c98972a4293c9963efd1dbcdf45dfe7002f49232
+    name: rubygem-os
+    evr: 1.1.4-2.el10
+    sourcerpm: rubygem-os-1.1.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-parallel-1.28.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 15101
+    checksum: sha256:44b8ac0714259be7fe5bf91386e1de6807123e4068a0625d81432178a61999a5
+    name: rubygem-parallel
+    evr: 1.28.0-2.el10
+    sourcerpm: rubygem-parallel-1.28.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-pg-1.6.3-3.el10.x86_64.rpm
+    repoid: foreman
+    size: 128022
+    checksum: sha256:7f907a0db1df6b78f81366fb9d0737bf82368e51d02f6c1406df5c89ac83722a
+    name: rubygem-pg
+    evr: 1.6.3-3.el10
+    sourcerpm: rubygem-pg-1.6.3-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-prism-1.9.0-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 626573
+    checksum: sha256:516ca005df79ebba75ba94ce2adc721fbfe368fd182f3ce5edb0994b35fa8a61
+    name: rubygem-prism
+    evr: 1.9.0-2.el10
+    sourcerpm: rubygem-prism-1.9.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-promise.rb-0.7.4-4.el10.noarch.rpm
+    repoid: foreman
+    size: 14987
+    checksum: sha256:126045d6969a4974893fc3d6a8949430627c097c1f6db488ecb61d35a0ccf1ed
+    name: rubygem-promise.rb
+    evr: 0.7.4-4.el10
+    sourcerpm: rubygem-promise.rb-0.7.4-4.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-public_suffix-6.0.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 94275
+    checksum: sha256:701e8202275bcf0fbcc09f740195b7ef085455cd6da74b87458a81460f017b8c
+    name: rubygem-public_suffix
+    evr: 6.0.2-2.el10
+    sourcerpm: rubygem-public_suffix-6.0.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-puma-6.6.1-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 109924
+    checksum: sha256:26d8f3b1b89c5a89eb9214a36f14064ee3038bf32e429674411b23963c1b569e
+    name: rubygem-puma
+    evr: 6.6.1-2.el10
+    sourcerpm: rubygem-puma-6.6.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-puma-status-1.6-2.el10.noarch.rpm
+    repoid: foreman
+    size: 13239
+    checksum: sha256:c773aa30e93c404063f3f36ccdb714ec1e43d4fe1536d775d2008c54ffe89780
+    name: rubygem-puma-status
+    evr: 1.6-2.el10
+    sourcerpm: rubygem-puma-status-1.6-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rabl-0.17.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 24058
+    checksum: sha256:7a21d83308439e6c59b48bc6762b42c9a296e5f816b84a609ec049e82767cded
+    name: rubygem-rabl
+    evr: 0.17.0-2.el10
+    sourcerpm: rubygem-rabl-0.17.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rack-2.2.23-2.el10.noarch.rpm
+    repoid: foreman
+    size: 130963
+    checksum: sha256:90ae95e4a96b652ad02041a54b2101c4291944499096b6763becf44d65dab7f6
+    name: rubygem-rack
+    evr: 2.2.23-2.el10
+    sourcerpm: rubygem-rack-2.2.23-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rack-cors-1.1.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 12936
+    checksum: sha256:5c412d46cd2aa7269ece2548746f439aa9b559cd22f6569eabcad321e3d69e54
+    name: rubygem-rack-cors
+    evr: 1.1.1-2.el10
+    sourcerpm: rubygem-rack-cors-1.1.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rack-jsonp-1.3.1-12.el10.noarch.rpm
+    repoid: foreman
+    size: 10256
+    checksum: sha256:651c65000795355a780e5cf2438ab924a7a042287a50393e67bb5e61e928607b
+    name: rubygem-rack-jsonp
+    evr: 1.3.1-12.el10
+    sourcerpm: rubygem-rack-jsonp-1.3.1-12.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rack-protection-2.2.4-2.el10.noarch.rpm
+    repoid: foreman
+    size: 21368
+    checksum: sha256:c593fb407536f24472d3ecce1565adb63f49f0588002c5b98aea9c269230ee0b
+    name: rubygem-rack-protection
+    evr: 2.2.4-2.el10
+    sourcerpm: rubygem-rack-protection-2.2.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rack-test-2.2.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 18690
+    checksum: sha256:2bbf5df015ba7d166c1d3210b900803de674d6b5885fa8af3da4ba6d9dad72bc
+    name: rubygem-rack-test
+    evr: 2.2.0-2.el10
+    sourcerpm: rubygem-rack-test-2.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rails-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 9865
+    checksum: sha256:9cb708ff0207b12f9d101718a0b1738955e9eac33567cac5629147f301d7aeca
+    name: rubygem-rails
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-rails-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rails-dom-testing-2.3.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 18010
+    checksum: sha256:481ef7f3a25e3990480063d97228d5cc62e60bb408baa9520459016a4de5f31a
+    name: rubygem-rails-dom-testing
+    evr: 2.3.0-2.el10
+    sourcerpm: rubygem-rails-dom-testing-2.3.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rails-html-sanitizer-1.7.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 15524
+    checksum: sha256:d84ef23518b679e54fc2440bd6a6b319e48fde702a6f50c67cecd5ab8ce60d14
+    name: rubygem-rails-html-sanitizer
+    evr: 1.7.1-2.el10
+    sourcerpm: rubygem-rails-html-sanitizer-1.7.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rails-i18n-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 135431
+    checksum: sha256:9ea2fd3bc61664f7d5216ea3abc8b5eeccd0ea37db7514a0f604827322e79c3c
+    name: rubygem-rails-i18n
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-rails-i18n-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-railties-7.0.10-2.el10.noarch.rpm
+    repoid: foreman
+    size: 195936
+    checksum: sha256:0ddc84d13cbcae77b62590166d068f8b3ea54d81a5c5195d5c26f11277ce023d
+    name: rubygem-railties
+    evr: 7.0.10-2.el10
+    sourcerpm: rubygem-railties-7.0.10-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rbvmomi2-3.10.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 226821
+    checksum: sha256:d70566f94e490e53b2d676de83ae2a7f8e1df0c9da26a328909c5b2cc04bda8a
+    name: rubygem-rbvmomi2
+    evr: 3.10.0-2.el10
+    sourcerpm: rubygem-rbvmomi2-3.10.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-redis-4.5.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 52309
+    checksum: sha256:b432582ed63cf84daafa3994de4918e5fbb73db0d8bdcdc77d7d9eb902f75ec6
+    name: rubygem-redis
+    evr: 4.5.1-2.el10
+    sourcerpm: rubygem-redis-4.5.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-representable-3.2.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 28066
+    checksum: sha256:6a9bd9183437fd08cf1976468cdb18faa54aff037850687156427ed1bff5415e
+    name: rubygem-representable
+    evr: 3.2.0-2.el10
+    sourcerpm: rubygem-representable-3.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-responders-3.2.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 22062
+    checksum: sha256:901949088b7a0cf80b9f41a63eaab46564830c17b03e13253af1e5ae5f4b934c
+    name: rubygem-responders
+    evr: 3.2.0-2.el10
+    sourcerpm: rubygem-responders-3.2.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-rest-client-2.1.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 35026
+    checksum: sha256:abc1cdf818234a8d0ad8522e194a59d9952e732cd6b6a412b983aa942c629fd1
+    name: rubygem-rest-client
+    evr: 2.1.0-2.el10
+    sourcerpm: rubygem-rest-client-2.1.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-retriable-3.1.2-4.el10.noarch.rpm
+    repoid: foreman
+    size: 11396
+    checksum: sha256:70f431459ccf0bdf8ba98576dc605740f79f9930e8fbe55e2881a6e0b1d71fdb
+    name: rubygem-retriable
+    evr: 3.1.2-4.el10
+    sourcerpm: rubygem-retriable-3.1.2-4.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-roadie-5.2.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 28913
+    checksum: sha256:614b7a4024b01f90680614cf6363772ec8686396c0a0d29587d43f3c01ec5fd3
+    name: rubygem-roadie
+    evr: 5.2.1-2.el10
+    sourcerpm: rubygem-roadie-5.2.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-roadie-rails-3.4.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 14535
+    checksum: sha256:25bf24f3065f3540036e2abffdf3242612e9eb41c0f9040cb0c2f08cf6d2e86b
+    name: rubygem-roadie-rails
+    evr: 3.4.0-2.el10
+    sourcerpm: rubygem-roadie-rails-3.4.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-ruby-libvirt-0.8.4-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 101011
+    checksum: sha256:61658e6b5af012c408d3a115914f511596e1971e0ab308685d3b7029dcd50b7d
+    name: rubygem-ruby-libvirt
+    evr: 0.8.4-2.el10
+    sourcerpm: rubygem-ruby-libvirt-0.8.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-ruby2ruby-2.5.2-3.el10.noarch.rpm
+    repoid: foreman
+    size: 16980
+    checksum: sha256:e246e22d21504f17e8f2d7e2843916fb2f48e686e789975628946998c6843bbe
+    name: rubygem-ruby2ruby
+    evr: 2.5.2-3.el10
+    sourcerpm: rubygem-ruby2ruby-2.5.2-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-safemode-2.0.2-1.el10.noarch.rpm
+    repoid: foreman
+    size: 20484
+    checksum: sha256:dc2dea5a2133fdb7428262dc0fa5aca32fda2639d442a8da3af8c6c03ed568a7
+    name: rubygem-safemode
+    evr: 2.0.2-1.el10
+    sourcerpm: rubygem-safemode-2.0.2-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-scoped_search-5.0.0-1.el10.noarch.rpm
+    repoid: foreman
+    size: 36097
+    checksum: sha256:209b72454e1a2ee22b830966fe85d82317bd0a25885bfe862fcdd20f4cb67c52
+    name: rubygem-scoped_search
+    evr: 5.0.0-1.el10
+    sourcerpm: rubygem-scoped_search-5.0.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sd_notify-0.1.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 10096
+    checksum: sha256:5cb6f796c3e3d3f57152c6a33a62d70722cfa5da545811b1f5d3831dfa19ad25
+    name: rubygem-sd_notify
+    evr: 0.1.1-2.el10
+    sourcerpm: rubygem-sd_notify-0.1.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-secure_headers-7.3.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 31244
+    checksum: sha256:30e97db5cf61b55f7eb93738e7df79619ab0e42db62601b6bd0ff6a133b9f6c4
+    name: rubygem-secure_headers
+    evr: 7.3.0-2.el10
+    sourcerpm: rubygem-secure_headers-7.3.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sequel-5.107.0-1.el10.noarch.rpm
+    repoid: foreman
+    size: 551334
+    checksum: sha256:bf42d4c00965a34461c4616838d48fa9b199c370279a499444d2f19380a7b3d7
+    name: rubygem-sequel
+    evr: 5.107.0-1.el10
+    sourcerpm: rubygem-sequel-5.107.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sexp_processor-4.17.4-2.el10.noarch.rpm
+    repoid: foreman
+    size: 39128
+    checksum: sha256:325a739d1f2e259d3788572f5484dc055e48f993a7da847914b4abbb373fa769
+    name: rubygem-sexp_processor
+    evr: 4.17.4-2.el10
+    sourcerpm: rubygem-sexp_processor-4.17.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sidekiq-6.5.12-2.el10.noarch.rpm
+    repoid: foreman
+    size: 335112
+    checksum: sha256:cecc203c4b63e631c114ae6dc7167b65f5461ba02957f8a05b1b7c4c1b9c1dc1
+    name: rubygem-sidekiq
+    evr: 6.5.12-2.el10
+    sourcerpm: rubygem-sidekiq-6.5.12-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-signet-0.17.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 33389
+    checksum: sha256:8ff7c20d1e59071497e1f4b5d47f2694e7bf50e2d69c3ce3ae7123aa23234903
+    name: rubygem-signet
+    evr: 0.17.0-2.el10
+    sourcerpm: rubygem-signet-0.17.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sinatra-2.2.4-2.el10.noarch.rpm
+    repoid: foreman
+    size: 77390
+    checksum: sha256:f195b9aaa1e5551a511d1bef49b70870ad22c32b89b974dae37db2483c7c66bd
+    name: rubygem-sinatra
+    evr: 1:2.2.4-2.el10
+    sourcerpm: rubygem-sinatra-2.2.4-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-snaky_hash-2.0.7-2.el10.noarch.rpm
+    repoid: foreman
+    size: 17981
+    checksum: sha256:f65e0412d57e978be5c657db1ce9cbaeb2fb866ce0d585e2515ca1495d2cad62
+    name: rubygem-snaky_hash
+    evr: 2.0.7-2.el10
+    sourcerpm: rubygem-snaky_hash-2.0.7-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sprockets-4.2.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 78327
+    checksum: sha256:619e7f8c3e21cdbd270d898993d77a75abb90acaba1ffa380db741a10902fedf
+    name: rubygem-sprockets
+    evr: 4.2.2-2.el10
+    sourcerpm: rubygem-sprockets-4.2.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sprockets-rails-3.5.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 18282
+    checksum: sha256:6064380283bda1ea6f79a1ce31de566d089aa2fc40f94b6eee746e2631c50ee2
+    name: rubygem-sprockets-rails
+    evr: 3.5.2-2.el10
+    sourcerpm: rubygem-sprockets-rails-3.5.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-sshkey-2.0.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 13118
+    checksum: sha256:98fd1fcc64493ca1eeacb7945726402e8b275c6cdfaf210e29d7871892240097
+    name: rubygem-sshkey
+    evr: 2.0.0-2.el10
+    sourcerpm: rubygem-sshkey-2.0.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-statsd-instrument-2.9.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 35274
+    checksum: sha256:8248acfb3c172960735589e959ced6e1494903271c6905b67160e80cedef4646
+    name: rubygem-statsd-instrument
+    evr: 2.9.2-2.el10
+    sourcerpm: rubygem-statsd-instrument-2.9.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-thor-1.3.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 57908
+    checksum: sha256:147394cbd6f9811887f2759e079328b15f3680218aeb39b6feb606df9aef2b97
+    name: rubygem-thor
+    evr: 1.3.0-2.el10
+    sourcerpm: rubygem-thor-1.3.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-tilt-2.8.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 38101
+    checksum: sha256:c4bb5645d3b0b43db4e167d629fe0fbfedab14c2f43f25e3201b7287bbab3152
+    name: rubygem-tilt
+    evr: 2.8.0-2.el10
+    sourcerpm: rubygem-tilt-2.8.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-trailblazer-option-0.1.2-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11596
+    checksum: sha256:32ce7951ff57dba64d8768cbe6ff49fb722f50b132a2261e5e6866befddbe619
+    name: rubygem-trailblazer-option
+    evr: 0.1.2-2.el10
+    sourcerpm: rubygem-trailblazer-option-0.1.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-tzinfo-2.0.6-2.el10.noarch.rpm
+    repoid: foreman
+    size: 62336
+    checksum: sha256:e65501b665cb74ea6eb4ce339e2f884031d9476bc57bda6a4c195612f7366163
+    name: rubygem-tzinfo
+    evr: 2.0.6-2.el10
+    sourcerpm: rubygem-tzinfo-2.0.6-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-uber-0.1.0-4.el10.noarch.rpm
+    repoid: foreman
+    size: 11525
+    checksum: sha256:77fa995827de343db0678f76657e4f15ccdcf4b575f868a4671b3b569169d22e
+    name: rubygem-uber
+    evr: 0.1.0-4.el10
+    sourcerpm: rubygem-uber-0.1.0-4.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-validates_lengths_from_database-0.8.0-2.el10.noarch.rpm
+    repoid: foreman
+    size: 11079
+    checksum: sha256:c5a6baafc3181896d72b609fd8cd76d26e27d1f8b599682c24b6126f63b8bf71
+    name: rubygem-validates_lengths_from_database
+    evr: 0.8.0-2.el10
+    sourcerpm: rubygem-validates_lengths_from_database-0.8.0-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-version_gem-1.1.15-1.el10.noarch.rpm
+    repoid: foreman
+    size: 14165
+    checksum: sha256:9851de80a4c7974445089ec51f9e6b0ebec1df9060aa15060377f0b1afbbbf17
+    name: rubygem-version_gem
+    evr: 1.1.15-1.el10
+    sourcerpm: rubygem-version_gem-1.1.15-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-websocket-driver-0.8.2-2.el10.x86_64.rpm
+    repoid: foreman
+    size: 25535
+    checksum: sha256:01a6b0b06801ab2cee3de39bcd85cb33729b52342ac3f794a08ad493bf8bad9b
+    name: rubygem-websocket-driver
+    evr: 0.8.2-2.el10
+    sourcerpm: rubygem-websocket-driver-0.8.2-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-websocket-extensions-0.1.5-3.el10.noarch.rpm
+    repoid: foreman
+    size: 11374
+    checksum: sha256:98c31b3b0f6cd8130c349d878203b59779e808e62debaf3600cf24225b410957
+    name: rubygem-websocket-extensions
+    evr: 0.1.5-3.el10
+    sourcerpm: rubygem-websocket-extensions-0.1.5-3.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-will_paginate-3.3.1-2.el10.noarch.rpm
+    repoid: foreman
+    size: 25506
+    checksum: sha256:b50c5bc93141313db38cb33512ee2a4119876ee917886556ab0ec4fe71d1c82c
+    name: rubygem-will_paginate
+    evr: 3.3.1-2.el10
+    sourcerpm: rubygem-will_paginate-3.3.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.0/el10/x86_64/rubygem-zeitwerk-2.6.18-2.el10.noarch.rpm
+    repoid: foreman
+    size: 27289
+    checksum: sha256:dc009fba9ea2ae9bb9008d4c14dd5f507b07fe7602cc2d8feb741e0f4356f846
+    name: rubygem-zeitwerk
+    evr: 2.6.18-2.el10
+    sourcerpm: rubygem-zeitwerk-2.6.18-2.el10.src.rpm
+  source:
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libburn-1.5.6-6.el10.src.rpm
+    repoid: appstream-source
+    size: 1033656
+    checksum: sha256:99901e3b29fc79ed9a5ccb52ae4fdf6f4c5482aee78a117d831b113ce5124d38
+    name: libburn
+    evr: 1.5.6-6.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libisoburn-1.5.6-6.el10.src.rpm
+    repoid: appstream-source
+    size: 1688946
+    checksum: sha256:c6216441ff69bb1af26757929a83b8b40e537d0f0725354b74254c726c24d1e3
+    name: libisoburn
+    evr: 1.5.6-6.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libisofs-1.5.6-6.el10.src.rpm
+    repoid: appstream-source
+    size: 913987
+    checksum: sha256:c711a66be887d5ebedc824f049542cff46e8ea2bd86e1ef0f6f676fb2149ac2a
+    name: libisofs
+    evr: 1.5.6-6.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libvirt-12.8.0-1.el10.src.rpm
+    repoid: appstream-source
+    size: 10982108
+    checksum: sha256:d874c826e0744580bfa9f6e7388d2b1864ca7df6a6b444c2c87101bde6f60292
+    name: libvirt
+    evr: 12.8.0-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libxkbcommon-1.7.0-4.el10.src.rpm
+    repoid: appstream-source
+    size: 561799
+    checksum: sha256:de965c5e95c9c89f20a71db42e2ffa9ee362fc0059f8bc150663f2986e901267
+    name: libxkbcommon
+    evr: 1.7.0-4.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libxslt-1.1.39-10.el10.src.rpm
+    repoid: appstream-source
+    size: 1629820
+    checksum: sha256:d340676aaef332a3c3f6fafc2fda4dd3d9e27ca30aba0eb9302544b31b9e7733
+    name: libxslt
+    evr: 1.1.39-10.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/openwsman-2.8.1-3.el10.src.rpm
+    repoid: appstream-source
+    size: 580407
+    checksum: sha256:766fed7eed7c341eb64d13251664d1bfeba8feace99c93c914804709e7e85d23
+    name: openwsman
+    evr: 2.8.1-3.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/postfix-3.8.5-11.el10.src.rpm
+    repoid: appstream-source
+    size: 5043178
+    checksum: sha256:0467a6e750589043cc28de8d8751a07b8d826769e5338b4337d186d137534e5d
+    name: postfix
+    evr: 2:3.8.5-11.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/ruby-3.3.12-15.el10.src.rpm
+    repoid: appstream-source
+    size: 16112865
+    checksum: sha256:ab071c8b2d53604eeec784ba56d86f4d4de451c764b94d6717d227d802068591
+    name: ruby
+    evr: 3.3.12-15.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/sshpass-1.09-9.el10.src.rpm
+    repoid: appstream-source
+    size: 132238
+    checksum: sha256:a69a040ed4b7c9357d965bfd508a1af5fe7330d30b6fb41021a095e0da1d9987
+    name: sshpass
+    evr: 1.09-9.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/wget-1.24.5-8.el10.src.rpm
+    repoid: appstream-source
+    size: 5241350
+    checksum: sha256:745c150fc43e010e739043e337f41dabe5ebc8fb28179ef44388efd55f747bed
+    name: wget
+    evr: 1.24.5-8.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/xkeyboard-config-2.41-3.el10.src.rpm
+    repoid: appstream-source
+    size: 927273
+    checksum: sha256:17e845d5c8e5b42f126b7a78b789c752d8c020b5cd6263a577f5f3b52680f263
+    name: xkeyboard-config
+    evr: 2.41-3.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/cronie-1.7.0-15.el10.src.rpm
+    repoid: baseos-source
+    size: 328203
+    checksum: sha256:04170cd44254dc4f825637215c946598ee72965fec24712948a2d59ed4104bed
+    name: cronie
+    evr: 1.7.0-15.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/crontabs-1.11^20190603git9e74f2d-6.el10.src.rpm
+    repoid: baseos-source
+    size: 35351
+    checksum: sha256:b68a3c8faad223ad983f1a208eca44bdaed9764fdb77bbd6daf494d08cacf225
+    name: crontabs
+    evr: 1.11^20190603git9e74f2d-6.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/cryptsetup-2.8.6-2.el10.src.rpm
+    repoid: baseos-source
+    size: 11977389
+    checksum: sha256:e25c181cec3f5bddad5fe7ef720d31f28442e1ee69722eb9691fd4f10e49e491
+    name: cryptsetup
+    evr: 2.8.6-2.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/cyrus-sasl-2.1.28-27.el10.src.rpm
+    repoid: baseos-source
+    size: 3986456
+    checksum: sha256:7e38b200c063c7722112c0cfa3ff223fe84bf094ba38bee048aee00d692a7ea3
+    name: cyrus-sasl
+    evr: 2.1.28-27.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/dbus-1.14.10-6.el10.src.rpm
+    repoid: baseos-source
+    size: 1478421
+    checksum: sha256:f473dd625ade3467288e2cf4890cc70cbb26f132fe7f2f3f853c4488efcb5868
+    name: dbus
+    evr: 1:1.14.10-6.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/dbus-broker-36-5.el10.src.rpm
+    repoid: baseos-source
+    size: 297478
+    checksum: sha256:176ddb70bad3570eb42bbd16bce549975ac0ef4849c9e95aa5d728c1d4cda9db
+    name: dbus-broker
+    evr: 36-5.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/diffutils-3.10-8.el10.src.rpm
+    repoid: baseos-source
+    size: 1668440
+    checksum: sha256:652e43eab02fff06271b3a23728ef80c9e887f2854845e1482302cb5a5f261b5
+    name: diffutils
+    evr: 3.10-8.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/glibc-2.39-141.el10.src.rpm
+    repoid: baseos-source
+    size: 21717031
+    checksum: sha256:8da1d5a051c980ea78cf8ce6f51444d15b401e07907e452b6b5196f68e1bb631
+    name: glibc
+    evr: 2.39-141.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/hostname-3.23-14.el10.src.rpm
+    repoid: baseos-source
+    size: 45390
+    checksum: sha256:accaffe30530ce488cc5d96cf6a22c58c548f8ad4c59b763b6dd477fb4c8eb89
+    name: hostname
+    evr: 3.23-14.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/icu-74.2-5.el10.src.rpm
+    repoid: baseos-source
+    size: 25233981
+    checksum: sha256:d418cb8fa71fa947ab414671e2c56fe1de0ac061038a58e4769bae4ef680f512
+    name: icu
+    evr: 74.2-5.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/kmod-31-13.el10.src.rpm
+    repoid: baseos-source
+    size: 624960
+    checksum: sha256:eb870626f1763fea8338c906244777818e3707872ffaa007504474b391ab4f48
+    name: kmod
+    evr: 31-13.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libbpf-1.7.0-2.el10.src.rpm
+    repoid: baseos-source
+    size: 153700813
+    checksum: sha256:a547f385193c3f1e7c0fcb1c14cb129c1e25bd67883f873b6c770ce852a0cb0e
+    name: libbpf
+    evr: 2:1.7.0-2.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libcbor-0.11.0-3.el10.src.rpm
+    repoid: baseos-source
+    size: 310461
+    checksum: sha256:84089047aeb12cd4598d44d4e1ec043b0460aa2909b22a87aaa345cb3ccec34d
+    name: libcbor
+    evr: 0.11.0-3.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libevent-2.1.13-1.el10.src.rpm
+    repoid: baseos-source
+    size: 1167982
+    checksum: sha256:98dc9484b4aa40c00a7471c506afb2e008d0cf5aa2b94f80dae2e851f29a69a7
+    name: libevent
+    evr: 2.1.13-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libfido2-1.14.0-7.el10.src.rpm
+    repoid: baseos-source
+    size: 902377
+    checksum: sha256:c29b2270d8e7fb9e9ad9c5967378b52e231950294e96f4ae34261f35743de53a
+    name: libfido2
+    evr: 1.14.0-7.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libnl3-3.11.0-1.el10.src.rpm
+    repoid: baseos-source
+    size: 5088268
+    checksum: sha256:8e222a92db19609a6cc22f8e178bb83ecfaf3ff0f5b247ee34d0f1e9c66aa129
+    name: libnl3
+    evr: 3.11.0-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libpq-16.11-3.el10.src.rpm
+    repoid: baseos-source
+    size: 24924508
+    checksum: sha256:91abaca0170c3be864479409fbda35b1401a59debca5d5e008d8fdb614fca34a
+    name: libpq
+    evr: 16.11-3.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libpsl-0.21.5-6.el10.src.rpm
+    repoid: baseos-source
+    size: 7602569
+    checksum: sha256:51b7da27e4ecc55b57ff7ceb7860ffcc8c78b00911c4e1b7fdbfe4a27f13e1b5
+    name: libpsl
+    evr: 0.21.5-6.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libseccomp-2.5.6-1.el10.src.rpm
+    repoid: baseos-source
+    size: 659452
+    checksum: sha256:52c36d39c29cf81465b0c5d38331b78ccfcc80ed134d5c33c7d3fcf0d9a09bb3
+    name: libseccomp
+    evr: 2.5.6-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libselinux-3.11-3.el10.src.rpm
+    repoid: baseos-source
+    size: 407591
+    checksum: sha256:16373cc54a5fd9e4638da94f57674c87738de20b389e071b1f8f8d90210596fb
+    name: libselinux
+    evr: 3.11-3.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libssh-0.12.2-2.el10.src.rpm
+    repoid: baseos-source
+    size: 805202
+    checksum: sha256:8a73d40cf1634b3cdcdc24152b2d8da05da85874bbe566836b3521f7c8a669ce
+    name: libssh
+    evr: 0.12.2-2.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libtirpc-1.3.5-1.el10.src.rpm
+    repoid: baseos-source
+    size: 609690
+    checksum: sha256:26723751c7b9b5ce5ae4201bd22441c7d7178923ee6362c016337d498ea322fd
+    name: libtirpc
+    evr: 1.3.5-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/lmdb-0.9.32-4.el10.src.rpm
+    repoid: baseos-source
+    size: 178638
+    checksum: sha256:596efc13c89e04234cc8a8e86f5f1fb690397fe448d51fc32b6dbf0c67e3309a
+    name: lmdb
+    evr: 0.9.32-4.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/lvm2-2.03.41-3.el10.src.rpm
+    repoid: baseos-source
+    size: 3322064
+    checksum: sha256:9766729c7b1d0f82236cb7220f97ed7dfd0fb4179bcafb71e643eabacf6782ea
+    name: lvm2
+    evr: 10:2.03.41-3.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/net-tools-2.0-0.73.20160912git.el10.src.rpm
+    repoid: baseos-source
+    size: 295500
+    checksum: sha256:674296b15cb1c94bee5368c7e950082396bdd78d15a36428bf0bea36218d1289
+    name: net-tools
+    evr: 2.0-0.73.20160912git.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/numactl-2.0.19-3.el10.src.rpm
+    repoid: baseos-source
+    size: 252979
+    checksum: sha256:ebbb5301594d57718fdd9ae1f53311123d3a266be141ebb0ba32563e7f79a789
+    name: numactl
+    evr: 2.0.19-3.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/openldap-2.6.13-1.el10.src.rpm
+    repoid: baseos-source
+    size: 6653206
+    checksum: sha256:ffe4f013c1b87ac54545752b7a13ab40ca4d1ccb025516b5c3b7f39e046c7aaa
+    name: openldap
+    evr: 2.6.13-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/openssl-3.5.8-1.el10.src.rpm
+    repoid: baseos-source
+    size: 53462874
+    checksum: sha256:3c877eac271754aedc860014e828cb7b5dc435f7840702af56e6ea8ad8333565
+    name: openssl
+    evr: 1:3.5.8-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/policycoreutils-3.11-1.el10.src.rpm
+    repoid: baseos-source
+    size: 8274355
+    checksum: sha256:2e0579006c1f45ed85b3cb5482c688d46428f7bc9a16470e7144708a6439e6fc
+    name: policycoreutils
+    evr: 3.11-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/publicsuffix-list-20240107-5.el10.src.rpm
+    repoid: baseos-source
+    size: 111057
+    checksum: sha256:798d9d9073b37e45244404946f513e9186591bcd3b085a10729c60c3b00e17bd
+    name: publicsuffix-list
+    evr: 20240107-5.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/python-setuptools-69.0.3-12.el10.src.rpm
+    repoid: baseos-source
+    size: 2295884
+    checksum: sha256:b3ebce130dc42384819eb9cec200c9b50d4f7184de5b6a5027eacebed630cfc4
+    name: python-setuptools
+    evr: 69.0.3-12.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/rpm-4.19.1.1-25.el10.src.rpm
+    repoid: baseos-source
+    size: 6053564
+    checksum: sha256:cf0b52bc4e2439e7eabe28ba5d63be0404640191648b1ae21df0eceeb45b6a21
+    name: rpm
+    evr: 4.19.1.1-25.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/systemd-257-34.el10.src.rpm
+    repoid: baseos-source
+    size: 20756505
+    checksum: sha256:b85667d0693461a505c4f37a06d73ade2d013c6b112ad7fcc9dd2e7107c1ae6b
+    name: systemd
+    evr: 257-34.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-activerecord-import-2.2.0-2.el10.src.rpm
+    repoid: katello-source
+    size: 84070
+    checksum: sha256:2d0ab414d2c93b6a7ca75655f9f4de111731de0ad5dd457fdec88ff5d4cac0b9
+    name: rubygem-activerecord-import
+    evr: 2.2.0-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-foreman_rh_cloud-14.6.2-1.fm5_0.el10.src.rpm
+    repoid: katello-source
+    size: 544467
+    checksum: sha256:bd38c2aa572da180ebb0322db8f986b27943913f360e6c0f6acc34cb8dcb8c0f
+    name: rubygem-foreman_rh_cloud
+    evr: 14.6.2-1.fm5_0.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-fx-0.9.0-2.el10.src.rpm
+    repoid: katello-source
+    size: 35562
+    checksum: sha256:aa61af7c013bbbe5feec0477021f279bcacb66abe40680b61f39ab7a9222f1dc
+    name: rubygem-fx
+    evr: 0.9.0-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-katello-5.0.1-1.el10.src.rpm
+    repoid: katello-source
+    size: 9613495
+    checksum: sha256:4dcd806a2ed86b0f8fd1a4c1cd0acc3265c47ca56ab279bf1c5db27cd0bdbcce
+    name: rubygem-katello
+    evr: 5.0.1-1.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_ansible_client-0.29.9-2.el10.src.rpm
+    repoid: katello-source
+    size: 222234
+    checksum: sha256:9cd8c31122c8605896a37412fe8c7ed5b272a5975f9e92910e2688127d1ffba8
+    name: rubygem-pulp_ansible_client
+    evr: 0.29.9-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_certguard_client-3.105.15-2.el10.src.rpm
+    repoid: katello-source
+    size: 46878
+    checksum: sha256:702cc1bf56a54f038a6d0ef01bc24c574577a2ccbf6eeca218a9201ba7bae12f
+    name: rubygem-pulp_certguard_client
+    evr: 3.105.15-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_container_client-2.27.11-1.el10.src.rpm
+    repoid: katello-source
+    size: 149015
+    checksum: sha256:d50a06586b57d2274a2f3e5ed08e5672854e28cf125932dd0c869e1a2583af00
+    name: rubygem-pulp_container_client
+    evr: 1:2.27.11-1.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_deb_client-3.8.2-2.el10.src.rpm
+    repoid: katello-source
+    size: 181581
+    checksum: sha256:6c99a1ff6759edd03efaf2357d35ccef0d63ce238525f2b485d6ca86ccb2edd3
+    name: rubygem-pulp_deb_client
+    evr: 3.8.2-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_file_client-3.105.15-2.el10.src.rpm
+    repoid: katello-source
+    size: 120224
+    checksum: sha256:b65ad46603f270923683636c96dfc739bf6fa7adccd15d6b69abadb11d9cd2d0
+    name: rubygem-pulp_file_client
+    evr: 3.105.15-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_ostree_client-2.6.1-2.el10.src.rpm
+    repoid: katello-source
+    size: 98227
+    checksum: sha256:0dd041ac512c2f78f40bd844f64c0912edf82e24e5932c7783947afbaf71d63b
+    name: rubygem-pulp_ostree_client
+    evr: 1:2.6.1-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_python_client-3.27.6-2.el10.src.rpm
+    repoid: katello-source
+    size: 128230
+    checksum: sha256:3b3184eb44d719d4c80750135b64b78097e4f77e368cd8fdc45b8be3f1979df6
+    name: rubygem-pulp_python_client
+    evr: 3.27.6-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulp_rpm_client-3.35.3-2.el10.src.rpm
+    repoid: katello-source
+    size: 181832
+    checksum: sha256:9ed46285eb9bb96920e7e2af1b0425402ab4d60c2f75df3835d9ae5b50e2d2f9
+    name: rubygem-pulp_rpm_client
+    evr: 3.35.3-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-pulpcore_client-3.105.15-2.el10.src.rpm
+    repoid: katello-source
+    size: 272527
+    checksum: sha256:8b38525aba654d2e9c21bcce3a6b3efe9da2e8a193ab6ffb228b15faf5348d7b
+    name: rubygem-pulpcore_client
+    evr: 1:3.105.15-2.el10
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-spidr-0.7.2-2.el10.src.rpm
+    repoid: katello-source
+    size: 54081
+    checksum: sha256:d106f1443d9c3ec1966270975351ed6489727bc2665a1f4d8aac33c661446fae
+    name: rubygem-spidr
+    evr: 0.7.2-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-acts_as_list-1.2.4-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 37855
+    checksum: sha256:9daf0ba604be979bf2150e0167a157388ee086255ce95025c6e19cc3dacdcd99
+    name: rubygem-acts_as_list
+    evr: 1.2.4-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-angular-rails-templates-1.4.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 21744
+    checksum: sha256:f12c0140f6790c0d650f60fe2627c28ca6239426524536cedee5cab29ad72e99
+    name: rubygem-angular-rails-templates
+    evr: 1:1.4.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-azure_mgmt_compute-0.22.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 1403618
+    checksum: sha256:111903e68dc3fd25f881b61ff4f164fa1ff184e3c39d9ef5a4514ba61b5e115f
+    name: rubygem-azure_mgmt_compute
+    evr: 0.22.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-azure_mgmt_network-0.26.1-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 5891646
+    checksum: sha256:3f3d6fc06ee5de6f9cae6fdb6b2c0a3438fbf11a31afa197f33811b702ab1a7b
+    name: rubygem-azure_mgmt_network
+    evr: 0.26.1-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-azure_mgmt_resources-0.18.2-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 398590
+    checksum: sha256:04f2580b3af913d1e2cbbfc5e8085bc9dcbae6491b8bf2f04c452c0267b7f223
+    name: rubygem-azure_mgmt_resources
+    evr: 0.18.2-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-azure_mgmt_storage-0.23.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 461812
+    checksum: sha256:57dc4e30352872e5cadd50cf5910b5ff9aaea6dc26382046bc89caccd1d31182
+    name: rubygem-azure_mgmt_storage
+    evr: 0.23.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-azure_mgmt_subscriptions-0.18.5-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 66117
+    checksum: sha256:55e530d670158d3eb5e122a54ea59a53ed06455028ac9ae5e1510c4143f3724c
+    name: rubygem-azure_mgmt_subscriptions
+    evr: 0.18.5-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-deface-1.9.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 61944
+    checksum: sha256:5e77946046df8574d21c75e2df8f3255794e4d6585d8f080c7292cbbb7f4aaa9
+    name: rubygem-deface
+    evr: 1.9.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-et-orbi-1.4.1-1.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 28279
+    checksum: sha256:460e23415c64395cd6ca7241abb74eceeff515429dac695e5e8fad1578a5c43e
+    name: rubygem-et-orbi
+    evr: 1.4.1-1.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-faraday-cookie_jar-0.0.8-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 16684
+    checksum: sha256:ed72fb39a98d81bcde06419be278062742b4f035015aa744e8c0dcdb5da19469
+    name: rubygem-faraday-cookie_jar
+    evr: 0.0.8-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-fog-kubevirt-1.8.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 77315
+    checksum: sha256:e9ac8ad0d0a63b1a934b2c018f82f3ecb2eeddf1d9b248e03c9f765bc36b86a8
+    name: rubygem-fog-kubevirt
+    evr: 1.8.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman-tasks-13.2.0-1.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 418763
+    checksum: sha256:fee9b9335e21597b4366d28cba1e1fd1b24821018f28d0a719b8ea4afde28156
+    name: rubygem-foreman-tasks
+    evr: 13.2.0-1.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_ansible-18.0.1-1.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 383724
+    checksum: sha256:e673545b5167d38ee5dfe01898ab943671108fb50b6350065d9cd383568abe1d
+    name: rubygem-foreman_ansible
+    evr: 18.0.1-1.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_azure_rm-3.0.4-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 89938
+    checksum: sha256:714c3fa87e4b3ac7d696573144d195444131c69f3aae17ee832303aa7fd4b20c
+    name: rubygem-foreman_azure_rm
+    evr: 3.0.4-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_google-3.0.8-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 76242
+    checksum: sha256:1b3af388d5e4e6e73afcc3b1a0715d926e760c3c6c5a4140c969b7f1b986bc38
+    name: rubygem-foreman_google
+    evr: 3.0.8-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_kubevirt-0.6.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 89175
+    checksum: sha256:e02fe6eeb82a159bb51bd35b7ac6e9d72f1b6a657853af1fd8eea19c34741d9f
+    name: rubygem-foreman_kubevirt
+    evr: 0.6.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_remote_execution-17.2.2-1.fm5_0.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 749397
+    checksum: sha256:502103f0892e263f86fb674654d24d5a947cedd04a1eef894c0ae9bf02870e5b
+    name: rubygem-foreman_remote_execution
+    evr: 17.2.2-1.fm5_0.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_webhooks-6.0.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 103144
+    checksum: sha256:7268e31e6db1c1a2c8ebda8f5d706772484b00516652c9e707c13191a07e0f8f
+    name: rubygem-foreman_webhooks
+    evr: 6.0.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-fugit-1.13.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 42311
+    checksum: sha256:06a9b59b3fb5dfbf15ddc9b84a338d25969d4ea17dc38d98d73a4277d5439740
+    name: rubygem-fugit
+    evr: 1.13.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-gapic-common-0.12.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 41607
+    checksum: sha256:f9ac3d80a8e5a6aee517ac71bed757190f052c54539d80489d60e30deb96176b
+    name: rubygem-gapic-common
+    evr: 0.12.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-google-cloud-common-1.1.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 13801
+    checksum: sha256:61a414aa5aab2ffbbc389aa787480c0fb85e88ac2fb0745db4943234b22b99b4
+    name: rubygem-google-cloud-common
+    evr: 1.1.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-google-cloud-compute-0.5.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 26611
+    checksum: sha256:69903c1c0851ee1e11ba93b36f09eb2bc604b9f610e5fc0ca6c6f7773c6e0447
+    name: rubygem-google-cloud-compute
+    evr: 0.5.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-google-cloud-compute-v1-1.7.1-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 1071501
+    checksum: sha256:272ec5844cbb9b345943ae7f323cd23824ba71bd0a4a45e05288eb3ab88d7b48
+    name: rubygem-google-cloud-compute-v1
+    evr: 1.7.1-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-google-cloud-core-1.6.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 28820
+    checksum: sha256:0377997f7742c2d7944804815f1f0d675ccc374843697e91fe19a42008181164
+    name: rubygem-google-cloud-core
+    evr: 1.6.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-google-cloud-errors-1.3.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 23235
+    checksum: sha256:b26fa5809f95716367135c12f212999eb026aea28fe658b7f0f9b44ca2f1e994
+    name: rubygem-google-cloud-errors
+    evr: 1.3.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-google-protobuf-3.24.3-3.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 235532
+    checksum: sha256:8410e0be1770b4e9851ae9aa5eff462373cf6776547ac9604fb7e7d066693b02
+    name: rubygem-google-protobuf
+    evr: 3.24.3-3.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-googleapis-common-protos-1.3.12-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 15048
+    checksum: sha256:cd6d372c2e00ad3f531bf9e355f9d42975e1a105aec2f08119482820c08d2963
+    name: rubygem-googleapis-common-protos
+    evr: 1.3.12-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-googleapis-common-protos-types-1.4.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 23457
+    checksum: sha256:eb25d5670c334950c69f7ada3e7cdd5d3909d3f91f31639d25ec9520839e484b
+    name: rubygem-googleapis-common-protos-types
+    evr: 1.4.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-grpc-1.58.0-3.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 6351927
+    checksum: sha256:ccd44b5c99f97a3f2d4176d6340b788100c31ac7116fa53c0346037475142687
+    name: rubygem-grpc
+    evr: 1.58.0-3.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-http-5.2.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 97745
+    checksum: sha256:8cdf44fdc83fa15e2e12a67fd02cad08bdc69f3af40f691a21b42a6d5e6c31fc
+    name: rubygem-http
+    evr: 5.2.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-http-form_data-2.3.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 26882
+    checksum: sha256:8ec768832547d3ecd76019da025a048d844da7057ae1e8661ec0bea9e3caac06
+    name: rubygem-http-form_data
+    evr: 2.3.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-jsonpath-1.1.2-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 32248
+    checksum: sha256:857a4d8581168fd3de579dfd1c695d144a766ea63e8bc2f429dbd00a9c4718cb
+    name: rubygem-jsonpath
+    evr: 1.1.2-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-kubeclient-4.13.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 45970
+    checksum: sha256:8559a136a59e693638b3673f2e5e35f86f6332bed3df3f0a4520b0b18223954b
+    name: rubygem-kubeclient
+    evr: 4.13.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-llhttp-0.6.1-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 65234
+    checksum: sha256:3ee26759e672a21f0b5c928e06beea87ec9ce347650ebc928d51582a24ba1b39
+    name: rubygem-llhttp
+    evr: 0.6.1-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-ms_rest-0.7.6-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 168025
+    checksum: sha256:9b70d19eb4135f74475f9be1eed08803ec41583dce8842e41e1da472804863e7
+    name: rubygem-ms_rest
+    evr: 0.7.6-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-ms_rest_azure-0.12.0-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 29933
+    checksum: sha256:c4ad28c5e794f8a37c4092457d009606a32ee988b1aa000bdff445ced7d7aa1b
+    name: rubygem-ms_rest_azure
+    evr: 0.12.0-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-polyglot-0.3.5-4.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 16367
+    checksum: sha256:6015e96f8875d3170d56415bb367306f2078cb377752ce914b133a0933b13bbd
+    name: rubygem-polyglot
+    evr: 0.3.5-4.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-raabro-1.5.0-1.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 21852
+    checksum: sha256:de13de3baed23980276185d3a253968029fe7a5325ad86331f5252846ffefd0b
+    name: rubygem-raabro
+    evr: 1.5.0-1.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-rainbow-3.1.1-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 22258
+    checksum: sha256:1593cb29756d2c20e52fb5598f63842f73a8984c96410a09883ddca4d6dfb57b
+    name: rubygem-rainbow
+    evr: 3.1.1-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-recursive-open-struct-1.1.3-2.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 30584
+    checksum: sha256:825592bdda49760a7827dadf3f636beaa03928f0b99520235530ac330a52a21c
+    name: rubygem-recursive-open-struct
+    evr: 1.1.3-2.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-timeliness-0.3.10-3.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 33352
+    checksum: sha256:94e6179840018ecf9e75250affb386c007d8c4dd59a8787fa9177829139ac9a2
+    name: rubygem-timeliness
+    evr: 0.3.10-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/dynflow-utils-2.0.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 36839
+    checksum: sha256:7d6fddbed1244cd4452c53848fdb841e6d52e4d5354488c67e3c4e2e63ce6dbd
+    name: dynflow-utils
+    evr: 2.0.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/foreman-5.0.1-1.el10.src.rpm
+    repoid: foreman-source
+    size: 5936132
+    checksum: sha256:8be31d1ed587a7f09e9a8092e1ec42eb7078fe911f3cfc1e7d78cab7e88f77ed
+    name: foreman
+    evr: 5.0.1-1.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/python-websockify-0.10.0-4.el10.src.rpm
+    repoid: foreman-source
+    size: 70383
+    checksum: sha256:1765445f3b8258d66cfb82285befc29846b5ff781c58dc68555638ac11c6d331
+    name: python-websockify
+    evr: 0.10.0-4.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-actioncable-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 56699
+    checksum: sha256:42c2b3cca075e70ce3fc72c7cee78653813a55a27c21fb09d623e0c37c3d97cd
+    name: rubygem-actioncable
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-actionmailbox-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 37481
+    checksum: sha256:3f6af767943fb5b42a6ae57e79d0a78bb727c569727ee37eaa53eca1d78c63a5
+    name: rubygem-actionmailbox
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-actionmailer-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 46686
+    checksum: sha256:65477d3875ba8ab962822522faf582ab45458f4bcfbc7eebcc95eba5b234e204
+    name: rubygem-actionmailer
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-actionpack-7.0.10-3.el10.src.rpm
+    repoid: foreman-source
+    size: 246784
+    checksum: sha256:ba487c0d58ac292ffce591f38e41ee0e2f5f4e9115356e90ef87a03109387047
+    name: rubygem-actionpack
+    evr: 7.0.10-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-actiontext-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 104328
+    checksum: sha256:a10878db3e66b086dde2921df4cddcbba7c32c0158bb9c778652f64ce00d6d2f
+    name: rubygem-actiontext
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-actionview-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 189322
+    checksum: sha256:8e5070042b0583de062d992aee57ea84dea83f25b34c08d879302af20041a37a
+    name: rubygem-actionview
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-activejob-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 45777
+    checksum: sha256:bb51d82fc942b8b20b8d0e8d8bee2019a68eb5dc73b4009f5e34f7feb5200175
+    name: rubygem-activejob
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-activemodel-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 74049
+    checksum: sha256:495d3bde220e00d930b11aad33e9474f6d7e122e748b128ab22e2c5687e3d5c3
+    name: rubygem-activemodel
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-activerecord-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 493788
+    checksum: sha256:84c4936b08966b1f4e05de0f7a9e3469db24705b2b447b29ab7e7096939bcd50
+    name: rubygem-activerecord
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-activerecord-session_store-2.2.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 24265
+    checksum: sha256:38580c85f3b7bcd78c7aaba0f001ada69f51fec489ac5505d103cf49187a438f
+    name: rubygem-activerecord-session_store
+    evr: 2.2.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-activestorage-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 79244
+    checksum: sha256:85adb3a7cb41688eb3698232f7ee3815dd1c159865bc721b72abbcd68108471b
+    name: rubygem-activestorage
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-activesupport-7.0.10-3.el10.src.rpm
+    repoid: foreman-source
+    size: 248844
+    checksum: sha256:b0f69d9caba67dd8215d47a88ff1e6405d7146f11af067fcbd3c1c1a1fc61fe7
+    name: rubygem-activesupport
+    evr: 7.0.10-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-addressable-2.9.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 87672
+    checksum: sha256:9e6fd12910c00037e4fae7baca2a85c62853bc05b60f9bed162c4d34e049f39a
+    name: rubygem-addressable
+    evr: 2.9.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-algebrick-0.7.5-2.el10.src.rpm
+    repoid: foreman-source
+    size: 34722
+    checksum: sha256:ae1c4a3ccfcdaabfc137a787d584f3ad94a4d6493a1cde18ac7a91f9e6754269
+    name: rubygem-algebrick
+    evr: 0.7.5-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-ancestry-4.3.3-2.el10.src.rpm
+    repoid: foreman-source
+    size: 37321
+    checksum: sha256:67b877519a8d1dc16586841439bde747a4a38403484bebae7b58c405fa66c52a
+    name: rubygem-ancestry
+    evr: 4.3.3-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-anonymous_loader-0.1.3-2.el10.src.rpm
+    repoid: foreman-source
+    size: 44097
+    checksum: sha256:b6e7eb11fb7641d165f16937d7430fb8b1966d66eccd7054243337bf84a64c16
+    name: rubygem-anonymous_loader
+    evr: 0.1.3-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-apipie-dsl-2.6.3-2.el10.src.rpm
+    repoid: foreman-source
+    size: 111289
+    checksum: sha256:06c518601e206b13c5efc6e0ff287ef0afa9f14f99bffba6d8d2edd58795ae09
+    name: rubygem-apipie-dsl
+    evr: 2.6.3-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-apipie-rails-1.5.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 437490
+    checksum: sha256:ca8a9b34f3c53cd935bb39dc910a74bbf85c213356fb31516ebb3a78dc11dc83
+    name: rubygem-apipie-rails
+    evr: 1.5.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-audited-5.8.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 37230
+    checksum: sha256:ae0326573ba0365de1d35653fd92c59a22d018850fca3520fb67225814717f1b
+    name: rubygem-audited
+    evr: 5.8.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-auth-sanitizer-0.2.3-2.el10.src.rpm
+    repoid: foreman-source
+    size: 52131
+    checksum: sha256:1aa4fd01f834b3339b99ebb784ea1aaaa664567db5fac2e3a645ad3cf1b3a684
+    name: rubygem-auth-sanitizer
+    evr: 0.2.3-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-bcrypt-3.1.22-2.el10.src.rpm
+    repoid: foreman-source
+    size: 59920
+    checksum: sha256:ca243137c53e923f6543d48809ffb64f09bf6f0839308ee06063ffaf847fcca8
+    name: rubygem-bcrypt
+    evr: 3.1.22-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-builder-3.3.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 39913
+    checksum: sha256:9b1fc84c4b69071cf92f7b06b4ceba5a3fe627d5176791ba9120953a695cecd7
+    name: rubygem-builder
+    evr: 3.3.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-bundler_ext-0.4.1-8.el10.src.rpm
+    repoid: foreman-source
+    size: 25224
+    checksum: sha256:8df32481e0961cdc5e68df1ec13a89cefcececa27213b0985a67b0e7922abd4e
+    name: rubygem-bundler_ext
+    evr: 0.4.1-8.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-colorize-0.8.1-4.el10.src.rpm
+    repoid: foreman-source
+    size: 24459
+    checksum: sha256:5024d785cdb260197d2196e3b25fe69bd5f7d3b8ad0117fbce6ef67aa901c091
+    name: rubygem-colorize
+    evr: 0.8.1-4.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-concurrent-ruby-1.1.10-3.el10.src.rpm
+    repoid: foreman-source
+    size: 372770
+    checksum: sha256:e1662bc4bcf1d7e512a216a6213529cbc6b93a15b379d1714fc230971d906823
+    name: rubygem-concurrent-ruby
+    evr: 1:1.1.10-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-concurrent-ruby-edge-0.6.0-5.fm5_0.el10.src.rpm
+    repoid: foreman-source
+    size: 78460
+    checksum: sha256:acdc1ab20d5a7a3daca1379fd8ce580d2a0c35ff047671f9127a3dd67785a9b7
+    name: rubygem-concurrent-ruby-edge
+    evr: 1:0.6.0-5.fm5_0.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-connection_pool-2.5.5-2.el10.src.rpm
+    repoid: foreman-source
+    size: 23399
+    checksum: sha256:2fde092cbeb3f6e9008f9703e119f73600c8b3cde983f1e9af04214910bb309f
+    name: rubygem-connection_pool
+    evr: 2.5.5-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-crass-1.0.7-2.el10.src.rpm
+    repoid: foreman-source
+    size: 30055
+    checksum: sha256:2929abe1f10cac6ff674bd6e344b440d3cfa946d2601604f7c906a4097da0f45
+    name: rubygem-crass
+    evr: 1.0.7-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-css_parser-1.22.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 31312
+    checksum: sha256:39e74e49fbabffdcaf05e318ea55582c456317b18b2502ef2adfea46d04a959f
+    name: rubygem-css_parser
+    evr: 1.22.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-daemons-1.4.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 41287
+    checksum: sha256:ac7ebf6bbf1e8e43b7031df28b179da67f65092e3acbf116821057f25f5ef20a
+    name: rubygem-daemons
+    evr: 1.4.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-deacon-1.0.0-6.el10.src.rpm
+    repoid: foreman-source
+    size: 307995
+    checksum: sha256:59fd5e92ef64b4a042063c456ea1aa7aa3d8237bf543a45131a95aa4f75e4e28
+    name: rubygem-deacon
+    evr: 1.0.0-6.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-declarative-0.0.20-2.el10.src.rpm
+    repoid: foreman-source
+    size: 19586
+    checksum: sha256:1dc06b20913c17665e755ced75ae01183f5451aa943f22f1669a30f46fedab4c
+    name: rubygem-declarative
+    evr: 0.0.20-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-deep_cloneable-3.2.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 26159
+    checksum: sha256:749fdab9437c715e3666a80979ee6bc07891dc3c4e86d43e3b95d1637ca730a0
+    name: rubygem-deep_cloneable
+    evr: 3.2.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-domain_name-0.6.20240107-2.el10.src.rpm
+    repoid: foreman-source
+    size: 159335
+    checksum: sha256:81e5bc607cd3ba45b4822eb50be58b6ea71b7abff481f8315437d910b4e4dfb8
+    name: rubygem-domain_name
+    evr: 0.6.20240107-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-dynflow-2.0.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 1023462
+    checksum: sha256:6721d97b89d11e256a9d84c70ddd82079f7b428aea19b5a27890ffd4d3521286
+    name: rubygem-dynflow
+    evr: 2.0.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-erubi-1.13.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 22601
+    checksum: sha256:0a93e9a5e79bacbf3dde5469eb6423393ee25e0f6049ea1cb1cafbe660787ee9
+    name: rubygem-erubi
+    evr: 1.13.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-excon-1.2.5-2.el10.src.rpm
+    repoid: foreman-source
+    size: 193783
+    checksum: sha256:0035751d62ee6e8f10f8aef352973a6ab8e91f05c6e7b0e8e4235d91149afcc5
+    name: rubygem-excon
+    evr: 1.2.5-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-facter-4.10.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 186535
+    checksum: sha256:bcf925a0934d6dfc72492540b71d935e0ea866308d2b854e3ff665f31295254d
+    name: rubygem-facter
+    evr: 4.10.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-1.10.6-2.el10.src.rpm
+    repoid: foreman-source
+    size: 82979
+    checksum: sha256:17c45b0ee5ff9a24f52f377b5074a25cfba3c64b6c68c65686bbd533a1dd7a24
+    name: rubygem-faraday
+    evr: 1.10.6-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-em_http-1.0.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 17022
+    checksum: sha256:1a0d33410c41829c53c03fd8ded48811f890f661177e729768a6dd3913480333
+    name: rubygem-faraday-em_http
+    evr: 1.0.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-em_synchrony-1.0.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 16885
+    checksum: sha256:c23e6c4c8aac011b62601c0d15e7be39982e6f08180ae630d4fbe73dcb6d627e
+    name: rubygem-faraday-em_synchrony
+    evr: 1.0.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-excon-1.1.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 15176
+    checksum: sha256:c826378224eb1d5ab17b9c510ccf03a5ef0dfa88fd540faa21f419c56cc73c59
+    name: rubygem-faraday-excon
+    evr: 1.1.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-httpclient-1.0.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 15862
+    checksum: sha256:e60d1162a6a5a0379859b3f2e9010a3b6c1289cfe3b59383d3c606661e76e58c
+    name: rubygem-faraday-httpclient
+    evr: 1.0.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-multipart-1.2.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 19187
+    checksum: sha256:bd2392e37aa04a4195ae9257cc5eb6650ce26a9593374b6f33813b211d9bb239
+    name: rubygem-faraday-multipart
+    evr: 1.2.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-net_http-1.0.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 16424
+    checksum: sha256:a5a72f56dd1e265fb346d0139fc41a2b11c56e671847343811703670690a4740
+    name: rubygem-faraday-net_http
+    evr: 1.0.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-net_http_persistent-1.2.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 16035
+    checksum: sha256:a9f3c4de4d258f35da9e7dd1ec503663d7681483e125f954902d2859db78e187
+    name: rubygem-faraday-net_http_persistent
+    evr: 1.2.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-patron-1.0.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 15444
+    checksum: sha256:d1e6357bbb8c292ef35f41114c10a85a896a33b02fdc97a3a74bbef61cd8c39e
+    name: rubygem-faraday-patron
+    evr: 1.0.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-rack-1.0.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 14827
+    checksum: sha256:37d48ed67961a2b4815189872acc8712a765e789cbf17ffd8952a3193fed667a
+    name: rubygem-faraday-rack
+    evr: 1.0.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-faraday-retry-1.0.4-2.el10.src.rpm
+    repoid: foreman-source
+    size: 18475
+    checksum: sha256:79c45fd2161e2e707868b3885312c802c320501017074d943655572df3dbe3f9
+    name: rubygem-faraday-retry
+    evr: 1.0.4-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fast_gettext-2.4.0-3.el10.src.rpm
+    repoid: foreman-source
+    size: 45552
+    checksum: sha256:9e583aad86e885215fd40251ea7bb2da7347a6c3b040c0ded81b9771220ac84a
+    name: rubygem-fast_gettext
+    evr: 2.4.0-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-ffi-1.17.4-2.el10.src.rpm
+    repoid: foreman-source
+    size: 907713
+    checksum: sha256:07c62e84525010be34ce213a43911e5defbed7f3c72df1c1e941c42f1ef97c72
+    name: rubygem-ffi
+    evr: 1.17.4-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fog-aws-3.33.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 452263
+    checksum: sha256:5820f8b24d11462015727fa91524218cf7d431cc27731f1438d5051110a57648
+    name: rubygem-fog-aws
+    evr: 3.33.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fog-core-2.6.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 60133
+    checksum: sha256:3a0c09c527020ed6723f4953d35bf8b54dc1aadd0fa7e89c079bee270d31fc7d
+    name: rubygem-fog-core
+    evr: 2.6.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fog-json-1.4.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 21211
+    checksum: sha256:d04ac3e51eefe2382f1a92a6e808b41ff6c501cd5a46165978f2584e23062f9d
+    name: rubygem-fog-json
+    evr: 1.4.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fog-libvirt-0.15.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 43581
+    checksum: sha256:072092f424698cd481e072aa89ebf16c681e02275ec1ac64c0c307c50d01a662
+    name: rubygem-fog-libvirt
+    evr: 0.15.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fog-openstack-1.1.5-2.el10.src.rpm
+    repoid: foreman-source
+    size: 244154
+    checksum: sha256:6ae489d813731a3ad8c2a170726fe1083dc016ee9efad135dabf733dd7b7313e
+    name: rubygem-fog-openstack
+    evr: 1.1.5-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fog-vsphere-3.7.3-2.el10.src.rpm
+    repoid: foreman-source
+    size: 327975
+    checksum: sha256:0b75b6a01b538f1cc481887023043725c51ddc54c21c389f7b0a9b63850f535a
+    name: rubygem-fog-vsphere
+    evr: 3.7.3-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-fog-xml-0.1.5-2.el10.src.rpm
+    repoid: foreman-source
+    size: 22224
+    checksum: sha256:297d7b98f8db9d61e5fc5d4a7d7c37c2758068eac84b9566a738b381374433e0
+    name: rubygem-fog-xml
+    evr: 0.1.5-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-formatador-1.2.3-2.el10.src.rpm
+    repoid: foreman-source
+    size: 27496
+    checksum: sha256:cabd37fd879c1086df98a43fe6311a155f85e910d9445cad0ac5a747bfe2c00e
+    name: rubygem-formatador
+    evr: 1.2.3-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-friendly_id-5.7.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 43841
+    checksum: sha256:37d1ea4571d0c516811a8c1b9481f79e0ae38c00170e31c8f8b3f050a4e302df
+    name: rubygem-friendly_id
+    evr: 5.7.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-get_process_mem-1.0.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 21477
+    checksum: sha256:cb22898b8a333f95819c4bb9a8135e2cdb732321f5771b335d21eec2842f63d9
+    name: rubygem-get_process_mem
+    evr: 1.0.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-gettext_i18n_rails-1.13.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 24602
+    checksum: sha256:3781a7cd6e864663c82d5268a9ab8541e3fa03119c48f7ff0fafb5855c4dc024
+    name: rubygem-gettext_i18n_rails
+    evr: 1.13.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-gitlab-sidekiq-fetcher-0.9.0-3.el10.src.rpm
+    repoid: foreman-source
+    size: 32263
+    checksum: sha256:702b8972317b3578a2c3b120cf26e0fae449d556f6e2c545330b90df8601374a
+    name: rubygem-gitlab-sidekiq-fetcher
+    evr: 0.9.0-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-globalid-1.4.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 26542
+    checksum: sha256:2c1264b6d01e004e5a4e999df2a101bca2329254dc2b265eb827eb6eea8f5154
+    name: rubygem-globalid
+    evr: 1.4.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-google-apis-compute_v1-0.54.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 393121
+    checksum: sha256:2cd86544762443f0a383d68485d993cfd51328a279b5a41f777320b9a326fbc6
+    name: rubygem-google-apis-compute_v1
+    evr: 0.54.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-google-apis-core-0.9.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 45944
+    checksum: sha256:b6d7d84d808ccd47e2b4270f8a3dfa4320bc9c5b18b2e11b8d88846e5c56f1fc
+    name: rubygem-google-apis-core
+    evr: 0.9.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-google-cloud-env-1.6.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 25423
+    checksum: sha256:8ae5051dfc97f328205963a4834026cee848aad910faf8a5dba51487e8e3b001
+    name: rubygem-google-cloud-env
+    evr: 1.6.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-googleauth-1.3.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 47695
+    checksum: sha256:942437b23ca073279513cf23bb1e3c4631cc6c8a2d2d18dff8dc6afbd6930461
+    name: rubygem-googleauth
+    evr: 1.3.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-graphql-1.13.25-2.el10.src.rpm
+    repoid: foreman-source
+    size: 345827
+    checksum: sha256:16ada08140403831761d959a840944de12cc87ed2f156c1ba162edc6265a3a5f
+    name: rubygem-graphql
+    evr: 1.13.25-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-graphql-batch-0.6.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 27207
+    checksum: sha256:dee53289ce0af65f21d3807cb366cf0428ed99f482ca7d9152d0831f7c204a90
+    name: rubygem-graphql-batch
+    evr: 0.6.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-hashie-5.1.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 66593
+    checksum: sha256:87379347a27016fb92e2ef3a8339c8f2b3131658bd599a0dc1dda6eebc251a49
+    name: rubygem-hashie
+    evr: 5.1.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-hocon-1.4.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 115910
+    checksum: sha256:7b7c6d7dfa7492362ea15cbdd8c7ff09e10aa620c57259f71325c5dc87d00714
+    name: rubygem-hocon
+    evr: 1.4.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-http-accept-1.7.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 20065
+    checksum: sha256:d14ccdd55e8c5c271ff6fd0e5174c91f8a71732f70ee3caef5a7d0b3c2a6cfd2
+    name: rubygem-http-accept
+    evr: 1.7.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-http-cookie-1.1.6-2.el10.src.rpm
+    repoid: foreman-source
+    size: 37671
+    checksum: sha256:f1c70ca68708e0033cc2465b6a400a4d92bcb25916d3d6f62dcc9375a2d78c7b
+    name: rubygem-http-cookie
+    evr: 1.1.6-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-httpclient-2.8.3-5.el10.src.rpm
+    repoid: foreman-source
+    size: 395292
+    checksum: sha256:293db2761de1762b923e6db69bd5c40a62f682836d52fb7d5247178176d78d94
+    name: rubygem-httpclient
+    evr: 2.8.3-5.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-i18n-1.14.8-2.el10.src.rpm
+    repoid: foreman-source
+    size: 57173
+    checksum: sha256:3f98121c6a4ee832b1ef0ab59404ddb17b2200eb8b3392a29c001cf8be439287
+    name: rubygem-i18n
+    evr: 1.14.8-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-jquery-ui-rails-6.0.1-3.el10.src.rpm
+    repoid: foreman-source
+    size: 186762
+    checksum: sha256:6b6d7f288c4acb24d109689257370e20a85e4be3e6bce97c592c98c535188d47
+    name: rubygem-jquery-ui-rails
+    evr: 6.0.1-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-jwt-2.10.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 66948
+    checksum: sha256:76a89ae2e2dc7e93f883901a59aa318b00f6685d0cd8dbc63015fabda8a6e905
+    name: rubygem-jwt
+    evr: 2.10.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-ldap_fluff-0.9.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 34023
+    checksum: sha256:f595b78bab2e7f32331de2acac86b350e8af3d5f572586191abfe1ed676b4d07
+    name: rubygem-ldap_fluff
+    evr: 0.9.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-little-plugger-1.1.4-4.el10.src.rpm
+    repoid: foreman-source
+    size: 24029
+    checksum: sha256:ee8c6f3460b0b21f4cdeb5eef60ac51bfc794d1ef4fe65774d2d56496a8628f6
+    name: rubygem-little-plugger
+    evr: 1.1.4-4.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-logging-2.4.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 105134
+    checksum: sha256:f39182b28b9b7ee37d3f449dd2f645a78b525ba9802f81ea5c4a053b3f0d0099
+    name: rubygem-logging
+    evr: 2.4.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-loofah-2.25.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 49623
+    checksum: sha256:0e0824d0752701eb8c3891691bcdeb506408395582ea7cfaa672a025d7eaf2eb
+    name: rubygem-loofah
+    evr: 2.25.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-mail-2.9.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 372087
+    checksum: sha256:5da2923c0e405b39ef9e4ca00fc9291d51a3078cf8470d98d232b4ce3e0fe220
+    name: rubygem-mail
+    evr: 2.9.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-marcel-1.2.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 59091
+    checksum: sha256:918753a122bc7566d84204a1926d4f31cf931ae8e082aa53907538d73dc31437
+    name: rubygem-marcel
+    evr: 1.2.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-memoist-0.16.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 22610
+    checksum: sha256:8c010c1af51ca519bb5af2dfb504b59d4329dfe1b7a07fa94240943520fb4cd7
+    name: rubygem-memoist
+    evr: 0.16.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-method_source-1.1.0-3.el10.src.rpm
+    repoid: foreman-source
+    size: 23431
+    checksum: sha256:5153eaae186b9518512c152e400b29650a461e5b1df4260587640625c6aaa875
+    name: rubygem-method_source
+    evr: 1.1.0-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-mime-types-3.7.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 55728
+    checksum: sha256:41cb9c3b2036d62f14e9301eead88e41847ab6ff46ea73d14e7ee65a4c888cd5
+    name: rubygem-mime-types
+    evr: 3.7.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-mime-types-data-3.2026.0701-2.el10.src.rpm
+    repoid: foreman-source
+    size: 200499
+    checksum: sha256:3220e0a4b332eb7934f1b5273f1abee8eee62512df8767da3a9561e6709a0d58
+    name: rubygem-mime-types-data
+    evr: 3.2026.0701-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-mini_mime-1.1.5-2.el10.src.rpm
+    repoid: foreman-source
+    size: 44601
+    checksum: sha256:f64aef3d8a5ddb64bcf103865de90a17b9aa9d96749420b14b1b3f37af684b41
+    name: rubygem-mini_mime
+    evr: 1.1.5-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-msgpack-1.8.4-1.el10.src.rpm
+    repoid: foreman-source
+    size: 76190
+    checksum: sha256:ab00be26e95591870d5e9e2c254e1cf72ef01df476b7e419a48faf790e5f21f9
+    name: rubygem-msgpack
+    evr: 1.8.4-1.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-multi_json-1.19.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 40190
+    checksum: sha256:8e6d5b8ef427fdad3bcb298449d8e29275a773fcb313a70653bbcbbb0f4154ea
+    name: rubygem-multi_json
+    evr: 1.19.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-multipart-post-2.4.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 23770
+    checksum: sha256:ee4ddbb2b7c41ed30bc18e906686a9d9c4910d63c757619d264a36b2904f8ac4
+    name: rubygem-multipart-post
+    evr: 2.4.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-mustermann-2.0.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 59454
+    checksum: sha256:499c326753ceb7deb0661fe46dfc0fab0644f11013651e047b3f44dfede50664
+    name: rubygem-mustermann
+    evr: 2.0.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-net-ldap-0.20.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 83872
+    checksum: sha256:2d804278f860540059a1c47a9537f92a230f9bfac0de7f176fe4bb2ac6d205f7
+    name: rubygem-net-ldap
+    evr: 0.20.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-net-ping-2.1.0-1.el10.src.rpm
+    repoid: foreman-source
+    size: 49815
+    checksum: sha256:4d9ebab796280d7c3779ce4f9a1182ea665928c7d088d5d15cc2d66d2a76b6ef
+    name: rubygem-net-ping
+    evr: 2.1.0-1.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-net-scp-4.1.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 42764
+    checksum: sha256:aed06d9109252f0fbc77e26e265dd498dadf4a4bb86e8069ce56fbfa0e1a8155
+    name: rubygem-net-scp
+    evr: 4.1.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-net-ssh-7.3.3-2.el10.src.rpm
+    repoid: foreman-source
+    size: 159469
+    checksum: sha256:3a7411d0bc6d44acbdeb4843453f1fb0b4f20122e4309780da9d4150274c0bfb
+    name: rubygem-net-ssh
+    evr: 7.3.3-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-net_http_unix-0.2.2-3.el10.src.rpm
+    repoid: foreman-source
+    size: 20995
+    checksum: sha256:641931c155b430603adb3ddff5c313f82f509e6c88e454bb5019d838db628a9b
+    name: rubygem-net_http_unix
+    evr: 0.2.2-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-netrc-0.11.0-8.el10.src.rpm
+    repoid: foreman-source
+    size: 21777
+    checksum: sha256:a6cb900132c867799bce343b15bfabfebde92d3b15123b7b30b2ca60571dd910
+    name: rubygem-netrc
+    evr: 0.11.0-8.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-nio4r-2.7.5-2.el10.src.rpm
+    repoid: foreman-source
+    size: 127804
+    checksum: sha256:431a8411e0aca4cd3f2b852fbe406d3522cb0a3a185b8e79b76d642c0979b584
+    name: rubygem-nio4r
+    evr: 2.7.5-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-nokogiri-1.17.2-4.el10.src.rpm
+    repoid: foreman-source
+    size: 4602363
+    checksum: sha256:c597c308f300517286c30408eeced6467c336491f97e65b78f12677d728de118
+    name: rubygem-nokogiri
+    evr: 1.17.2-4.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-oauth-1.1.8-2.el10.src.rpm
+    repoid: foreman-source
+    size: 80802
+    checksum: sha256:40c86bccf3aec632c4abf9a2d6e01e2ffcea7781240de0b5a425ad27eef4d000
+    name: rubygem-oauth
+    evr: 1.1.8-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-oauth-tty-1.0.13-2.el10.src.rpm
+    repoid: foreman-source
+    size: 50356
+    checksum: sha256:765f8c52fc11e651bb73c87b6418ebf9e57d3b9622005446b39c05d37163c679
+    name: rubygem-oauth-tty
+    evr: 1.0.13-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-optimist-3.2.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 52363
+    checksum: sha256:cdae83db574fbc8cfa66c4108c69f5511dfaa8d957527469c30dc180a16decff
+    name: rubygem-optimist
+    evr: 3.2.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-os-1.1.4-2.el10.src.rpm
+    repoid: foreman-source
+    size: 21935
+    checksum: sha256:e0102fcc54eaf953961fb350258adbb75ba5a2abd3a93909d5bdce5bce512d11
+    name: rubygem-os
+    evr: 1.1.4-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-parallel-1.28.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 20012
+    checksum: sha256:7115cbd856395679613f81539af01b7ef9a64e76b2020133a07e6e50aa29d993
+    name: rubygem-parallel
+    evr: 1.28.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-pg-1.6.3-3.el10.src.rpm
+    repoid: foreman-source
+    size: 242591
+    checksum: sha256:df5445599c9aced860aaf5ce7d30d393b92f25bcdaaca22fa6af5094bf5e8adf
+    name: rubygem-pg
+    evr: 1.6.3-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-prism-1.9.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 660397
+    checksum: sha256:a006d8baf26a3b73bd0d5e916a1ecf7af84067a2cef74580ab1f84075772864e
+    name: rubygem-prism
+    evr: 1.9.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-promise.rb-0.7.4-4.el10.src.rpm
+    repoid: foreman-source
+    size: 26858
+    checksum: sha256:2524b05b3fb59a557edf826390f277baf8b449ac6416c47a5a95820cf30e1738
+    name: rubygem-promise.rb
+    evr: 0.7.4-4.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-public_suffix-6.0.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 114795
+    checksum: sha256:62ab5f975e8455e89f70de108702a3a8dd13043eaca783402ba7d5686cfffc51
+    name: rubygem-public_suffix
+    evr: 6.0.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-puma-6.6.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 254979
+    checksum: sha256:820290195047853a00969fedaec69857287af121a5e5aa218ec21f061420a584
+    name: rubygem-puma
+    evr: 6.6.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-puma-status-1.6-2.el10.src.rpm
+    repoid: foreman-source
+    size: 16772
+    checksum: sha256:92b04b8d9a86c3471365f6e3126f29ec3ab5cc2e8ffecca6baf6c490e0fb87c5
+    name: rubygem-puma-status
+    evr: 1.6-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rabl-0.17.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 44466
+    checksum: sha256:78bab4b1a2780f25cd68e9db307e4c650a5d8e8f0bdc02f1c5778be2877eab62
+    name: rubygem-rabl
+    evr: 0.17.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rack-2.2.23-2.el10.src.rpm
+    repoid: foreman-source
+    size: 171436
+    checksum: sha256:27c7df33f7e739a6bdd602cb22c35fe9973e3ae303dd437a30316ad258aec6b7
+    name: rubygem-rack
+    evr: 2.2.23-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rack-cors-1.1.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 62876
+    checksum: sha256:2ee66bf7d502e42290682a966080447bcb82daed2367162af374bfca0f8a6cee
+    name: rubygem-rack-cors
+    evr: 1.1.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rack-jsonp-1.3.1-12.el10.src.rpm
+    repoid: foreman-source
+    size: 17298
+    checksum: sha256:ffdbc416d1596450ed6ae1e000bc46c5cab1892c5cd18027cabe15451e0f0a44
+    name: rubygem-rack-jsonp
+    evr: 1.3.1-12.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rack-protection-2.2.4-2.el10.src.rpm
+    repoid: foreman-source
+    size: 27293
+    checksum: sha256:355f9cfea12ea41a9036244523fea27c038a701976719bcf494c38df23ebd561
+    name: rubygem-rack-protection
+    evr: 2.2.4-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rack-test-2.2.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 30444
+    checksum: sha256:8f75f21dbc1bbdaed8ed930643f6ff6ff8005684e3365c66377c38d84c9cb02b
+    name: rubygem-rack-test
+    evr: 2.2.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rails-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 18948
+    checksum: sha256:78f5f3373e9c6562191d0777b4af0c7324b95a395b95b37b083b8446c19fb1fb
+    name: rubygem-rails
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rails-dom-testing-2.3.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 27385
+    checksum: sha256:a59e8ee7cbd9ced1fe3feed4b653c1fbf7b47f7128d06e71d8b98c05d98aef42
+    name: rubygem-rails-dom-testing
+    evr: 2.3.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rails-html-sanitizer-1.7.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 25954
+    checksum: sha256:d44f8f8c497949f233eec1dd95fd20e0d44ea2af1b7eeadd4d1e68de31f56b45
+    name: rubygem-rails-html-sanitizer
+    evr: 1.7.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rails-i18n-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 131607
+    checksum: sha256:137e2352e965eed3f954b59f8f23ab1e9c4b494f87dc0701f3812b6820c2b2ed
+    name: rubygem-rails-i18n
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-railties-7.0.10-2.el10.src.rpm
+    repoid: foreman-source
+    size: 175087
+    checksum: sha256:3944f9da988ad1abd90c5a5897120a1d6957fd9eb42754ef6a656fea00267e2e
+    name: rubygem-railties
+    evr: 7.0.10-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rbvmomi2-3.10.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 328213
+    checksum: sha256:1914d579288207dc53bd44862f21170df02dc28f703d86a81c0527560cf9307a
+    name: rubygem-rbvmomi2
+    evr: 3.10.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-redis-4.5.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 71424
+    checksum: sha256:3dba50160163cfec3aa82ae1e608d853dc2b10430fc3f72ce679550173aeaa39
+    name: rubygem-redis
+    evr: 4.5.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-representable-3.2.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 87464
+    checksum: sha256:dceffbdd0b0ff66db47ecd0711beeda32f4a036e93a233824fbb22b8e4f5e43b
+    name: rubygem-representable
+    evr: 3.2.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-responders-3.2.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 30253
+    checksum: sha256:b8204cb0c8886e1388c54cdff947ddd46b7dfaa7bfd53887b4b604c5163c5575
+    name: rubygem-responders
+    evr: 3.2.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-rest-client-2.1.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 160062
+    checksum: sha256:62c21be3c8988f61cba9ca9dcec9f2605bf2d4dfd45b00bca98a95b9f7670dfb
+    name: rubygem-rest-client
+    evr: 2.1.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-retriable-3.1.2-4.el10.src.rpm
+    repoid: foreman-source
+    size: 27709
+    checksum: sha256:dc3393d53bbe29c740e099041054864c11ec3d06dd0b0b84cc32744b444fc7ad
+    name: rubygem-retriable
+    evr: 3.1.2-4.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-roadie-5.2.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 65244
+    checksum: sha256:6546e96ae4cef9347778051286b6dc83b931268faacc4809049c85328f5d123b
+    name: rubygem-roadie
+    evr: 5.2.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-roadie-rails-3.4.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 29302
+    checksum: sha256:ce595f22bbaee1c4e9c332ce0cb4a07a2f4181f97920ba9e1b01ad7ff70f90ec
+    name: rubygem-roadie-rails
+    evr: 3.4.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-ruby-libvirt-0.8.4-2.el10.src.rpm
+    repoid: foreman-source
+    size: 117756
+    checksum: sha256:6bb0c50693cbb622ccb088391753a486b9f0678fae54f980d2058ac82ce22327
+    name: rubygem-ruby-libvirt
+    evr: 0.8.4-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-ruby2ruby-2.5.2-3.el10.src.rpm
+    repoid: foreman-source
+    size: 41994
+    checksum: sha256:062b963a0c90055a0212793dc5800dc80e5f0cde051f72cbfad4a7e4617d0a69
+    name: rubygem-ruby2ruby
+    evr: 2.5.2-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-safemode-2.0.2-1.el10.src.rpm
+    repoid: foreman-source
+    size: 36001
+    checksum: sha256:b0085c4157fa543a0827ba43059ac4b07129e293919b6a5682169948e0d9157c
+    name: rubygem-safemode
+    evr: 2.0.2-1.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-scoped_search-5.0.0-1.el10.src.rpm
+    repoid: foreman-source
+    size: 81407
+    checksum: sha256:ff237950174412560104bc1dfd7062a8125f1368466c82cc96885289e8e04476
+    name: rubygem-scoped_search
+    evr: 5.0.0-1.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sd_notify-0.1.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 15516
+    checksum: sha256:c402d29b4f48e6e55bb344b99c7add7c1f24bd554d9367cbf12c0c15d46e23a5
+    name: rubygem-sd_notify
+    evr: 0.1.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-secure_headers-7.3.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 50742
+    checksum: sha256:aab1a7b86e8d37b9b4728caae31e03f343ce1365eafe14b317b74c050c8dc6b1
+    name: rubygem-secure_headers
+    evr: 7.3.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sequel-5.107.0-1.el10.src.rpm
+    repoid: foreman-source
+    size: 690853
+    checksum: sha256:215d47341e9f315e958c06cb16cd10ed115217d415be4a75abc33158b4a946c6
+    name: rubygem-sequel
+    evr: 5.107.0-1.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sexp_processor-4.17.4-2.el10.src.rpm
+    repoid: foreman-source
+    size: 66833
+    checksum: sha256:c86952777c7e61c0bf0e225c4ed625130dfa9aaa2a827a09f58e29a169421669
+    name: rubygem-sexp_processor
+    evr: 4.17.4-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sidekiq-6.5.12-2.el10.src.rpm
+    repoid: foreman-source
+    size: 363740
+    checksum: sha256:86f80866932abbd8da1f17c4e94be3b336b4dd94289c37dfad12c4930ee85d73
+    name: rubygem-sidekiq
+    evr: 6.5.12-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-signet-0.17.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 46200
+    checksum: sha256:e12e9cb80c397eca99d72f88fe09135d4ca4ea509a0cd3c6e64ced9e9599d5ef
+    name: rubygem-signet
+    evr: 0.17.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sinatra-2.2.4-2.el10.src.rpm
+    repoid: foreman-source
+    size: 394333
+    checksum: sha256:d06f0038209868af1eecdd7c1919734cb4fdb3fe627d006ddb58fd9d1d7ad157
+    name: rubygem-sinatra
+    evr: 1:2.2.4-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-snaky_hash-2.0.7-2.el10.src.rpm
+    repoid: foreman-source
+    size: 48253
+    checksum: sha256:b3b588ee08ae52e9ef95a1e1280553fdd4455812a31db5512a140224829217bd
+    name: rubygem-snaky_hash
+    evr: 2.0.7-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sprockets-4.2.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 94991
+    checksum: sha256:b91e0cc8d7d8eaad1801ea583060a8a007eb3c70a1e0635c33821f1f7c46d45a
+    name: rubygem-sprockets
+    evr: 4.2.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sprockets-rails-3.5.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 25211
+    checksum: sha256:1dad0553273f66a82810231fc6ad8129e48b62f33bb263e1094bb21138070257
+    name: rubygem-sprockets-rails
+    evr: 3.5.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-sshkey-2.0.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 35444
+    checksum: sha256:0ee57f1ed729353928e7df05ffa7311d9e95b058c3db89c1a069da0688937cb8
+    name: rubygem-sshkey
+    evr: 2.0.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-statsd-instrument-2.9.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 77006
+    checksum: sha256:1bfcee6d1a0f1cbabbf0269482d8f2c4d39ed7a64b21f035ed75b30962db536e
+    name: rubygem-statsd-instrument
+    evr: 2.9.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-thor-1.3.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 66518
+    checksum: sha256:9df8ec0b8ed3887ec5b5ed204260a86120e39b173ff1204cd3ec32ff6a73a6b8
+    name: rubygem-thor
+    evr: 1.3.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-tilt-2.8.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 41437
+    checksum: sha256:4681a0867d3925212ae31ec0f2076efbf37a7d1bfc027a7af91523351fdb50e0
+    name: rubygem-tilt
+    evr: 2.8.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-trailblazer-option-0.1.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 18560
+    checksum: sha256:00c20aa03e5ffae586654b520ca947f074356e36024ab55715770e96a0b9d44a
+    name: rubygem-trailblazer-option
+    evr: 0.1.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-tzinfo-2.0.6-2.el10.src.rpm
+    repoid: foreman-source
+    size: 86423
+    checksum: sha256:e3e680b2e50e41c8414d3995630aa790e97b89f587a4d0fbb72b2fbbd4df8552
+    name: rubygem-tzinfo
+    evr: 2.0.6-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-uber-0.1.0-4.el10.src.rpm
+    repoid: foreman-source
+    size: 23500
+    checksum: sha256:83ffe79d6142b31418336837c5bab2c310b2e09b9854daf7cffaa0daff555a4b
+    name: rubygem-uber
+    evr: 0.1.0-4.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-validates_lengths_from_database-0.8.0-2.el10.src.rpm
+    repoid: foreman-source
+    size: 23228
+    checksum: sha256:fe220a5f0aa01dd18e343f158f682927a9a56cf8b96a55b4005fec5bb8ded271
+    name: rubygem-validates_lengths_from_database
+    evr: 0.8.0-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-version_gem-1.1.15-1.el10.src.rpm
+    repoid: foreman-source
+    size: 39515
+    checksum: sha256:ceee6112fbed947cb8e530baaa4e794d771f72980d3782f0ddcad63fa8babf29
+    name: rubygem-version_gem
+    evr: 1.1.15-1.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-websocket-driver-0.8.2-2.el10.src.rpm
+    repoid: foreman-source
+    size: 37443
+    checksum: sha256:29c80507c9b3d0c57131f017700e8593f82b9dc9ec3da8cacc8a684bc4d98852
+    name: rubygem-websocket-driver
+    evr: 0.8.2-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-websocket-extensions-0.1.5-3.el10.src.rpm
+    repoid: foreman-source
+    size: 20203
+    checksum: sha256:b65f522083e1e3e582f1b38b3aa3a90a78fa7970df98892fed4e1757ad7afcdc
+    name: rubygem-websocket-extensions
+    evr: 0.1.5-3.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-will_paginate-3.3.1-2.el10.src.rpm
+    repoid: foreman-source
+    size: 47137
+    checksum: sha256:45a61ab6897941ba60c027b16b578d20764e64fa44edc442d46ecdafc8e33eb6
+    name: rubygem-will_paginate
+    evr: 3.3.1-2.el10
+  - url: https://yum.theforeman.org/releases/5.0/el10/source/rubygem-zeitwerk-2.6.18-2.el10.src.rpm
+    repoid: foreman-source
+    size: 50925
+    checksum: sha256:c3a9d9c2cf2dd996c77d4db7d810c31543cd95d838ee177bbe9328497f165e81
+    name: rubygem-zeitwerk
+    evr: 2.6.18-2.el10
+  module_metadata: []

@@ -7,8 +7,16 @@ metadata:
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/cancel-in-progress: "false"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
-    pipelinesascode.tekton.dev/on-cel-expression: event == "push" && target_branch
-      == "foreman-5.0" && ( "images/foreman/***".pathChanged() || ".tekton/foreman-5-0-push.yaml".pathChanged()
+    pipelinesascode.tekton.dev/on-cel-expression: |
+      event == "push" &&
+      target_branch == "foreman-5.0" &&
+      (
+        "images/foreman".pathChanged() ||
+        "images/foreman/***".pathChanged() ||
+        "Makefile".pathChanged() ||
+        "repos".pathChanged() ||
+        "repos/***".pathChanged() ||
+        ".tekton/foreman-5-0-push.yaml".pathChanged()
       )
   labels:
     appstudio.openshift.io/application: foreman-5-0
@@ -28,6 +36,12 @@ spec:
     value: Containerfile
   - name: path-context
     value: images/foreman
+  - name: hermetic
+    value: "true"
+  - name: build-args
+    value: [USE_HERMETO_REPOS=true]
+  - name: prefetch-input
+    value: '[{"type":"rpm","path":"images/foreman","options":{"dnf":{"foreman-plugins":{"gpgcheck":"0"},"foreman-plugins-source":{"gpgcheck":"0"}}}}]'
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.

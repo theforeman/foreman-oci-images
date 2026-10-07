@@ -1,0 +1,51 @@
+[foreman]
+name=Foreman 5.0
+baseurl=https://yum.theforeman.org/releases/5.0/el10/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-foreman
+gpgcheck=1
+repo_gpgcheck=0
+metadata_expire=6h
+enabled=1
+
+[foreman-source]
+name=Foreman 5.0 - Source
+baseurl=https://yum.theforeman.org/releases/5.0/el10/source/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-foreman
+gpgcheck=1
+repo_gpgcheck=0
+metadata_expire=6h
+enabled=1
+
+[foreman-plugins]
+name=Foreman Plugins 5.0
+baseurl=https://yum.theforeman.org/plugins/5.0/el10/$basearch/
+gpgcheck=0
+repo_gpgcheck=0
+metadata_expire=6h
+enabled=1
+
+[foreman-plugins-source]
+name=Foreman Plugins 5.0 - Source
+baseurl=https://yum.theforeman.org/plugins/5.0/el10/source/
+gpgcheck=0
+repo_gpgcheck=0
+metadata_expire=6h
+enabled=1
+
+[katello]
+name=Katello 5.0
+baseurl=https://yum.theforeman.org/katello/5.0/katello/el10/$basearch/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-foreman
+gpgcheck=1
+repo_gpgcheck=0
+metadata_expire=6h
+enabled=1
+
+[katello-source]
+name=Katello 5.0 - Source
+baseurl=https://yum.theforeman.org/katello/5.0/katello/el10/source/
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-foreman
+gpgcheck=1
+repo_gpgcheck=0
+metadata_expire=6h
+enabled=1
