@@ -18,6 +18,7 @@ metadata:
         "Makefile".pathChanged() ||
         "repos".pathChanged() ||
         "repos/***".pathChanged() ||
+        ".tekton/foreman-5-0-push.yaml".pathChanged() ||
         ".tekton/foreman-5-0-pull-request.yaml".pathChanged()
       )
   labels:
