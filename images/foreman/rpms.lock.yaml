@@ -487,6 +487,13 @@ arches:
     name: systemd-pam
     evr: 257-34.el10
     sourcerpm: systemd-257-34.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/xz-5.6.2-5.el10.x86_64.rpm
+    repoid: baseos
+    size: 491253
+    checksum: sha256:c59c3c4346ee2b4063f4959bd88a33ba12d30e26dbefd88c12299a7823525394
+    name: xz
+    evr: 1:5.6.2-5.el10
+    sourcerpm: xz-5.6.2-5.el10.src.rpm
   - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-activerecord-import-2.2.0-2.el10.noarch.rpm
     repoid: katello
     size: 35580
@@ -2326,6 +2333,12 @@ arches:
     checksum: sha256:b85667d0693461a505c4f37a06d73ade2d013c6b112ad7fcc9dd2e7107c1ae6b
     name: systemd
     evr: 257-34.el10
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/xz-5.6.2-5.el10.src.rpm
+    repoid: baseos-source
+    size: 2401366
+    checksum: sha256:339ef17a7e76298163866552e894d9202866dc2f50489645eeb7d3b6a39f8d2d
+    name: xz
+    evr: 1:5.6.2-5.el10
   - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-activerecord-import-2.2.0-2.el10.src.rpm
     repoid: katello-source
     size: 84070
