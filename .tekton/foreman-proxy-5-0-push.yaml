@@ -10,13 +10,19 @@ metadata:
     pipelinesascode.tekton.dev/on-cel-expression: |
       event == "push" &&
       target_branch == "foreman-5.0" &&
-      (
-        "images/foreman-proxy".pathChanged() ||
-        "images/foreman-proxy/***".pathChanged() ||
-        "Makefile".pathChanged() ||
-        "repos".pathChanged() ||
-        "repos/***".pathChanged() ||
-        ".tekton/foreman-proxy-5-0-push.yaml".pathChanged()
+      body.commits.exists(commit,
+        commit.added.exists(path,
+          path == "Makefile" || path == "images/foreman-proxy" || path.startsWith("images/foreman-proxy/") ||
+          path == "repos" || path.startsWith("repos/") || path == ".tekton/foreman-proxy-5-0-push.yaml"
+        ) ||
+        commit.modified.exists(path,
+          path == "Makefile" || path == "images/foreman-proxy" || path.startsWith("images/foreman-proxy/") ||
+          path == "repos" || path.startsWith("repos/") || path == ".tekton/foreman-proxy-5-0-push.yaml"
+        ) ||
+        commit.removed.exists(path,
+          path == "Makefile" || path == "images/foreman-proxy" || path.startsWith("images/foreman-proxy/") ||
+          path == "repos" || path.startsWith("repos/") || path == ".tekton/foreman-proxy-5-0-push.yaml"
+        )
       )
   labels:
     appstudio.openshift.io/application: foreman-5-0
