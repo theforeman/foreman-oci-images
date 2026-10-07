@@ -2,6 +2,7 @@ FROM quay.io/centos/centos:stream10
 
 ARG FOREMAN_VERSION=5.0
 ARG KATELLO_VERSION=5.0
+ARG USE_HERMETO_REPOS=false
 ARG FOREMAN_PROXY_PLUGINS="remote_execution_ssh ansible container_gateway"
 ARG FOREMAN_PROXY_UID=991
 ARG FOREMAN_PROXY_GID=991
@@ -9,7 +10,16 @@ ARG FOREMAN_PROXY_GID=991
 RUN groupadd -r -g ${FOREMAN_PROXY_GID} foreman-proxy && \
     useradd -r -g foreman-proxy -u ${FOREMAN_PROXY_UID} -d /usr/share/foreman-proxy -s /sbin/nologin -c "Foreman Proxy user" foreman-proxy
 
-RUN dnf upgrade -y && dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el10/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el10/x86_64/katello-repos-latest.rpm && dnf install --nodocs foreman-proxy openssh-clients openssh freeipmi bind-utils -y && dnf clean all
+COPY RPM-GPG-KEY-foreman /etc/pki/rpm-gpg/RPM-GPG-KEY-foreman
+
+RUN rpmkeys --import \
+        /etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial-SHA256 \
+        /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Extras-SHA512 \
+        /etc/pki/rpm-gpg/RPM-GPG-KEY-foreman && \
+    if [ "${USE_HERMETO_REPOS}" != "true" ]; then \
+        dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el10/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el10/x86_64/katello-repos-latest.rpm; \
+    fi && \
+    dnf install --nodocs foreman-proxy openssh-clients openssh freeipmi bind-utils -y && dnf clean all
 
 RUN set -eu; for PLUGIN in ${FOREMAN_PROXY_PLUGINS}; do \
     echo $PLUGIN; \

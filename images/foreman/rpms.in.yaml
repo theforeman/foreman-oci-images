@@ -1,0 +1,27 @@
+context:
+  containerfile: Containerfile
+contentOrigin:
+  repofiles:
+    - ../../repos/centos.repo
+    - ../../repos/foreman.repo
+packages:
+  - foreman
+  - foreman-postgresql
+  - foreman-service
+  - foreman-redis
+  - foreman-dynflow-sidekiq
+  - foreman-libvirt
+  - foreman-vmware
+  - foreman-openstack
+  - foreman-ec2
+  - rubygem(foreman-tasks)
+  - rubygem(foreman_remote_execution)
+  - rubygem(katello)
+  - rubygem(foreman_google)
+  - rubygem(foreman_azure_rm)
+  - rubygem(foreman_kubevirt)
+  - rubygem(foreman_rh_cloud)
+  - rubygem(foreman_ansible)
+  - rubygem(foreman_webhooks)
+arches:
+  - x86_64

@@ -1,0 +1,17 @@
+context:
+  containerfile: Containerfile
+contentOrigin:
+  repofiles:
+    - ../../repos/centos.repo
+    - ../../repos/foreman.repo
+packages:
+  - foreman-proxy
+  - openssh-clients
+  - openssh
+  - freeipmi
+  - bind-utils
+  - foreman-proxy-plugin-remote_execution_ssh
+  - foreman-proxy-plugin-ansible
+  - foreman-proxy-plugin-container_gateway
+arches:
+  - x86_64

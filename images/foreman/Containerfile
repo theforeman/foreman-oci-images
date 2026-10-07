@@ -2,6 +2,7 @@ FROM quay.io/centos/centos:stream10
 
 ARG FOREMAN_VERSION=5.0
 ARG KATELLO_VERSION=5.0
+ARG USE_HERMETO_REPOS=false
 ARG FOREMAN_UID=994
 ARG FOREMAN_GID=994
 
@@ -11,7 +12,15 @@ ENV RAILS_LOG_TO_STDOUT=true
 RUN groupadd -r -g ${FOREMAN_GID} foreman && \
     useradd -r -g foreman -u ${FOREMAN_UID} -d /usr/share/foreman -s /sbin/nologin -c "Foreman user" foreman
 
-RUN dnf upgrade -y && dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el10/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el10/x86_64/katello-repos-latest.rpm && \
+COPY RPM-GPG-KEY-foreman /etc/pki/rpm-gpg/RPM-GPG-KEY-foreman
+
+RUN rpmkeys --import \
+        /etc/pki/rpm-gpg/RPM-GPG-KEY-centosofficial-SHA256 \
+        /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-Extras-SHA512 \
+        /etc/pki/rpm-gpg/RPM-GPG-KEY-foreman && \
+    if [ "${USE_HERMETO_REPOS}" != "true" ]; then \
+        dnf install --nodocs -y https://yum.theforeman.org/releases/${FOREMAN_VERSION}/el10/x86_64/foreman-release.rpm https://yum.theforeman.org/katello/${KATELLO_VERSION}/katello/el10/x86_64/katello-repos-latest.rpm; \
+    fi && \
     dnf install foreman foreman-postgresql foreman-service foreman-redis foreman-dynflow-sidekiq \
         foreman-libvirt foreman-vmware foreman-openstack foreman-ec2 --nodocs -y && \
     dnf clean all
