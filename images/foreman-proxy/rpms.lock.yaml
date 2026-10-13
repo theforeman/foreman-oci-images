@@ -557,13 +557,13 @@ arches:
     name: systemd-pam
     evr: 257-34.el10
     sourcerpm: systemd-257-34.el10.src.rpm
-  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/ansible-collection-theforeman-foreman-5.13.0-1.el10.noarch.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/ansible-collection-theforeman-foreman-6.0.0-1.el10.noarch.rpm
     repoid: foreman-plugins
-    size: 503320
-    checksum: sha256:07da5d2d231c1604a6973b4e4f209d947ed45f9188b73499b0eb9d6974c571da
+    size: 503310
+    checksum: sha256:675911b197a09387de1c65f506b76d196fb606816e7ca324183a9175ed3e41e4
     name: ansible-collection-theforeman-foreman
-    evr: 5.13.0-1.el10
-    sourcerpm: ansible-collection-theforeman-foreman-5.13.0-1.el10.src.rpm
+    evr: 6.0.0-1.el10
+    sourcerpm: ansible-collection-theforeman-foreman-6.0.0-1.el10.src.rpm
   - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/ansible-runner-2.3.6-3.el10.noarch.rpm
     repoid: foreman-plugins
     size: 10472
@@ -1318,12 +1318,12 @@ arches:
     checksum: sha256:b85667d0693461a505c4f37a06d73ade2d013c6b112ad7fcc9dd2e7107c1ae6b
     name: systemd
     evr: 257-34.el10
-  - url: https://yum.theforeman.org/plugins/5.0/el10/source/ansible-collection-theforeman-foreman-5.13.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/ansible-collection-theforeman-foreman-6.0.0-1.el10.src.rpm
     repoid: foreman-plugins-source
-    size: 535080
-    checksum: sha256:387ee7f3e26c40a882e522468697351cd7fb3cddf8f27227a283615cdef7bee9
+    size: 535197
+    checksum: sha256:3c772b26a8ff92655197d6685e98d6bdd5749f5dc7ebd5a89509c7ee8cbc49d7
     name: ansible-collection-theforeman-foreman
-    evr: 5.13.0-1.el10
+    evr: 6.0.0-1.el10
   - url: https://yum.theforeman.org/plugins/5.0/el10/source/ansible-runner-2.3.6-3.el10.src.rpm
     repoid: foreman-plugins-source
     size: 164181
