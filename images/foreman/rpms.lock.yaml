@@ -669,20 +669,20 @@ arches:
     name: rubygem-fog-kubevirt
     evr: 1.8.0-2.el10
     sourcerpm: rubygem-fog-kubevirt-1.8.0-2.el10.src.rpm
-  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman-tasks-13.2.0-1.el10.noarch.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman-tasks-13.2.4-1.fm5_0.el10.noarch.rpm
     repoid: foreman-plugins
-    size: 1943985
-    checksum: sha256:3e438a6adafc57bea06d4670dbd6c77517d550cb1393916d5cd5b4fba5d0d005
+    size: 1949648
+    checksum: sha256:976345b4bbffe857f11540ad42fff56b63264ce3553f8e81f278a4ddd6cfc093
     name: rubygem-foreman-tasks
-    evr: 13.2.0-1.el10
-    sourcerpm: rubygem-foreman-tasks-13.2.0-1.el10.src.rpm
-  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_ansible-18.0.1-1.el10.noarch.rpm
+    evr: 13.2.4-1.fm5_0.el10
+    sourcerpm: rubygem-foreman-tasks-13.2.4-1.fm5_0.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_ansible-18.0.5-1.fm5_0.el10.noarch.rpm
     repoid: foreman-plugins
-    size: 1232312
-    checksum: sha256:b5cfb0d2d41d6166e206398f9719da5b8c55ad679f1a4df5d51eeb8917a45bce
+    size: 1231345
+    checksum: sha256:0286377ae63ce7534ea94f7f428373bc0103c4b1eff4f398b69828534ff497dd
     name: rubygem-foreman_ansible
-    evr: 18.0.1-1.el10
-    sourcerpm: rubygem-foreman_ansible-18.0.1-1.el10.src.rpm
+    evr: 18.0.5-1.fm5_0.el10
+    sourcerpm: rubygem-foreman_ansible-18.0.5-1.fm5_0.el10.src.rpm
   - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_azure_rm-3.0.4-2.el10.noarch.rpm
     repoid: foreman-plugins
     size: 151519
@@ -2489,18 +2489,18 @@ arches:
     checksum: sha256:e9ac8ad0d0a63b1a934b2c018f82f3ecb2eeddf1d9b248e03c9f765bc36b86a8
     name: rubygem-fog-kubevirt
     evr: 1.8.0-2.el10
-  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman-tasks-13.2.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman-tasks-13.2.4-1.fm5_0.el10.src.rpm
     repoid: foreman-plugins-source
-    size: 418763
-    checksum: sha256:fee9b9335e21597b4366d28cba1e1fd1b24821018f28d0a719b8ea4afde28156
+    size: 429949
+    checksum: sha256:b91e308094e2e95dc902b4847fdf21b6b4f1a047f3c561ad3a1d29b06dfa28df
     name: rubygem-foreman-tasks
-    evr: 13.2.0-1.el10
-  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_ansible-18.0.1-1.el10.src.rpm
+    evr: 13.2.4-1.fm5_0.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_ansible-18.0.5-1.fm5_0.el10.src.rpm
     repoid: foreman-plugins-source
-    size: 383724
-    checksum: sha256:e673545b5167d38ee5dfe01898ab943671108fb50b6350065d9cd383568abe1d
+    size: 379973
+    checksum: sha256:cee7ffb6f6e9962ba57f864c5b21ec2433edb3b4ac5312727dd6ce1d2928e930
     name: rubygem-foreman_ansible
-    evr: 18.0.1-1.el10
+    evr: 18.0.5-1.fm5_0.el10
   - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_azure_rm-3.0.4-2.el10.src.rpm
     repoid: foreman-plugins-source
     size: 89938
