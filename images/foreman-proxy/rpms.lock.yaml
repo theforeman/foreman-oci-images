@@ -620,13 +620,13 @@ arches:
     name: rubygem-mqtt
     evr: 0.5.0-2.el10
     sourcerpm: rubygem-mqtt-0.5.0-2.el10.src.rpm
-  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-smart_proxy_ansible-3.7.1-2.el10.noarch.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-smart_proxy_ansible-3.7.3-1.fm5_0.el10.noarch.rpm
     repoid: foreman-plugins
-    size: 32986
-    checksum: sha256:5eb221893714dad43564e97c968a32ebf9296d2bd7eb66f72219f7589bd43b2c
+    size: 33249
+    checksum: sha256:3791eab32025a10e8f7884946c65fee636d4700a3f96aa6648d66b1af0f93bdb
     name: rubygem-smart_proxy_ansible
-    evr: 3.7.1-2.el10
-    sourcerpm: rubygem-smart_proxy_ansible-3.7.1-2.el10.src.rpm
+    evr: 3.7.3-1.fm5_0.el10
+    sourcerpm: rubygem-smart_proxy_ansible-3.7.3-1.fm5_0.el10.src.rpm
   - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-smart_proxy_container_gateway-4.0.1-1.fm5_0.el10.noarch.rpm
     repoid: foreman-plugins
     size: 32713
@@ -1366,12 +1366,12 @@ arches:
     checksum: sha256:7e2ae88d65a887c4bba808436fc55c90ec3920d41ea40a02e1413168801f3d13
     name: rubygem-mqtt
     evr: 0.5.0-2.el10
-  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-smart_proxy_ansible-3.7.1-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-smart_proxy_ansible-3.7.3-1.fm5_0.el10.src.rpm
     repoid: foreman-plugins-source
-    size: 44183
-    checksum: sha256:73a7d7d30be6223d3d48936c0e7ca8be0f6d6d63ec154a3ee04d62ed7ee1014f
+    size: 44778
+    checksum: sha256:1561acdfb671022529f553a1ebdcdb75cc94140dcc204b8b16cb4e6fc18f604d
     name: rubygem-smart_proxy_ansible
-    evr: 3.7.1-2.el10
+    evr: 3.7.3-1.fm5_0.el10
   - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-smart_proxy_container_gateway-4.0.1-1.fm5_0.el10.src.rpm
     repoid: foreman-plugins-source
     size: 40664
