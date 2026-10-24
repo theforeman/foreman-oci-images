@@ -466,13 +466,13 @@ arches:
     name: python3-setuptools
     evr: 69.0.3-12.el10
     sourcerpm: python-setuptools-69.0.3-12.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/rpm-plugin-syslog-4.19.1.1-26.el10.x86_64.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/rpm-plugin-syslog-4.19.1.1-27.el10.x86_64.rpm
     repoid: baseos
-    size: 18047
-    checksum: sha256:2cdceb8000da5872236ea7c2c3df97ae9874a429a539cbb0e6b0bcb6ce65fa9e
+    size: 17928
+    checksum: sha256:665edf59e53d5bad0eb9fed8603815ea9a0a2a1e1f635dbe5c31e4abed3869d5
     name: rpm-plugin-syslog
-    evr: 4.19.1.1-26.el10
-    sourcerpm: rpm-4.19.1.1-26.el10.src.rpm
+    evr: 4.19.1.1-27.el10
+    sourcerpm: rpm-4.19.1.1-27.el10.src.rpm
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/systemd-257-34.el10.x86_64.rpm
     repoid: baseos
     size: 6082158
@@ -704,13 +704,13 @@ arches:
     name: rubygem-foreman_azure_rm
     evr: 3.0.4-2.el10
     sourcerpm: rubygem-foreman_azure_rm-3.0.4-2.el10.src.rpm
-  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_google-3.0.8-2.el10.noarch.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_google-3.0.9-1.fm5_0.el10.noarch.rpm
     repoid: foreman-plugins
-    size: 123744
-    checksum: sha256:9c0407cd3e8123a9aeb35671cfda64ff0e76aa0306343123117047b8a9102c4f
+    size: 125218
+    checksum: sha256:904dd9f0cadd8bd4cfb25bef2b9640024bba6ac7c1358bb2c1567cf99fe24cd6
     name: rubygem-foreman_google
-    evr: 3.0.8-2.el10
-    sourcerpm: rubygem-foreman_google-3.0.8-2.el10.src.rpm
+    evr: 3.0.9-1.fm5_0.el10
+    sourcerpm: rubygem-foreman_google-3.0.9-1.fm5_0.el10.src.rpm
   - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_kubevirt-0.6.0-2.el10.noarch.rpm
     repoid: foreman-plugins
     size: 146747
@@ -718,13 +718,13 @@ arches:
     name: rubygem-foreman_kubevirt
     evr: 0.6.0-2.el10
     sourcerpm: rubygem-foreman_kubevirt-0.6.0-2.el10.src.rpm
-  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_remote_execution-17.2.2-1.fm5_0.el10.noarch.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_remote_execution-17.2.3-1.fm5_0.el10.noarch.rpm
     repoid: foreman-plugins
-    size: 1445122
-    checksum: sha256:e8fbab21ec230abd3d26715c99cc8601a23a574c832206e5a424f79c638be3f8
+    size: 1445661
+    checksum: sha256:733787486280a4d9e8e8e19f9e0a2c5b20d43c69863d6541d66c291c794a95e9
     name: rubygem-foreman_remote_execution
-    evr: 17.2.2-1.fm5_0.el10
-    sourcerpm: rubygem-foreman_remote_execution-17.2.2-1.fm5_0.el10.src.rpm
+    evr: 17.2.3-1.fm5_0.el10
+    sourcerpm: rubygem-foreman_remote_execution-17.2.3-1.fm5_0.el10.src.rpm
   - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/rubygem-foreman_webhooks-6.0.1-1.fm5_0.el10.noarch.rpm
     repoid: foreman-plugins
     size: 211091
@@ -2335,12 +2335,12 @@ arches:
     checksum: sha256:b3ebce130dc42384819eb9cec200c9b50d4f7184de5b6a5027eacebed630cfc4
     name: python-setuptools
     evr: 69.0.3-12.el10
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/rpm-4.19.1.1-26.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/rpm-4.19.1.1-27.el10.src.rpm
     repoid: baseos-source
-    size: 6055528
-    checksum: sha256:fca467a3437c99979e81b1c097e711a7052001c4474a7e054d74d908bc7c4855
+    size: 6055782
+    checksum: sha256:663d572e39a8c419d112fe2939042edd2786a3fe1dc14327181287705fa7cb81
     name: rpm
-    evr: 4.19.1.1-26.el10
+    evr: 4.19.1.1-27.el10
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/systemd-257-34.el10.src.rpm
     repoid: baseos-source
     size: 20756505
@@ -2533,24 +2533,24 @@ arches:
     checksum: sha256:714c3fa87e4b3ac7d696573144d195444131c69f3aae17ee832303aa7fd4b20c
     name: rubygem-foreman_azure_rm
     evr: 3.0.4-2.el10
-  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_google-3.0.8-2.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_google-3.0.9-1.fm5_0.el10.src.rpm
     repoid: foreman-plugins-source
-    size: 76242
-    checksum: sha256:1b3af388d5e4e6e73afcc3b1a0715d926e760c3c6c5a4140c969b7f1b986bc38
+    size: 82970
+    checksum: sha256:5714170b8241b2d591158c922bf8dea3cb92a2a7210b389e7337fffb9a26bbd2
     name: rubygem-foreman_google
-    evr: 3.0.8-2.el10
+    evr: 3.0.9-1.fm5_0.el10
   - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_kubevirt-0.6.0-2.el10.src.rpm
     repoid: foreman-plugins-source
     size: 89175
     checksum: sha256:e02fe6eeb82a159bb51bd35b7ac6e9d72f1b6a657853af1fd8eea19c34741d9f
     name: rubygem-foreman_kubevirt
     evr: 0.6.0-2.el10
-  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_remote_execution-17.2.2-1.fm5_0.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_remote_execution-17.2.3-1.fm5_0.el10.src.rpm
     repoid: foreman-plugins-source
-    size: 749397
-    checksum: sha256:502103f0892e263f86fb674654d24d5a947cedd04a1eef894c0ae9bf02870e5b
+    size: 749735
+    checksum: sha256:2bd1de68ec6340ecb0bd50424b119d7191caa111f8a95d00d55156d841a337b7
     name: rubygem-foreman_remote_execution
-    evr: 17.2.2-1.fm5_0.el10
+    evr: 17.2.3-1.fm5_0.el10
   - url: https://yum.theforeman.org/plugins/5.0/el10/source/rubygem-foreman_webhooks-6.0.1-1.fm5_0.el10.src.rpm
     repoid: foreman-plugins-source
     size: 103622
