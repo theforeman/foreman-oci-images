@@ -4,13 +4,6 @@ lockfileVendor: redhat
 arches:
 - arch: x86_64
   packages:
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/ansible-core-2.16.19-3.el10.noarch.rpm
-    repoid: appstream
-    size: 3040824
-    checksum: sha256:f7014cf33689983a7666b3fd7b71368766444601e8856d884de49b1746b40c2a
-    name: ansible-core
-    evr: 1:2.16.19-3.el10
-    sourcerpm: ansible-core-2.16.19-3.el10.src.rpm
   - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/bind-libs-9.18.33-29.el10.x86_64.rpm
     repoid: appstream
     size: 1349140
@@ -578,6 +571,13 @@ arches:
     name: ansible-collection-theforeman-foreman
     evr: 6.0.0-1.el10
     sourcerpm: ansible-collection-theforeman-foreman-6.0.0-1.el10.src.rpm
+  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/ansible-core-2.16.19-4.el10.noarch.rpm
+    repoid: foreman-plugins
+    size: 2619515
+    checksum: sha256:9c5460fddc72c6bab89084f7a2bbb2a0b9e76577490fb2b86e1fd468e5565507
+    name: ansible-core
+    evr: 1:2.16.19-4.el10
+    sourcerpm: ansible-core-2.16.19-4.el10.src.rpm
   - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/ansible-runner-2.3.6-3.el10.noarch.rpm
     repoid: foreman-plugins
     size: 10472
@@ -978,12 +978,6 @@ arches:
     evr: 0.3.4-2.el10
     sourcerpm: rubygem-xmlrpc-0.3.4-2.el10.src.rpm
   source:
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/ansible-core-2.16.19-3.el10.src.rpm
-    repoid: appstream-source
-    size: 5409319
-    checksum: sha256:98a8ecaaf1d79f9210cb151327e423cfe9651df9af1db5358164d3a22bf588c6
-    name: ansible-core
-    evr: 1:2.16.19-3.el10
   - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/bind-9.18.33-29.el10.src.rpm
     repoid: appstream-source
     size: 5738083
@@ -1350,6 +1344,12 @@ arches:
     checksum: sha256:3c772b26a8ff92655197d6685e98d6bdd5749f5dc7ebd5a89509c7ee8cbc49d7
     name: ansible-collection-theforeman-foreman
     evr: 6.0.0-1.el10
+  - url: https://yum.theforeman.org/plugins/5.0/el10/source/ansible-core-2.16.19-4.el10.src.rpm
+    repoid: foreman-plugins-source
+    size: 5367915
+    checksum: sha256:1d3152b3eabd73bb082e1d880611f8cf2078b6db69e872bacc922de53ec1cdb3
+    name: ansible-core
+    evr: 1:2.16.19-4.el10
   - url: https://yum.theforeman.org/plugins/5.0/el10/source/ansible-runner-2.3.6-3.el10.src.rpm
     repoid: foreman-plugins-source
     size: 164181
