@@ -1,0 +1,11 @@
+FROM quay.io/centos/centos:stream10@sha256:bab116bbc06c9128e248c47ac9c4a4892ae3cb89d339eb7c2911150e92d0e5ff
+
+# Remove the private TLS key shipped in the CentOS Stream 10 image. It is not
+# owned by an RPM and postfix is not used by these containers.
+RUN rm -f /etc/pki/tls/private/postfix.key
+
+LABEL org.opencontainers.image.title="Foreman Base Image" \
+    org.opencontainers.image.description="Base image for the Foreman OCI images." \
+    org.opencontainers.image.documentation="https://theforeman.org/introduction.html" \
+    org.opencontainers.image.licenses="GNU GPL v3.0" \
+    org.opencontainers.image.source="https://github.com/theforeman/foreman-oci-images"
