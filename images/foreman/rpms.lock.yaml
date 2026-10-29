@@ -501,13 +501,13 @@ arches:
     name: rubygem-activerecord-import
     evr: 2.2.0-2.el10
     sourcerpm: rubygem-activerecord-import-2.2.0-2.el10.src.rpm
-  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-foreman_rh_cloud-14.6.2-1.fm5_0.el10.noarch.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-foreman_rh_cloud-14.7.1-1.fm5_0.el10.noarch.rpm
     repoid: katello
-    size: 1266364
-    checksum: sha256:c9ab54d0b6ac2cf87fe84de24d3e535a2a7b920d0612330484bac6664f850205
+    size: 1269938
+    checksum: sha256:a3d86491c5f0499fac46c6281d2a348cd53b0af1a47e411e08eb8053b5f9b1ee
     name: rubygem-foreman_rh_cloud
-    evr: 14.6.2-1.fm5_0.el10
-    sourcerpm: rubygem-foreman_rh_cloud-14.6.2-1.fm5_0.el10.src.rpm
+    evr: 14.7.1-1.fm5_0.el10
+    sourcerpm: rubygem-foreman_rh_cloud-14.7.1-1.fm5_0.el10.src.rpm
   - url: https://yum.theforeman.org/katello/5.0/katello/el10/x86_64/rubygem-fx-0.9.0-2.el10.noarch.rpm
     repoid: katello
     size: 22144
@@ -2359,12 +2359,12 @@ arches:
     checksum: sha256:2d0ab414d2c93b6a7ca75655f9f4de111731de0ad5dd457fdec88ff5d4cac0b9
     name: rubygem-activerecord-import
     evr: 2.2.0-2.el10
-  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-foreman_rh_cloud-14.6.2-1.fm5_0.el10.src.rpm
+  - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-foreman_rh_cloud-14.7.1-1.fm5_0.el10.src.rpm
     repoid: katello-source
-    size: 544467
-    checksum: sha256:bd38c2aa572da180ebb0322db8f986b27943913f360e6c0f6acc34cb8dcb8c0f
+    size: 547195
+    checksum: sha256:467859d6d8f4ae6b03443ac637701bf73155b86e6798b22e0f7d94d28e3ea574
     name: rubygem-foreman_rh_cloud
-    evr: 14.6.2-1.fm5_0.el10
+    evr: 14.7.1-1.fm5_0.el10
   - url: https://yum.theforeman.org/katello/5.0/katello/el10/source/rubygem-fx-0.9.0-2.el10.src.rpm
     repoid: katello-source
     size: 35562
