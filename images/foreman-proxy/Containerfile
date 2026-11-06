@@ -19,8 +19,13 @@ RUN set -eu; for PLUGIN in ${FOREMAN_PROXY_PLUGINS}; do \
 
 RUN sed -i 's/:enabled:.*/:enabled: false/g' /etc/foreman-proxy/settings.d/*.yml
 
+# PID 1 has to reap the ssh masters the remote execution plugin orphans on every
+# host execution; without an init they accumulate until the pids cgroup is full.
+RUN dnf install --nodocs -y catatonit && dnf clean all
+
 USER foreman-proxy
 WORKDIR /usr/share/foreman-proxy
 ENV MALLOC_ARENA_MAX=2
-CMD /usr/share/foreman-proxy/bin/smart-proxy
+ENTRYPOINT ["/usr/libexec/catatonit/catatonit", "--"]
+CMD ["/usr/share/foreman-proxy/bin/smart-proxy"]
 EXPOSE 8443/tcp
