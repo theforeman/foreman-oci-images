@@ -4,27 +4,34 @@ lockfileVendor: redhat
 arches:
 - arch: x86_64
   packages:
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/bind-libs-9.18.33-29.el10.x86_64.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/ansible-core-2.16.20-1.el10.noarch.rpm
     repoid: appstream
-    size: 1349140
-    checksum: sha256:3701ceec63f0c569ef91677ac952f2fdb57defc929713aeeac0b8b109c394970
+    size: 3053531
+    checksum: sha256:2f831c902c73da7232a4c4d6c653f91bfbbe243643c39c74a7919ea950d3edef
+    name: ansible-core
+    evr: 1:2.16.20-1.el10
+    sourcerpm: ansible-core-2.16.20-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/bind-libs-9.18.33-31.el10.x86_64.rpm
+    repoid: appstream
+    size: 1350097
+    checksum: sha256:b9c5be332b13342ac4c8caa0d34c04919363c787559cf7abf92019f0c941a970
     name: bind-libs
-    evr: 32:9.18.33-29.el10
-    sourcerpm: bind-9.18.33-29.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/bind-license-9.18.33-29.el10.noarch.rpm
+    evr: 32:9.18.33-31.el10
+    sourcerpm: bind-9.18.33-31.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/bind-license-9.18.33-31.el10.noarch.rpm
     repoid: appstream
-    size: 15101
-    checksum: sha256:b61fbe80b7d09fd7e9695bd2de54a0536476ca416da6b90de3c3d72cf2add79a
+    size: 15511
+    checksum: sha256:7da6e5de5235e714d3043616e329732fe58897b4b042cddd146339ff2caff2cf
     name: bind-license
-    evr: 32:9.18.33-29.el10
-    sourcerpm: bind-9.18.33-29.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/bind-utils-9.18.33-29.el10.x86_64.rpm
+    evr: 32:9.18.33-31.el10
+    sourcerpm: bind-9.18.33-31.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/bind-utils-9.18.33-31.el10.x86_64.rpm
     repoid: appstream
-    size: 233979
-    checksum: sha256:8fd08d858dae7a43c97567f5aeda8ff69725d05e0b7d2e67abfc41f02b227bc9
+    size: 234127
+    checksum: sha256:adf6907295ea214d735abab2413188ba764ed14a2b7ddc6f0de15d1e04625e8e
     name: bind-utils
-    evr: 32:9.18.33-29.el10
-    sourcerpm: bind-9.18.33-29.el10.src.rpm
+    evr: 32:9.18.33-31.el10
+    sourcerpm: bind-9.18.33-31.el10.src.rpm
   - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/freeipmi-1.6.20-1.el10.x86_64.rpm
     repoid: appstream
     size: 2000865
@@ -67,13 +74,13 @@ arches:
     name: libuv
     evr: 1:1.52.1-1.el10
     sourcerpm: libuv-1.52.1-1.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libvirt-libs-12.8.0-1.el10.x86_64.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libvirt-libs-12.9.0-1.el10.x86_64.rpm
     repoid: appstream
-    size: 6367854
-    checksum: sha256:6f24d7be96fe3c6b47831fe112f0d0303518d6a409fe576e798267623da2f00f
+    size: 6366425
+    checksum: sha256:5007d6b37ea1d5debb902d901a5fc903a662c043aabbf6644541361e2235204e
     name: libvirt-libs
-    evr: 12.8.0-1.el10
-    sourcerpm: libvirt-12.8.0-1.el10.src.rpm
+    evr: 12.9.0-1.el10
+    sourcerpm: libvirt-12.9.0-1.el10.src.rpm
   - url: https://mirror.stream.centos.org/10-stream/AppStream/x86_64/os/Packages/libwsman1-2.8.1-3.el10.x86_64.rpm
     repoid: appstream
     size: 141321
@@ -291,13 +298,13 @@ arches:
     name: diffutils
     evr: 3.10-8.el10
     sourcerpm: diffutils-3.10-8.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/kmod-libs-31-13.el10.x86_64.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/kmod-libs-31-14.el10.x86_64.rpm
     repoid: baseos
-    size: 70726
-    checksum: sha256:bdf857119d993a27da5b7b4bdfa581dd92f1c1e0a7a29596c21080e1ac8b4fc8
+    size: 70863
+    checksum: sha256:18fec953cb196a871342741189e41af82ba1afa619632f2ee26d22b7d4f98b7c
     name: kmod-libs
-    evr: 31-13.el10
-    sourcerpm: kmod-31-13.el10.src.rpm
+    evr: 31-14.el10
+    sourcerpm: kmod-31-14.el10.src.rpm
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/less-661-3.el10.x86_64.rpm
     repoid: baseos
     size: 195697
@@ -396,13 +403,13 @@ arches:
     name: libssh-config
     evr: 0.12.2-2.el10
     sourcerpm: libssh-0.12.2-2.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libtirpc-1.3.5-1.el10.x86_64.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/libtirpc-1.3.5-2.el10.x86_64.rpm
     repoid: baseos
-    size: 97455
-    checksum: sha256:8692d388ed8b7fa6ffe56c9403576ea7b49d55c305e9a64dd44a59fb592fe295
+    size: 95776
+    checksum: sha256:fe952f3a39626cf42dd5451cbe0cb67587af735e90fc569f2706e7506b20056c
     name: libtirpc
-    evr: 1.3.5-1.el10
-    sourcerpm: libtirpc-1.3.5-1.el10.src.rpm
+    evr: 1.3.5-2.el10
+    sourcerpm: libtirpc-1.3.5-2.el10.src.rpm
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/lmdb-libs-0.9.32-4.el10.x86_64.rpm
     repoid: baseos
     size: 63362
@@ -424,20 +431,20 @@ arches:
     name: openldap
     evr: 2.6.13-1.el10
     sourcerpm: openldap-2.6.13-1.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/openssh-9.9p1-33.el10.x86_64.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/openssh-9.9p1-34.el10.x86_64.rpm
     repoid: baseos
-    size: 362682
-    checksum: sha256:4ddcf1eedbee29bc0f5f9b0279f659c0178c3f2710a7d026f3793ac67611418e
+    size: 363030
+    checksum: sha256:f647afcfc4b90b3fc474d7e3f1ba272dcfaa9961bfaed01d7ffe5a404c52f046
     name: openssh
-    evr: 9.9p1-33.el10
-    sourcerpm: openssh-9.9p1-33.el10.src.rpm
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/openssh-clients-9.9p1-33.el10.x86_64.rpm
+    evr: 9.9p1-34.el10
+    sourcerpm: openssh-9.9p1-34.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/openssh-clients-9.9p1-34.el10.x86_64.rpm
     repoid: baseos
-    size: 787498
-    checksum: sha256:13fcb8c753765df21490831bcc5832deeb76089011622b077712dca7bbebd086
+    size: 788302
+    checksum: sha256:bb66ccd2b4f3fabada887e5af1d9c656601d0feaa13d3fdf2f3062b9a5555a32
     name: openssh-clients
-    evr: 9.9p1-33.el10
-    sourcerpm: openssh-9.9p1-33.el10.src.rpm
+    evr: 9.9p1-34.el10
+    sourcerpm: openssh-9.9p1-34.el10.src.rpm
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/x86_64/os/Packages/protobuf-c-1.5.0-6.el10.x86_64.rpm
     repoid: baseos
     size: 33962
@@ -571,13 +578,6 @@ arches:
     name: ansible-collection-theforeman-foreman
     evr: 6.0.0-1.el10
     sourcerpm: ansible-collection-theforeman-foreman-6.0.0-1.el10.src.rpm
-  - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/ansible-core-2.16.19-4.el10.noarch.rpm
-    repoid: foreman-plugins
-    size: 2619515
-    checksum: sha256:9c5460fddc72c6bab89084f7a2bbb2a0b9e76577490fb2b86e1fd468e5565507
-    name: ansible-core
-    evr: 1:2.16.19-4.el10
-    sourcerpm: ansible-core-2.16.19-4.el10.src.rpm
   - url: https://yum.theforeman.org/plugins/5.0/el10/x86_64/ansible-runner-2.3.6-3.el10.noarch.rpm
     repoid: foreman-plugins
     size: 10472
@@ -978,12 +978,18 @@ arches:
     evr: 0.3.4-2.el10
     sourcerpm: rubygem-xmlrpc-0.3.4-2.el10.src.rpm
   source:
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/bind-9.18.33-29.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/ansible-core-2.16.20-1.el10.src.rpm
     repoid: appstream-source
-    size: 5738083
-    checksum: sha256:d1c0033630b3839e3efcee9a85b88433567824b21ee3cbecddf6e38576c3f3e5
+    size: 5427542
+    checksum: sha256:0b0fd75393dc5bf3896828eba0be7a8387fe8a2d1c558e432cdf50adea00aa77
+    name: ansible-core
+    evr: 1:2.16.20-1.el10
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/bind-9.18.33-31.el10.src.rpm
+    repoid: appstream-source
+    size: 5766489
+    checksum: sha256:b8b592ca9d61979803f7da164b22ac15865e91809a6cb74eb117c1d072397979
     name: bind
-    evr: 32:9.18.33-29.el10
+    evr: 32:9.18.33-31.el10
   - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/freeipmi-1.6.20-1.el10.src.rpm
     repoid: appstream-source
     size: 3501221
@@ -1020,12 +1026,12 @@ arches:
     checksum: sha256:00256d780d622f0e1fb756562cfed4448f84f2ecf98f61cf243d7953217ab24a
     name: libuv
     evr: 1:1.52.1-1.el10
-  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libvirt-12.8.0-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libvirt-12.9.0-1.el10.src.rpm
     repoid: appstream-source
-    size: 10982108
-    checksum: sha256:d874c826e0744580bfa9f6e7388d2b1864ca7df6a6b444c2c87101bde6f60292
+    size: 10993071
+    checksum: sha256:a75789fb20a7096ee06e74cc1cd248c0315c7031b6e20cc51a0357d39da6b30f
     name: libvirt
-    evr: 12.8.0-1.el10
+    evr: 12.9.0-1.el10
   - url: https://mirror.stream.centos.org/10-stream/AppStream/source/tree/Packages/libxkbcommon-1.7.0-4.el10.src.rpm
     repoid: appstream-source
     size: 561799
@@ -1116,12 +1122,12 @@ arches:
     checksum: sha256:652e43eab02fff06271b3a23728ef80c9e887f2854845e1482302cb5a5f261b5
     name: diffutils
     evr: 3.10-8.el10
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/kmod-31-13.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/kmod-31-14.el10.src.rpm
     repoid: baseos-source
-    size: 624960
-    checksum: sha256:eb870626f1763fea8338c906244777818e3707872ffaa007504474b391ab4f48
+    size: 625687
+    checksum: sha256:8ee319d42bb5b097d247bebf2690bae1ae4d0ca8eb75ad71bb3175a278ae0a3c
     name: kmod
-    evr: 31-13.el10
+    evr: 31-14.el10
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/krb5-1.21.3-11.el10.src.rpm
     repoid: baseos-source
     size: 9681729
@@ -1200,12 +1206,12 @@ arches:
     checksum: sha256:8a73d40cf1634b3cdcdc24152b2d8da05da85874bbe566836b3521f7c8a669ce
     name: libssh
     evr: 0.12.2-2.el10
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libtirpc-1.3.5-1.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/libtirpc-1.3.5-2.el10.src.rpm
     repoid: baseos-source
-    size: 609690
-    checksum: sha256:26723751c7b9b5ce5ae4201bd22441c7d7178923ee6362c016337d498ea322fd
+    size: 614387
+    checksum: sha256:10bea58f3568758caacc0302c5631192f0a0ee51bd0a81fc189f5fb1681b593a
     name: libtirpc
-    evr: 1.3.5-1.el10
+    evr: 1.3.5-2.el10
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/lmdb-0.9.32-4.el10.src.rpm
     repoid: baseos-source
     size: 178638
@@ -1230,12 +1236,12 @@ arches:
     checksum: sha256:ffe4f013c1b87ac54545752b7a13ab40ca4d1ccb025516b5c3b7f39e046c7aaa
     name: openldap
     evr: 2.6.13-1.el10
-  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/openssh-9.9p1-33.el10.src.rpm
+  - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/openssh-9.9p1-34.el10.src.rpm
     repoid: baseos-source
-    size: 2423856
-    checksum: sha256:90a73a2b14c2ef82ff63f815c51fceb4cc6cd7c11bdb86013335d002ce942cc9
+    size: 2443317
+    checksum: sha256:f97568dfaa464ba50c0207de0c2d6be9ac6239ec2f28ce0fdcc40899c9b4a499
     name: openssh
-    evr: 9.9p1-33.el10
+    evr: 9.9p1-34.el10
   - url: https://mirror.stream.centos.org/10-stream/BaseOS/source/tree/Packages/protobuf-c-1.5.0-6.el10.src.rpm
     repoid: baseos-source
     size: 526961
@@ -1344,12 +1350,6 @@ arches:
     checksum: sha256:3c772b26a8ff92655197d6685e98d6bdd5749f5dc7ebd5a89509c7ee8cbc49d7
     name: ansible-collection-theforeman-foreman
     evr: 6.0.0-1.el10
-  - url: https://yum.theforeman.org/plugins/5.0/el10/source/ansible-core-2.16.19-4.el10.src.rpm
-    repoid: foreman-plugins-source
-    size: 5367915
-    checksum: sha256:1d3152b3eabd73bb082e1d880611f8cf2078b6db69e872bacc922de53ec1cdb3
-    name: ansible-core
-    evr: 1:2.16.19-4.el10
   - url: https://yum.theforeman.org/plugins/5.0/el10/source/ansible-runner-2.3.6-3.el10.src.rpm
     repoid: foreman-plugins-source
     size: 164181
