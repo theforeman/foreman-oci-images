@@ -7,7 +7,7 @@ on:
       foremanctl_ref:
         description: 'foremanctl branch or tag to test against'
         required: false
-        default: 'master'
+        default: "3.3-stable"
   pull_request:
 
 permissions:
@@ -18,7 +18,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  IMAGE_TAG: nightly
+  IMAGE_TAG: "5.1"
 
 jobs:
   integration:
