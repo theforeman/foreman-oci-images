@@ -10,7 +10,7 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "true"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "foreman-5.1" && ( "images/foreman/***".pathChanged() || ".tekton/foreman-5-1-pull-request.yaml".pathChanged()
+      == "foreman-5.1" && ( "images/foreman/**".pathChanged() || "repos/**".pathChanged() || ".tekton/foreman-5-1-pull-request.yaml".pathChanged() || ".tekton/foreman-5-1-push.yaml".pathChanged()
       )
   labels:
     appstudio.openshift.io/application: foreman-5-1
