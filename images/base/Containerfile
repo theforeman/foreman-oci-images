@@ -1,4 +1,4 @@
-FROM quay.io/centos/centos:stream10@sha256:bab116bbc06c9128e248c47ac9c4a4892ae3cb89d339eb7c2911150e92d0e5ff
+FROM quay.io/centos/centos:stream10@sha256:b042adb7687b322f80765277b552dcdd9c5f98bd3ca64e2f46175d2ae55fc82b
 
 # Remove the private TLS key shipped in the CentOS Stream 10 image. It is not
 # owned by an RPM and postfix is not used by these containers.
