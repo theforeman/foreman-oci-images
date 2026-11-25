@@ -1,5 +1,9 @@
 FROM quay.io/foreman/base@sha256:9c1fa667f1b0c31bf520a4b14569c9d3c5eaf4b83428a40dd9cf5381381109be
 
+LABEL org.opencontainers.image.title="Foreman" \
+    org.opencontainers.image.description="Foreman is an open source lifecycle management tool for physical and virtual servers." \
+    org.opencontainers.image.licenses="GPL-3.0-or-later"
+
 ARG FOREMAN_VERSION=nightly
 ARG KATELLO_VERSION=nightly
 ARG FOREMAN_UID=994
