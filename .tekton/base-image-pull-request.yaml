@@ -10,7 +10,9 @@ metadata:
     pipelinesascode.tekton.dev/cancel-in-progress: "true"
     pipelinesascode.tekton.dev/max-keep-runs: "3"
     pipelinesascode.tekton.dev/on-cel-expression: event == "pull_request" && target_branch
-      == "master" && ( "images/base/***".pathChanged() || ".tekton/base-image-pull-request.yaml".pathChanged()
+      == "master" && ( "images/base/***".pathChanged()
+      || ".tekton/base-image-pull-request.yaml".pathChanged()
+      || ".tekton/base-image-push.yaml".pathChanged()
       )
   labels:
     appstudio.openshift.io/application: base-image
@@ -24,6 +26,8 @@ spec:
     value: '{{source_url}}'
   - name: revision
     value: '{{revision}}'
+  - name: build-source-image
+    value: "true"
   - name: output-image
     value: quay.io/foreman/stage/base:on-pr-{{revision}}
   - name: image-expires-after
