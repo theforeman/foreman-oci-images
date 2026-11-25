@@ -110,8 +110,10 @@ jobs:
       - name: Load images into VM
         working-directory: foremanctl
         run: |
-          vagrant ssh quadlet -- sudo podman load -i /vagrant/foreman-image.tar
-          vagrant ssh quadlet -- sudo podman load -i /vagrant/foreman-proxy-image.tar
+          vagrant upload foreman-image.tar quadlet
+          vagrant upload foreman-proxy-image.tar quadlet
+          vagrant ssh quadlet -- sudo podman load -i /home/vagrant/foreman-image.tar
+          vagrant ssh quadlet -- sudo podman load -i /home/vagrant/foreman-proxy-image.tar
 
       - name: Free disk space
         run: |
