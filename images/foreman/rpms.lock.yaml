@@ -914,69 +914,69 @@ arches:
     name: dynflow-utils
     evr: 2.0.1-2.el10
     sourcerpm: dynflow-utils-2.0.1-2.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-5.1.0-0.6.rc1.el10.noarch.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 52454618
-    checksum: sha256:152e4daccee1a75a275cd0a3f38e939a7118b6f185c00448f07caa738c9871a5
+    size: 52456237
+    checksum: sha256:39db2fe8130a48d68c005770fc40acd72c63e1358b6b741be5be6939add0f48c
     name: foreman
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-dynflow-sidekiq-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-dynflow-sidekiq-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 13952
-    checksum: sha256:8bdcb7de09ca48b8c114fd341701f605ee5277b689d23d297f974a3b2a1d6aab
+    size: 14045
+    checksum: sha256:8d01bc78efa97be7a167bea658fd692284a6a37946ec88d9aa03587ba242a2fb
     name: foreman-dynflow-sidekiq
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-ec2-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-ec2-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 11512
-    checksum: sha256:5cb688ccc4286ede073889f1c1c50f421677190d2d53271e48e2426a087ab337
+    size: 11604
+    checksum: sha256:b68f2a0cb0ef5cefc042cf35fdf5f821ebd37c95a77d40f46e3f04013776d35a
     name: foreman-ec2
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-libvirt-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-libvirt-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 11687
-    checksum: sha256:ba16d1edd708f68e1908147860f0db7dbcc2905d8f5b7ebfad3af3cd61900818
+    size: 11780
+    checksum: sha256:2d369f4d1021e6650b33bf71331ddc4b753268830761d8a65f5a786cc7c703f4
     name: foreman-libvirt
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-openstack-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-openstack-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 11531
-    checksum: sha256:53cc2d344a63895addc002cfc3524c5a4ef5c5353b31023b4ca353bf6f5e4704
+    size: 11625
+    checksum: sha256:86ba224c65e4df837a26a02f6cc074c9f924bdfa4de3260748f6438fcb1065ec
     name: foreman-openstack
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-postgresql-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-postgresql-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 11556
-    checksum: sha256:d4fd058b586048dae610ef8d058e56a874ba05f6fde51630ba22b7fa5fcab0e6
+    size: 11648
+    checksum: sha256:b0e65eef6198eb6d934499bc1eda788608db383744db34c069cfab55b6806e13
     name: foreman-postgresql
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-redis-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-redis-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 11478
-    checksum: sha256:430714a6fc9256bd9dda9351d442fff56e7e6a763fb8caedb2fa60231eea0998
+    size: 11571
+    checksum: sha256:39da53c084ba64a55655a414106bbdf318ca7e3b63c9d73d19e9d3c710ff126c
     name: foreman-redis
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-service-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-service-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 13453
-    checksum: sha256:047ce68f7a3f36db601c73d77b6251d24f6e7eb64f89b2c66364a3882298dc30
+    size: 13547
+    checksum: sha256:093b47e8a3789dfdf722cfb280f7518e0b21e9d59bc79575714acdc1a529b605
     name: foreman-service
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-vmware-5.1.0-0.6.rc1.el10.noarch.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-vmware-5.1.0-0.6.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 11529
-    checksum: sha256:0a31b66007d8b3a2738b819fbbc1bcfd3e3f191272f30931c6a24dc9e495eb27
+    size: 11623
+    checksum: sha256:27517becc9a739afad87eba8e64a0d4401fbe620585c4aeb467f051db330faf2
     name: foreman-vmware
-    evr: 5.1.0-0.6.rc1.el10
-    sourcerpm: foreman-5.1.0-0.6.rc1.el10.src.rpm
+    evr: 5.1.0-0.6.rc2.el10
+    sourcerpm: foreman-5.1.0-0.6.rc2.el10.src.rpm
   - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/python3-websockify-0.10.0-4.el10.noarch.rpm
     repoid: foreman
     size: 89482
@@ -1901,13 +1901,13 @@ arches:
     name: rubygem-ruby2ruby
     evr: 2.5.2-3.el10
     sourcerpm: rubygem-ruby2ruby-2.5.2-3.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/rubygem-safemode-2.0.3-1.el10.noarch.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/rubygem-safemode-2.0.4-1.el10.noarch.rpm
     repoid: foreman
-    size: 20786
-    checksum: sha256:7ba4f9b02ea3f2d3a718a3ca1d4bd25d3d52f805024588e6978f844e86096ed4
+    size: 21088
+    checksum: sha256:a0e12ba70ebc52d69263bd0f3da1b13813c6b0c6111bce94b43bc23944797490
     name: rubygem-safemode
-    evr: 2.0.3-1.el10
-    sourcerpm: rubygem-safemode-2.0.3-1.el10.src.rpm
+    evr: 2.0.4-1.el10
+    sourcerpm: rubygem-safemode-2.0.4-1.el10.src.rpm
   - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/rubygem-scoped_search-5.0.0-1.el10.noarch.rpm
     repoid: foreman
     size: 36097
@@ -2693,12 +2693,12 @@ arches:
     checksum: sha256:a046e64d0732c6559b903333cc599309755f9c21a0563e853fb720476fc8447e
     name: dynflow-utils
     evr: 2.0.1-2.el10
-  - url: https://yum.theforeman.org/releases/5.1/el10/source/foreman-5.1.0-0.6.rc1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/source/foreman-5.1.0-0.6.rc2.el10.src.rpm
     repoid: foreman-source
-    size: 5946749
-    checksum: sha256:9ac8133375a180f649d7a61cfc4f6fae8d264b1251f1f67cc1e7747f21070cba
+    size: 5949646
+    checksum: sha256:aac7e772ca5de81e5597a573666f11861b10847f7c55c47713d537fd94f60029
     name: foreman
-    evr: 5.1.0-0.6.rc1.el10
+    evr: 5.1.0-0.6.rc2.el10
   - url: https://yum.theforeman.org/releases/5.1/el10/source/python-websockify-0.10.0-4.el10.src.rpm
     repoid: foreman-source
     size: 70383
@@ -3491,12 +3491,12 @@ arches:
     checksum: sha256:a9ddb9943d26432d126b7b815da32403ede3854ca6112fdd8a632cabe0eeecf7
     name: rubygem-ruby2ruby
     evr: 2.5.2-3.el10
-  - url: https://yum.theforeman.org/releases/5.1/el10/source/rubygem-safemode-2.0.3-1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/source/rubygem-safemode-2.0.4-1.el10.src.rpm
     repoid: foreman-source
-    size: 36992
-    checksum: sha256:5186114451e2c33418e3a281a044c1c617cef702cd7fcdcf2d99e28a3a2f8e0c
+    size: 38813
+    checksum: sha256:0f306e7ee68032d9aa6a95f5456b164e178890068d91d127e8354e48aefe9a15
     name: rubygem-safemode
-    evr: 2.0.3-1.el10
+    evr: 2.0.4-1.el10
   - url: https://yum.theforeman.org/releases/5.1/el10/source/rubygem-scoped_search-5.0.0-1.el10.src.rpm
     repoid: foreman-source
     size: 81407

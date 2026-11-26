@@ -662,13 +662,13 @@ arches:
     name: dynflow-utils
     evr: 2.0.1-2.el10
     sourcerpm: dynflow-utils-2.0.1-2.el10.src.rpm
-  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-proxy-5.1.0-0.1.rc1.el10.noarch.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/foreman-proxy-5.1.0-0.1.rc2.el10.noarch.rpm
     repoid: foreman
-    size: 150479
-    checksum: sha256:64331e04f1b3ba87dae756f41c6360d57587ceec9a0f0febc199f804edcdba4b
+    size: 150620
+    checksum: sha256:393b3e37e2e1341eb6451fdae463319f1993179145d099b471cbac9ba0dd595c
     name: foreman-proxy
-    evr: 5.1.0-0.1.rc1.el10
-    sourcerpm: foreman-proxy-5.1.0-0.1.rc1.el10.src.rpm
+    evr: 5.1.0-0.1.rc2.el10
+    sourcerpm: foreman-proxy-5.1.0-0.1.rc2.el10.src.rpm
   - url: https://yum.theforeman.org/releases/5.1/el10/x86_64/rubygem-activesupport-7.0.10-3.el10.noarch.rpm
     repoid: foreman
     size: 224582
@@ -1402,12 +1402,12 @@ arches:
     checksum: sha256:a046e64d0732c6559b903333cc599309755f9c21a0563e853fb720476fc8447e
     name: dynflow-utils
     evr: 2.0.1-2.el10
-  - url: https://yum.theforeman.org/releases/5.1/el10/source/foreman-proxy-5.1.0-0.1.rc1.el10.src.rpm
+  - url: https://yum.theforeman.org/releases/5.1/el10/source/foreman-proxy-5.1.0-0.1.rc2.el10.src.rpm
     repoid: foreman-source
-    size: 244898
-    checksum: sha256:9debddb8ce7f2f05d53db8cadf3c1ed1d189b3c1cedf7b51c2e676f5dec0b291
+    size: 245176
+    checksum: sha256:0c5b75afab66cf222c7f50dfd1f666da8eb43e10184719a6bde0e2791fce58e3
     name: foreman-proxy
-    evr: 5.1.0-0.1.rc1.el10
+    evr: 5.1.0-0.1.rc2.el10
   - url: https://yum.theforeman.org/releases/5.1/el10/source/rubygem-activesupport-7.0.10-3.el10.src.rpm
     repoid: foreman-source
     size: 248844
